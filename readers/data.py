@@ -32,7 +32,7 @@ class MMTDataset(torch.utils.data.Dataset):
     self.print_fn('text size %d' % self.num_text)
 
     self.lens = []
-    if task == 'xmlm':
+    if task in ['xmlm', 'mlm']:
       for i in range(len(self.trg)):
         self.lens.append((len(self.trg[i].strip().split())+len(self.src[i].strip().split())+2)/2)
     elif task == 'mmt':
@@ -41,7 +41,7 @@ class MMTDataset(torch.utils.data.Dataset):
     elif task in ['attp', 'itm']:
       for i in range(len(self.src)):
         self.lens.append(len(self.src[i].strip().split())+2)
-    
+
     self.sim_img = json.load(open(config.sim_img[split]))
     self.stoi = json.load(open(config.word2int_file))
     self.itos = json.load(open(config.int2word_file))
@@ -57,7 +57,7 @@ class MMTDataset(torch.utils.data.Dataset):
     max_len = self.src_max if lang == 'src' else self.tgt_max
 
     # masking input sequence
-    if self.task == 'xmlm' or (self.task == 'mmt' and lang == 'trg'):  # cross-lingual masking or adapt to MMT
+    if self.task in ['xmlm', 'mlm'] or (self.task == 'mmt' and lang == 'trg'):  # cross-lingual masking or adapt to MMT
       x, output_label = self.mask_sent(x[:max_len-1])
     elif self.task == 'attp':
       x, output_label = self.get_attr(x[:max_len-1], id)
@@ -93,17 +93,14 @@ class MMTDataset(torch.utils.data.Dataset):
     return x
 
   def mask_sent(self, x):
-    output_label = []
-    for i, token in enumerate(x):
+    output_label = [PAD] * len(x)
+    mask_num = round(0.15*len(x))
+    token_list = list(enumerate(x))
+    mask_tokens = random.sample(token_list, mask_num)
+    for each in mask_tokens:
       prob = random.random()
-      # mask normal token with 15% probability
-      if prob < 0.15:
-        prob /= 0.15
-        x = self.random_mask(x, i, prob)
-        output_label.append(token)
-      else:
-        # no masking token (will be ignored by loss function later)
-        output_label.append(PAD)
+      x = self.random_mask(x, each[0], prob)
+      output_label[each[0]] = each[1]
     return x, output_label
 
   def get_attr(self, x, id):
@@ -131,7 +128,7 @@ class MMTDataset(torch.utils.data.Dataset):
     with torch.cuda.device_of(batch):
       batch = batch.tolist()
     batch = [[self.itos.get(str(ind), '<unk>') for ind in ex] for ex in batch] # denumericalize
-    
+
     def trim(s, t):
       sentence = []
       for w in s:
@@ -159,7 +156,7 @@ class MMTDataset(torch.utils.data.Dataset):
       img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
     ft_len = min(self.img_max, len(self.anno[name]['images']))
 
-    if self.task in ['xmlm', 'mmt']:
+    if self.task in ['xmlm', 'mmt', 'mlm']:
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
