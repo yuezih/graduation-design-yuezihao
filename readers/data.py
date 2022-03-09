@@ -278,6 +278,3 @@ class MetaLoader(object):
           self.name2iter[task] = iter_
 
       yield task, batch
-     
-
-

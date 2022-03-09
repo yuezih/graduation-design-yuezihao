@@ -205,8 +205,7 @@ class ModelBase(object):
     # training
     step = 1
     for epoch in range(self.config.num_epoch):
-      avg_loss, step = self.train_one_epoch(
-        step, trn_reader, val_reader, model_dir, log_dir)
+      avg_loss, step = self.train_one_epoch(step, trn_reader, val_reader, model_dir, log_dir)
       self.pretty_print_metrics('epoch (%d/%d) trn'%(epoch, self.config.num_epoch), avg_loss)
       self.epoch_postprocess(epoch)
       if epoch % 2 != -1:

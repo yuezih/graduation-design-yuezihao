@@ -148,7 +148,8 @@ class Transformer(nn.Module):
     probs, ix = out[:, -1].data.topk(k)
     log_probs = torch.Tensor([math.log(p) for p in probs.data.view(-1)]).view(k, -1).cuda() + log_scores.transpose(0,1)
     k_probs, k_ix = log_probs.view(-1).topk(k)
-    row = k_ix // k
+    # row = k_ix // k
+    row = torch.div(k_ix, k, rounding_mode='floor')
     col = k_ix % k
     outputs[:, :i] = outputs[row, :i]
     outputs[:, i] = ix[row, col]

@@ -7,6 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from torch.autograd import Variable
 from torch.nn.parameter import Parameter
+import pdb
 
 
 class Embedder(nn.Module):
@@ -41,7 +42,7 @@ class PositionalEncoder(nn.Module):
       x = x + self.mode(torch.LongTensor([mode]).cuda()).unsqueeze(1)
     else:
       seq_len = x.size(1)
-      pe = Variable(self.pe[:,:seq_len], requires_grad=False).cuda()
+      pe = Variable(self.pe[:, :seq_len], requires_grad=False).cuda()
       if mode is not None:
         x = x + pe + self.mode(mode).unsqueeze(1)
     return self.dropout(x)
@@ -72,6 +73,7 @@ def attention(q, k, v, d_k, mask=None, dropout=None):
     scores = dropout(scores)     
   output = torch.matmul(scores, v)
   return output
+
 
 class MultiHeadAttention(nn.Module):
   def __init__(self, heads, d_model, dropout=0.1):
@@ -117,9 +119,10 @@ class MultiHeadAttention(nn.Module):
       k = self.shape(self.k_linear(k))
       v = self.shape(self.v_linear(v))
 
+    # pdb.set_trace()
     bs = q.size(0) 
-    q =  self.shape(self.q_linear(q))
-    if mask.size(-1) != k.size(-2):
+    q = self.shape(self.q_linear(q))
+    if layer_cache is not None and mask.size(-1) != k.size(-2):
       if layer_cache['self_masks'].size(0) != mask.size(0):
         beam_size = mask.size(0) // layer_cache['self_masks'].size(0)
         context = layer_cache['self_masks']
@@ -136,6 +139,7 @@ class MultiHeadAttention(nn.Module):
 
 def gelu(x):
   return 0.5 * x * (1 + torch.tanh(math.sqrt(math.pi / 2) * (x + 0.044715 * x ** 3)))
+
 
 class FeedForward(nn.Module):
   def __init__(self, d_model, d_ff=2048, dropout=0.1):
