@@ -1,7 +1,7 @@
 {
   "decay_boundarys": [],
   "num_epoch": 50,
-  "maximum_steps": 55000,
+  "maximum_steps": 200000,
   "decay_schema": null, 
   "subcfgs": {
     "transformer": {
@@ -27,7 +27,7 @@
   "val_per_epoch": false,
   "val_iter": 1000,
   "save_iter": 1000,
-  "trn_batch_size": 6000,
+  "trn_batch_size": 2000,
   "tst_batch_size": 100,
   "subcfg_types": {
     "transformer": "TransformerConfig"

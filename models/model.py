@@ -86,6 +86,8 @@ class TransModel(framework.modelbase.ModelBase):
         src_mask, trg_mask = self.create_masks(src, trg, task)
         img_ft = batch_data['img_ft'].cuda()
         img_len = batch_data['ft_len'].cuda()
+        if task == 'mlm':
+          img_len = img_len.fill_(0)
         img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
 
         if task == 'mmt':
