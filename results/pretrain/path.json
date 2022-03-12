@@ -1,7 +1,7 @@
 {
   "output_dir": "../results/pretrain/",
-  "pretrain_task": ["mlm","itm","attp"],
-  "eval_task": ["mlm","itm","attp"],
+  "pretrain_task": ["xmlm","mlm","itm","attp"],
+  "eval_task": ["xmlm","mlm","itm","attp"],
   "word2int_file": "../results/pretrain/word2int.json",
   "int2word_file": "../results/pretrain/int2word.json",
   "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_clean.json",

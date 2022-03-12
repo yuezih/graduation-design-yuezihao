@@ -59,8 +59,10 @@ def main():
       trn_data = dataset.MMTDataset(path_cfg, 'trn', model_cfg.subcfgs[DECODER].img_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
       sampler = dataset.TokenBucketSampler(trn_data.lens, bucket_size=8192, batch_size=model_cfg.trn_batch_size, size_multiple=8)
       r = 1
-      if task in ['xmlm', 'mlm']:
-        r = 9
+      if task == 'xmlm':
+        r = 7
+      elif task == 'mlm':
+        r = 4
       elif task == 'itm':
         r = 2
       trn_reader[task] = (data.DataLoader(trn_data, batch_sampler=sampler, num_workers=4), r)
