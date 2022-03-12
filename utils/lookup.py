@@ -15,7 +15,7 @@ def get_lookup_list(i):
     for attr in anno[i]['attr']:
         lookup_list += attr_dict[attr]
     # 保留lookup_list中出现频率最高的5个值
-    lookup_list = sorted(lookup_list, key=lookup_list.count, reverse=True)
+    lookup_list = sorted(set(lookup_list), key=lookup_list.count, reverse=True)
     lookup_list = lookup_list[:5]
     print(i, lookup_list)
     id_dict[i] = lookup_list
