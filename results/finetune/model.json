@@ -7,7 +7,7 @@
     "transformer": {
       "lr_mult": 1.0,
       "freeze": false, 
-      "decoding": "greedy",
+      "decoding": "beam_search",
       "img_max": 10,
       "src_max": 36,
       "tgt_max": 72, 
