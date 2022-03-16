@@ -157,11 +157,13 @@ class MMTDataset(torch.utils.data.Dataset):
       if i >= self.img_max:
         break
       img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    ft_len = min(self.img_max, len(self.anno[name]['lookup']))
+    # ft_len = min(self.img_max, len(self.anno[name]['lookup']))
+    ft_len = 1
 
     if self.task in ['xmlm', 'mmt']:
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
+      ft_len = min(self.img_max, len(self.anno[name]['lookup']))
     elif self.task == 'attp':
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id = np.array([BOS])
