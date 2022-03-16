@@ -54,7 +54,13 @@ class MMTDataset(torch.utils.data.Dataset):
     self.task = task
 
   def mask_and_pad_sent(self, x, id=None, lang='src'):
-    max_len = self.src_max if lang == 'src' else self.tgt_max
+    # max_len = self.src_max if lang == 'src' else self.tgt_max
+    if lang == 'src':
+      max_len = self.src_max
+    elif lang == 'trg':
+      max_len = self.tgt_max
+    else:
+      max_len = self.img_max
 
     # masking input sequence
     if self.task == 'xmlm' or (self.task == 'mmt' and lang == 'trg'):  # cross-lingual masking or adapt to MMT
@@ -93,17 +99,14 @@ class MMTDataset(torch.utils.data.Dataset):
     return x
 
   def mask_sent(self, x):
-    output_label = []
-    for i, token in enumerate(x):
+    output_label = [PAD] * len(x)
+    mask_num = round(0.15*len(x))
+    token_list = list(enumerate(x))
+    mask_tokens = random.sample(token_list, mask_num)
+    for each in mask_tokens:
       prob = random.random()
-      # mask normal token with 15% probability
-      if prob < 0.15:
-        prob /= 0.15
-        x = self.random_mask(x, i, prob)
-        output_label.append(token)
-      else:
-        # no masking token (will be ignored by loss function later)
-        output_label.append(PAD)
+      x = self.random_mask(x, each[0], prob)
+      output_label[each[0]] = each[1]
     return x, output_label
 
   def get_attr(self, x, id):
@@ -152,14 +155,15 @@ class MMTDataset(torch.utils.data.Dataset):
   def __getitem__(self, idx):
     outs = {}
     name = self.names[idx]
-    img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
-    for i, img in enumerate(self.anno[name]['images']):
-      if i >= self.img_max:
-        break
-      img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    ft_len = min(self.img_max, len(self.anno[name]['images']))
+    # img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
+    # for i, img in enumerate(self.anno[name]['images']):
+    #   if i >= self.img_max:
+    #     break
+    #   img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
+    # ft_len = min(self.img_max, len(self.anno[name]['images']))
 
     if self.task in ['xmlm', 'mmt']:
+      img_id, img_label, img_len = self.mask_and_pad_sent(self.anno[name]['lookup'], id=name, lang='img')
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
@@ -181,8 +185,8 @@ class MMTDataset(torch.utils.data.Dataset):
       trg_id = np.array([BOS])
       trg_len = 1
 
-    outs['ft_len'] = ft_len
-    outs['img_ft'] = img_ft
+    outs['img_len'] = img_len
+    outs['img_ids'] = img_id
     outs['src_ids'] = src_id
     outs['src_lens'] = src_len
     outs['trg_ids'] = trg_id
@@ -193,7 +197,7 @@ class MMTDataset(torch.utils.data.Dataset):
     elif self.task == 'attp':
       outs['attr_label'] = src_label
     else:
-      outs['output_label'] = np.concatenate([src_label, trg_label], axis=0)
+      outs['output_label'] = np.concatenate([img_label, src_label, trg_label], axis=0)
     return outs
 
 

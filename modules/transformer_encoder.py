@@ -40,6 +40,23 @@ class Encoder(nn.Module):
     return self.norm(x)
 
 
+class IMGEncoder(nn.Module):
+  def __init__(self, vocab_size, d_model, N, heads, dropout):
+    super().__init__()
+    self.N = N
+    self.embed = Embedder(vocab_size, d_model)
+    self.layers = get_clones(EncoderLayer(d_model, heads, dropout), N)
+    self.norm = Norm(d_model)
+
+  def forward(self, img, mask, mode):
+    x = self.embed(img)
+    if isinstance(mode, int):
+      mode = torch.LongTensor([mode]).cuda()
+    for i in range(self.N):
+      x = self.layers[i](x, mask)
+    return self.norm(x)
+
+
 class VISEncoder(nn.Module):
   def __init__(self, d_model, N, heads, dropout):
     super().__init__()

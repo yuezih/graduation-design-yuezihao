@@ -21,10 +21,10 @@ def get_lookup_list(i):
     id_dict[i] = lookup_list
 
 def main():
-    with ProcessPoolExecutor(max_workers=40) as executor:
+    with ProcessPoolExecutor() as executor:
         executor.map(get_lookup_list, range(len(anno)))
     with open('../../Dataset/Fashion-MMT/Clean/anno_vocab_lookup.json', 'w') as f:
-        for i in range(10):
+        for i in range(len(anno)):
             anno[i]['lookup'] = id_dict[i]
             print(f'{i} finished')
         json.dump(anno, f)

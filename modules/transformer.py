@@ -8,7 +8,7 @@ from torch.autograd import Variable
 
 import framework.configbase
 from framework.ops import l2norm
-from modules.transformer_encoder import Encoder, VISEncoder, CrossEncoder
+from modules.transformer_encoder import Encoder, IMGEncoder, CrossEncoder
 from modules.common import gelu
 
 
@@ -34,9 +34,10 @@ class Transformer(nn.Module):
   def __init__(self, config):
     super(Transformer, self).__init__()
     self.config = config
-    self.vis_encoder = VISEncoder(self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
+    # self.vis_encoder = VISEncoder(self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
     self.src_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.txt_layers, self.config.heads, self.config.dropout)
-    self.src_encoder.pe.mode = self.vis_encoder.pe.mode
+    self.img_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
+    # self.src_encoder.pe.mode = self.vis_encoder.pe.mode
 
     if self.config.encoder_sharing:
       self.trg_encoder = self.src_encoder
@@ -63,7 +64,7 @@ class Transformer(nn.Module):
   def forward(self, src, trg, img, src_mask, trg_mask, img_mask, task='mmt'):
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     t_outputs = self.trg_encoder(trg, trg_mask, mode=1)
-    i_outputs = self.vis_encoder(img, img_mask, mode=2)
+    i_outputs = self.img_encoder(img, img_mask, mode=2)
     input = torch.cat([i_outputs, s_outputs, t_outputs], dim=1)
 
     if trg_mask is not None and trg_mask.size(1) != 1:
@@ -88,7 +89,7 @@ class Transformer(nn.Module):
   def sample(self, src, img, src_mask, img_mask, decoding='greedy'):
     init_tok, mask_tok = 2, 4
     bs = src.size(0)
-    i_outputs = self.vis_encoder(img, img_mask, mode=2)
+    i_outputs = self.img_encoder(img, img_mask, mode=2)
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     init_word = torch.ones(bs, 1).fill_(init_tok).long().cuda()
     trg_mask = self.nopeak_mask(1).repeat(bs, 1, 1)
@@ -122,7 +123,7 @@ class Transformer(nn.Module):
   def init_vars(self, src, img, src_mask, img_mask, beam_size):
     init_tok, mask_tok = 2, 4
     bs = src.size(0)
-    i_outputs = self.vis_encoder(img, img_mask, mode=2)
+    i_outputs = self.img_encoder(img, img_mask, mode=2)
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     outputs = torch.LongTensor([[init_tok]] * bs).cuda()
     trg_mask = self.nopeak_mask(1).repeat(bs, 1, 1)
