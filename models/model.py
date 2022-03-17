@@ -63,7 +63,7 @@ class TransModel(framework.modelbase.ModelBase):
     elif task == 'attp':
       loss = self.criterion[2](outputs, batch_data['attr_label'].float().cuda())
     else:
-      outputs = nn.LogSoftmax(dim=-1)(outputs)
+      outputs = nn.LogSoftmax(dim=-1)(outputs[:,img.size(1):])
       output_label = batch_data['output_label'].cuda()
       ys = output_label.contiguous().view(-1)
       norm = output_label.ne(1).sum().item()
@@ -102,8 +102,9 @@ class TransModel(framework.modelbase.ModelBase):
           attr_pred.extend(output.detach().cpu().numpy())
           attr_label.extend(batch_data['attr_label'].detach().numpy())
         else:
+          # pdb.set_trace()
           output_label = batch_data['output_label'].cuda()
-          output = self.submods[DECODER](src, trg, img, src_mask, trg_mask, img_mask, task=task)
+          output = self.submods[DECODER](src, trg, img, src_mask, trg_mask, img_mask, task=task)[:,img.size(1):]
           output = output[output_label != 1]
           output_label = output_label[output_label != 1]
           n_correct += (output.max(dim=-1)[1] == output_label).sum().item()

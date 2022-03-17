@@ -162,8 +162,12 @@ class MMTDataset(torch.utils.data.Dataset):
     #   img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
     # ft_len = min(self.img_max, len(self.anno[name]['images']))
 
+    img_id = np.array([BOS] + self.anno[name]['lookup'][:self.img_max - 2] + [EOS])
+    img_label = np.array([PAD] * self.img_max)
+    img_len = self.img_max
+
     if self.task in ['xmlm', 'mmt']:
-      img_id, img_label, img_len = self.mask_and_pad_sent(self.anno[name]['lookup'], id=name, lang='img')
+      # img_id, img_label, img_len = self.mask_and_pad_sent(self.anno[name]['lookup'], id=name, lang='img')
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
@@ -197,7 +201,7 @@ class MMTDataset(torch.utils.data.Dataset):
     elif self.task == 'attp':
       outs['attr_label'] = src_label
     else:
-      outs['output_label'] = np.concatenate([img_label, src_label, trg_label], axis=0)
+      outs['output_label'] = np.concatenate([src_label, trg_label], axis=0)
     return outs
 
 
