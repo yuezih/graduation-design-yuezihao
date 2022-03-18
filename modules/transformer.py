@@ -36,7 +36,7 @@ class Transformer(nn.Module):
     self.config = config
     # self.vis_encoder = VISEncoder(self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
     self.src_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.txt_layers, self.config.heads, self.config.dropout)
-    self.img_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
+    self.img_encoder = IMGEncoder(50625, self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
     # self.src_encoder.pe.mode = self.vis_encoder.pe.mode
 
     if self.config.encoder_sharing:

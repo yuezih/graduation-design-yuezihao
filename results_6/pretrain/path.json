@@ -1,0 +1,30 @@
+{
+  "output_dir": "../results_6/pretrain/",
+  "pretrain_task": ["xmlm"],
+  "eval_task": ["xmlm"],
+  "word2int_file": "../results/pretrain/word2int.json",
+  "int2word_file": "../results/pretrain/int2word.json",
+  "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_vocab_lookup.json",
+  "attr2int_file": "../../Dataset/Fashion-MMT/Clean/attr2int.json",
+  "ft_root": "../../Dataset/Fashion-MMT/resnet101.finetune",
+  "sim_img": {
+    "tst": "../../Dataset/Fashion-MMT/Clean/tst_sim_img.json",
+    "val": "../../Dataset/Fashion-MMT/Clean/val_sim_img.json",
+    "trn": "../../Dataset/Fashion-MMT/Clean/trn_sim_img.json"
+  },
+  "src_txt": {
+    "tst": "../../Dataset/Fashion-MMT/Clean/tst.en.txt",
+    "val": "../../Dataset/Fashion-MMT/Clean/val.en.txt",
+    "trn": "../../Dataset/Fashion-MMT/Clean/trn.en.txt"
+  },
+  "tgt_txt": {
+    "tst": "../../Dataset/Fashion-MMT/Clean/tst.zh.txt",
+    "val": "../../Dataset/Fashion-MMT/Clean/val.zh.txt",
+    "trn": "../../Dataset/Fashion-MMT/Clean/trn.zh.txt"
+  },
+  "name_file": {
+    "tst": "../../Dataset/Fashion-MMT/public_split/tst_ids.npy",
+    "val": "../../Dataset/Fashion-MMT/public_split/val_ids.npy",
+    "trn": "../../Dataset/Fashion-MMT/public_split/trn_ids.npy"
+  }
+}

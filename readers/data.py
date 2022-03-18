@@ -54,13 +54,7 @@ class MMTDataset(torch.utils.data.Dataset):
     self.task = task
 
   def mask_and_pad_sent(self, x, id=None, lang='src'):
-    # max_len = self.src_max if lang == 'src' else self.tgt_max
-    if lang == 'src':
-      max_len = self.src_max
-    elif lang == 'trg':
-      max_len = self.tgt_max
-    else:
-      max_len = self.img_max
+    max_len = self.src_max if lang == 'src' else self.tgt_max
 
     # masking input sequence
     if self.task == 'xmlm' or (self.task == 'mmt' and lang == 'trg'):  # cross-lingual masking or adapt to MMT
@@ -163,7 +157,6 @@ class MMTDataset(torch.utils.data.Dataset):
     # ft_len = min(self.img_max, len(self.anno[name]['images']))
 
     img_id = np.array([BOS] + self.anno[name]['lookup'][:self.img_max - 2] + [EOS])
-    img_label = np.array([PAD] * self.img_max)
     img_len = self.img_max
 
     if self.task in ['xmlm', 'mmt']:
