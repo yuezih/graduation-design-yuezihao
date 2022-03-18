@@ -1,9 +1,9 @@
 {
-  "output_dir": "../results_3/pretrain/",
+  "output_dir": "../results_7/pretrain/",
   "pretrain_task": ["xmlm"],
   "eval_task": ["xmlm"],
-  "word2int_file": "../../Dataset/Fashion-MMT/Clean/word2int_3.json",
-  "int2word_file": "../../Dataset/Fashion-MMT/Clean/int2word_3.json",
+  "word2int_file": "../results/pretrain/word2int.json",
+  "int2word_file": "../results/pretrain/int2word.json",
   "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_vocab_lookup.json",
   "attr2int_file": "../../Dataset/Fashion-MMT/Clean/attr2int.json",
   "ft_root": "../../Dataset/Fashion-MMT/resnet101.finetune",

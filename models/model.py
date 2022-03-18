@@ -54,16 +54,19 @@ class TransModel(framework.modelbase.ModelBase):
     src = batch_data['src_ids'].cuda()
     trg = batch_data['trg_ids'].cuda()
     img = batch_data['img_ids'].cuda()
+    vis_ft = batch_data['vis_ft'].cuda()
+    vis_len = batch_data['ft_len'].cuda()
     src_mask, trg_mask, img_mask = self.create_masks(src, trg, img, task)
+    vis_mask = self.img_mask(vis_len, max_len=vis_ft.size(1)).unsqueeze(1)
     # pdb.set_trace()
-    outputs = self.submods[DECODER](src, trg, img, src_mask, trg_mask, img_mask, task=task)
+    outputs = self.submods[DECODER](src, trg, img, vis_ft, src_mask, trg_mask, img_mask, vis_mask, task=task)
 
     if task == 'itm':
       loss = self.criterion[1](outputs, batch_data['align_label'].cuda())
     elif task == 'attp':
       loss = self.criterion[2](outputs, batch_data['attr_label'].float().cuda())
     else:
-      outputs = nn.LogSoftmax(dim=-1)(outputs[:,img.size(1):])
+      outputs = nn.LogSoftmax(dim=-1)(outputs[:, vis_ft.size(1)+img.size(1):])
       output_label = batch_data['output_label'].cuda()
       ys = output_label.contiguous().view(-1)
       norm = output_label.ne(1).sum().item()
@@ -82,12 +85,15 @@ class TransModel(framework.modelbase.ModelBase):
         trg = batch_data['trg_ids'].cuda()
         img = batch_data['img_ids'].cuda()
         src_mask, trg_mask, img_mask = self.create_masks(src, trg, img, task)
+        vis_ft = batch_data['vis_ft'].cuda()
+        ft_len = batch_data['ft_len'].cuda()
+        vis_mask = self.img_mask(ft_len , max_len=vis_ft.size(1)).unsqueeze(1)
 
         if task == 'mmt':
           if self.submods[DECODER].config.decoding == 'greedy':
-            output = self.submods[DECODER].sample(src, img, src_mask, img_mask)
+            output = self.submods[DECODER].sample(src, img, vis_ft, src_mask, img_mask, vis_mask)
           else:
-            output = self.submods[DECODER].beam_search(src, img, src_mask, img_mask)
+            output = self.submods[DECODER].beam_search(src, img, vis_ft, src_mask, img_mask, vis_mask)
           translations = cur_reader.dataset.int2sent(output.detach())
           ref_sents.extend(batch_data['ref_sents'])
           pred_sents.extend(translations)
@@ -104,7 +110,7 @@ class TransModel(framework.modelbase.ModelBase):
         else:
           # pdb.set_trace()
           output_label = batch_data['output_label'].cuda()
-          output = self.submods[DECODER](src, trg, img, src_mask, trg_mask, img_mask, task=task)[:,img.size(1):]
+          output = self.submods[DECODER](src, trg, img, vis_ft, src_mask, trg_mask, img_mask, vis_mask, task=task)[:, vis_ft.size(1)+img.size(1):]
           output = output[output_label != 1]
           output_label = output_label[output_label != 1]
           n_correct += (output.max(dim=-1)[1] == output_label).sum().item()
@@ -154,14 +160,14 @@ class TransModel(framework.modelbase.ModelBase):
     else:
       img_mask = None
     return src_mask, trg_mask, img_mask
-  #
-  # def img_mask(self, lengths, max_len=None):
-  #   ''' Creates a boolean mask from sequence lengths.
-  #       lengths: LongTensor, (batch, )
-  #   '''
-  #   batch_size = lengths.size(0)
-  #   max_len = max_len or lengths.max()
-  #   return ~(torch.arange(0, max_len)
-  #           .type_as(lengths)
-  #           .repeat(batch_size, 1)
-  #           .ge(lengths.unsqueeze(1)))
+
+  def img_mask(self, lengths, max_len=None):
+    ''' Creates a boolean mask from sequence lengths.
+        lengths: LongTensor, (batch, )
+    '''
+    batch_size = lengths.size(0)
+    max_len = max_len or lengths.max()
+    return ~(torch.arange(0, max_len)
+            .type_as(lengths)
+            .repeat(batch_size, 1)
+            .ge(lengths.unsqueeze(1)))

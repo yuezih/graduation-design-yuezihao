@@ -149,12 +149,10 @@ class MMTDataset(torch.utils.data.Dataset):
   def __getitem__(self, idx):
     outs = {}
     name = self.names[idx]
-    # img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
-    # for i, img in enumerate(self.anno[name]['images']):
-    #   if i >= self.img_max:
-    #     break
-    #   img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    # ft_len = min(self.img_max, len(self.anno[name]['images']))
+    vis_ft = np.zeros(shape=[1, 2048], dtype=np.float32)
+    vis = self.anno[name]['images'][0]
+    vis_ft[0] = np.load(os.path.join(self.ft_root, vis+".npy"))[0]
+    ft_len = 1
 
     img_id = np.array([BOS] + self.anno[name]['lookup'][:self.img_max - 2] + [EOS])
     img_len = self.img_max
@@ -182,6 +180,8 @@ class MMTDataset(torch.utils.data.Dataset):
       trg_id = np.array([BOS])
       trg_len = 1
 
+    outs['ft_len'] = ft_len
+    outs['vis_ft'] = vis_ft
     outs['img_len'] = img_len
     outs['img_ids'] = img_id
     outs['src_ids'] = src_id
