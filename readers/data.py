@@ -16,7 +16,7 @@ UNK, PAD, BOS, EOS, MASK = 0, 1, 2, 3, 4
 
 
 class MMTDataset(torch.utils.data.Dataset):
-  def __init__(self, config, split, img_max=10, src_max=36, tgt_max=72, task='mmt', _logger=None):
+  def __init__(self, config, split, ref_max=72, src_max=36, tgt_max=72, task='mmt', _logger=None):
     super(MMTDataset, self).__init__()
 
     if _logger is None:
@@ -46,15 +46,20 @@ class MMTDataset(torch.utils.data.Dataset):
     self.stoi = json.load(open(config.word2int_file))
     self.itos = json.load(open(config.int2word_file))
     self.atoi = json.load(open(config.attr2int_file))
-    self.ft_root = config.ft_root
-    self.img_max = img_max
+    self.ref_max = ref_max
     self.src_max = src_max
     self.tgt_max = tgt_max
     self.is_train = True if split == 'trn' else False
     self.task = task
 
   def mask_and_pad_sent(self, x, id=None, lang='src'):
-    max_len = self.src_max if lang == 'src' else self.tgt_max
+    # max_len = self.src_max if lang == 'src' else self.tgt_max
+    if lang == 'src':
+      max_len = self.src_max
+    elif lang == 'trg':
+      max_len = self.tgt_max
+    else:
+      max_len = self.ref_max
 
     # masking input sequence
     if self.task == 'xmlm' or (self.task == 'mmt' and lang == 'trg'):  # cross-lingual masking or adapt to MMT
@@ -152,12 +157,11 @@ class MMTDataset(torch.utils.data.Dataset):
   def __getitem__(self, idx):
     outs = {}
     name = self.names[idx]
-    img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
-    for i, img in enumerate(self.anno[name]['images']):
-      if i >= self.img_max:
-        break
-      img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    ft_len = min(self.img_max, len(self.anno[name]['images']))
+
+    ref_id = self.anno[name]['lookup'][0].strip()
+    ref_id = [self.stoi.get(w, UNK) for w in list(ref_id)]
+    ref_id = [BOS] + ref_id[:self.ref_max - 1] + [EOS] + [PAD] * max(0, self.ref_max - len(ref_id) - 2)
+    ref_id = np.array(ref_id[:self.ref_max])
 
     if self.task in ['xmlm', 'mmt']:
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
@@ -181,12 +185,11 @@ class MMTDataset(torch.utils.data.Dataset):
       trg_id = np.array([BOS])
       trg_len = 1
 
-    outs['ft_len'] = ft_len
-    outs['img_ft'] = img_ft
     outs['src_ids'] = src_id
     outs['src_lens'] = src_len
     outs['trg_ids'] = trg_id
     outs['trg_lens'] = trg_len
+    outs['ref_ids'] = ref_id
     outs['ref_sents'] = self.trg[idx].strip()
     if self.task == 'itm':
       outs['align_label'] = align_label

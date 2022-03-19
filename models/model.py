@@ -54,17 +54,17 @@ class TransModel(framework.modelbase.ModelBase):
     src = batch_data['src_ids'].cuda()
     trg = batch_data['trg_ids'].cuda()
     src_mask, trg_mask = self.create_masks(src, trg, task)
-    img_ft = batch_data['img_ft'].cuda()
-    img_len = batch_data['ft_len'].cuda()
-    img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
-    outputs = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)
+    ref = batch_data['ref_ids'].cuda()
+    ref_mask = (ref != 1).unsqueeze(-2)
+    outputs = self.submods[DECODER](src, trg, ref, src_mask, trg_mask, ref_mask, task=task)
+    # pdb.set_trace()
 
     if task == 'itm':
       loss = self.criterion[1](outputs, batch_data['align_label'].cuda())
     elif task == 'attp':
       loss = self.criterion[2](outputs, batch_data['attr_label'].float().cuda())
     else:
-      outputs = nn.LogSoftmax(dim=-1)(outputs[:,img_ft.size(1):])
+      outputs = nn.LogSoftmax(dim=-1)(outputs[:,ref.size(1):])
       output_label = batch_data['output_label'].cuda()
       ys = output_label.contiguous().view(-1)
       norm = output_label.ne(1).sum().item()
@@ -82,31 +82,31 @@ class TransModel(framework.modelbase.ModelBase):
         src = batch_data['src_ids'].cuda()
         trg = batch_data['trg_ids'].cuda()
         src_mask, trg_mask = self.create_masks(src, trg, task)
-        img_ft = batch_data['img_ft'].cuda()
-        img_len = batch_data['ft_len'].cuda()
-        img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
+        ref = batch_data['ref_ids'].cuda()
+        ref_mask = (ref != 1).unsqueeze(-2)
 
         if task == 'mmt':
           if self.submods[DECODER].config.decoding == 'greedy':
-            output = self.submods[DECODER].sample(src, img_ft, src_mask, img_mask)
+            output = self.submods[DECODER].sample(src, ref, src_mask, ref_mask)
           else:
-            output = self.submods[DECODER].beam_search(src, img_ft, src_mask, img_mask)
+            output = self.submods[DECODER].beam_search(src, ref, src_mask, ref_mask)
           translations = cur_reader.dataset.int2sent(output.detach())
           ref_sents.extend(batch_data['ref_sents'])
           pred_sents.extend(translations)
         elif task == 'itm':
           target = batch_data['align_label'].cuda()
-          output = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)
+          output = self.submods[DECODER](src, trg, ref, src_mask, trg_mask, ref_mask, task=task)
           pred = output.max(1, keepdim=True)[1]
           n_correct += float(pred.eq(target.view_as(pred)).cpu().float().sum())
           n_word += output.size(0)
         elif task == 'attp':
-          output = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)
+          output = self.submods[DECODER](src, trg, ref, src_mask, trg_mask, ref_mask, task=task)
           attr_pred.extend(output.detach().cpu().numpy())
           attr_label.extend(batch_data['attr_label'].detach().numpy())
         else:
+          # pdb.set_trace()
           output_label = batch_data['output_label'].cuda()
-          output = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)[:,img_ft.size(1):]
+          output = self.submods[DECODER](src, trg, ref, src_mask, trg_mask, ref_mask, task=task)[:,ref.size(1):]
           output = output[output_label != 1]
           output_label = output_label[output_label != 1]
           n_correct += (output.max(dim=-1)[1] == output_label).sum().item()
