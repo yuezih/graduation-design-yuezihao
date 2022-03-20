@@ -56,7 +56,7 @@ def main():
 
     trn_reader, val_reader = {}, {}
     for task in path_cfg.pretrain_task:
-      trn_data = dataset.MMTDataset(path_cfg, 'trn', model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
+      trn_data = dataset.MMTDataset(path_cfg, 'trn', model_cfg.subcfgs[DECODER].vis_max, model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
       sampler = dataset.TokenBucketSampler(trn_data.lens, bucket_size=8192, batch_size=model_cfg.trn_batch_size, size_multiple=8)
       r = 1
       if task == 'xmlm':
@@ -67,7 +67,7 @@ def main():
     meta_loader = dataset.MetaLoader(trn_reader)
 
     for task in path_cfg.eval_task:
-      val_data = dataset.MMTDataset(path_cfg, 'val', model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
+      val_data = dataset.MMTDataset(path_cfg, 'val', model_cfg.subcfgs[DECODER].vis_max, model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
       val_reader[task] = data.DataLoader(val_data, batch_size=model_cfg.tst_batch_size, shuffle=False, num_workers=4)
 
     _model.train(meta_loader, val_reader, path_cfg.model_dir, path_cfg.log_dir, resume_file=opts.resume_file)
@@ -75,7 +75,7 @@ def main():
   else:
     tst_reader = {}
     for task in path_cfg.eval_task:
-      tst_data = dataset.MMTDataset(path_cfg, opts.eval_set, model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
+      tst_data = dataset.MMTDataset(path_cfg, opts.eval_set, model_cfg.subcfgs[DECODER].vis_max, model_cfg.subcfgs[DECODER].ref_max, model_cfg.subcfgs[DECODER].src_max, model_cfg.subcfgs[DECODER].tgt_max, task=task, _logger=_logger)
       tst_reader[task] = data.DataLoader(tst_data, batch_size=model_cfg.tst_batch_size, shuffle=False, num_workers=4)
 
     model_str_scores = []

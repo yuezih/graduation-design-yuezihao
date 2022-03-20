@@ -16,7 +16,7 @@ UNK, PAD, BOS, EOS, MASK = 0, 1, 2, 3, 4
 
 
 class MMTDataset(torch.utils.data.Dataset):
-  def __init__(self, config, split, ref_max=72, src_max=36, tgt_max=72, task='mmt', _logger=None):
+  def __init__(self, config, split, vis_max = 1, ref_max=72, src_max=36, tgt_max=72, task='mmt', _logger=None):
     super(MMTDataset, self).__init__()
 
     if _logger is None:
@@ -46,6 +46,8 @@ class MMTDataset(torch.utils.data.Dataset):
     self.stoi = json.load(open(config.word2int_file))
     self.itos = json.load(open(config.int2word_file))
     self.atoi = json.load(open(config.attr2int_file))
+    self.ft_root = config.ft_root
+    self.vis_max = vis_max
     self.ref_max = ref_max
     self.src_max = src_max
     self.tgt_max = tgt_max
@@ -157,6 +159,10 @@ class MMTDataset(torch.utils.data.Dataset):
   def __getitem__(self, idx):
     outs = {}
     name = self.names[idx]
+    vis_ft = np.zeros(shape=[1, 2048], dtype=np.float32)
+    vis = self.anno[name]['images'][0]
+    vis_ft[0] = np.load(os.path.join(self.ft_root, vis+".npy"))[0]
+    ft_len = 1
 
     ref_id = self.anno[name]['lookup'][0].strip()
     ref_id = [self.stoi.get(w, UNK) for w in list(ref_id)]
@@ -185,6 +191,8 @@ class MMTDataset(torch.utils.data.Dataset):
       trg_id = np.array([BOS])
       trg_len = 1
 
+    outs['ft_len'] = ft_len
+    outs['vis_ft'] = vis_ft
     outs['src_ids'] = src_id
     outs['src_lens'] = src_len
     outs['trg_ids'] = trg_id

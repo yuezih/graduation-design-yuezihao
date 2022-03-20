@@ -45,13 +45,11 @@ class VISEncoder(nn.Module):
     super().__init__()
     self.N = N
     self.embed = nn.Linear(2048, d_model)
-    self.pe = PositionalEncoder(d_model, dropout=dropout)
     self.layers = get_clones(EncoderLayer(d_model, heads, dropout), N)
     self.norm = Norm(d_model)
 
   def forward(self, img, mask, mode):
     x = self.embed(img)
-    x = self.pe(x, mode=mode)
     for i in range(self.N):
       x = self.layers[i](x, mask)
     return self.norm(x)

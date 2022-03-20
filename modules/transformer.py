@@ -17,7 +17,8 @@ class TransformerConfig(framework.configbase.ModuleConfig):
     super(TransformerConfig, self).__init__()
     self.vocab = 0
     self.attr_num = 2010
-    self.ref_max = 10
+    self.vis_max = 1
+    self.ref_max = 72
     self.src_max = 36
     self.tgt_max = 72
     self.d_model = 512
@@ -34,7 +35,7 @@ class Transformer(nn.Module):
   def __init__(self, config):
     super(Transformer, self).__init__()
     self.config = config
-    # self.vis_encoder = VISEncoder(self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
+    self.vis_encoder = VISEncoder(self.config.d_model, self.config.vis_layers, self.config.heads, self.config.dropout)
     self.ref_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.txt_layers, self.config.heads, self.config.dropout)
     self.src_encoder = Encoder(self.config.vocab, self.config.d_model, self.config.txt_layers, self.config.heads, self.config.dropout)
     self.src_encoder.pe.mode = self.ref_encoder.pe.mode
@@ -61,21 +62,23 @@ class Transformer(nn.Module):
       if p.dim() > 1:
         nn.init.xavier_uniform_(p)
 
-  def forward(self, src, trg, ref, src_mask, trg_mask, ref_mask, task='mmt'):
+  def forward(self, src, trg, ref, vis_ft, src_mask, trg_mask, ref_mask, vis_mask, task='mmt'):
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     t_outputs = self.trg_encoder(trg, trg_mask, mode=1)
     r_outputs = self.ref_encoder(ref, ref_mask, mode=2)
-    input = torch.cat([r_outputs, s_outputs, t_outputs], dim=1)
+    v_outputs = self.vis_encoder(vis_ft, vis_mask, mode=3)
+    input = torch.cat([v_outputs, r_outputs, s_outputs, t_outputs], dim=1)
 
     if trg_mask is not None and trg_mask.size(1) != 1:
-      firmask = torch.cat([ref_mask, src_mask, trg_mask[:,0].unsqueeze(1)], dim=-1)
-      firmask = firmask.repeat(1, ref.size(1)+src.size(1), 1)
+      firmask = torch.cat([vis_mask, ref_mask, src_mask, trg_mask[:,0].unsqueeze(1)], dim=-1)
+      firmask = firmask.repeat(1, vis_ft.size(1)+ref.size(1)+src.size(1), 1)
+      vis_mask = vis_mask.repeat(1, trg.size(1), 1)
       ref_mask = ref_mask.repeat(1, trg.size(1), 1)
       src_mask = src_mask.repeat(1, trg.size(1), 1)
-      secmask = torch.cat([ref_mask, src_mask, trg_mask], dim=-1)
+      secmask = torch.cat([vis_mask, ref_mask, src_mask, trg_mask], dim=-1)
       mask = torch.cat([firmask, secmask], dim=1)
     else:
-      mask = torch.cat([ref_mask, src_mask, trg_mask], dim=-1)
+      mask = torch.cat([vis_mask, ref_mask, src_mask, trg_mask], dim=-1)
 
     e_outputs = self.cross_encoder(input, mask)
     if task == 'itm':
@@ -86,16 +89,17 @@ class Transformer(nn.Module):
       output = self.logit(e_outputs)
     return output
 
-  def sample(self, src, ref, src_mask, ref_mask, decoding='greedy'):
+  def sample(self, src, ref, vis_ft, src_mask, ref_mask, vis_mask, decoding='greedy'):
     init_tok, mask_tok = 2, 4
     bs = src.size(0)
+    v_outputs = self.vis_encoder(vis_ft, vis_mask, mode=3)
     r_outputs = self.ref_encoder(ref, ref_mask, mode=2)
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     init_word = torch.ones(bs, 1).fill_(init_tok).long().cuda()
     trg_mask = self.nopeak_mask(1).repeat(bs, 1, 1)
     t_outputs = self.trg_encoder(init_word, trg_mask, mode=1)
-    input = torch.cat([r_outputs, s_outputs, t_outputs], dim=1)
-    mask = torch.cat([ref_mask, src_mask, trg_mask], dim=-1)
+    input = torch.cat([v_outputs, r_outputs, s_outputs, t_outputs], dim=1)
+    mask = torch.cat([vis_mask, ref_mask, src_mask, trg_mask], dim=-1)
     e_outputs = self.cross_encoder(input, mask, step=1)
 
     mask_word = torch.ones(bs, 1).fill_(mask_tok).long().cuda()
@@ -120,16 +124,17 @@ class Transformer(nn.Module):
     np_mask =  Variable(torch.from_numpy(np_mask) == 0).cuda()
     return np_mask
 
-  def init_vars(self, src, ref, src_mask, ref_mask, beam_size):
+  def init_vars(self, src, ref, vis_ft, src_mask, ref_mask, vis_mask, beam_size):
     init_tok, mask_tok = 2, 4
     bs = src.size(0)
+    v_outputs = self.vis_encoder(vis_ft, vis_mask, mode=3)
     r_outputs = self.ref_encoder(ref, ref_mask, mode=2)
     s_outputs = self.src_encoder(src, src_mask, mode=0)
     outputs = torch.LongTensor([[init_tok]] * bs).cuda()
     trg_mask = self.nopeak_mask(1).repeat(bs, 1, 1)
     t_outputs = self.trg_encoder(outputs, trg_mask, mode=1)
-    input = torch.cat([r_outputs, s_outputs, t_outputs], dim=1)
-    mask = torch.cat([ref_mask, src_mask, trg_mask], dim=-1)
+    input = torch.cat([v_outputs, r_outputs, s_outputs, t_outputs], dim=1)
+    mask = torch.cat([vis_mask, ref_mask, src_mask, trg_mask], dim=-1)
     e_outputs = self.cross_encoder(input, mask, step=1)
 
     mask_word = torch.ones(bs, 1).fill_(mask_tok).long().cuda()
@@ -157,8 +162,8 @@ class Transformer(nn.Module):
     log_scores = k_probs
     return outputs, log_scores
 
-  def beam_search(self, src, ref, src_mask, ref_mask, beam_size=5):
-    outputs, log_scores = self.init_vars(src, ref, src_mask, ref_mask, beam_size)
+  def beam_search(self, src, ref, vis_ft, src_mask, ref_mask, vis_mask, beam_size=5):
+    outputs, log_scores = self.init_vars(src, ref, vis_ft, src_mask, ref_mask, vis_mask, beam_size)
     src_mask = src_mask.unsqueeze(1).expand(src_mask.size(0), beam_size, src_mask.size(-2), src_mask.size(-1))
     src_mask = src_mask.contiguous().view(-1, src_mask.size(-2), src_mask.size(-1))
     
