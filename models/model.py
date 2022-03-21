@@ -106,10 +106,12 @@ class TransModel(framework.modelbase.ModelBase):
           pred = output.max(1, keepdim=True)[1]
           n_correct += float(pred.eq(target.view_as(pred)).cpu().float().sum())
           n_word += output.size(0)
+          # pdb.set_trace()
         elif task == 'attp':
           output = self.submods[DECODER](src, trg, ref, vis_ft, src_mask, trg_mask, ref_mask, vis_mask, task=task)
           attr_pred.extend(output.detach().cpu().numpy())
           attr_label.extend(batch_data['attr_label'].detach().numpy())
+          # pdb.set_trace()
         else:
           # pdb.set_trace()
           output_label = batch_data['output_label'].cuda()
