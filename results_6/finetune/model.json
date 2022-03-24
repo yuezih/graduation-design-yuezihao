@@ -7,8 +7,8 @@
     "transformer": {
       "lr_mult": 1.0,
       "freeze": false,
-      "decoding": "greedy",
-      "img_max": 22,
+      "decoding": "beam_search",
+      "img_max": 4,
       "src_max": 36,
       "tgt_max": 72,
       "vocab": 10650,

@@ -1,7 +1,7 @@
 {
-  "output_dir": "../results_6/finetune/",
-  "pretrain_task": ["mmt"],
-  "eval_task": ["mmt"],
+  "output_dir": "../results_7/pretrain/",
+  "pretrain_task": ["xmlm"],
+  "eval_task": ["xmlm"],
   "word2int_file": "../results/pretrain/word2int.json",
   "int2word_file": "../results/pretrain/int2word.json",
   "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_imgid_lookup.json",

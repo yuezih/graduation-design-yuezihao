@@ -1,16 +1,16 @@
 {
   "decay_boundarys": [],
   "num_epoch": 50,
-  "maximum_steps": 2000000,
-  "decay_schema": null,
+  "maximum_steps": 800000,
+  "decay_schema": null, 
   "subcfgs": {
     "transformer": {
       "lr_mult": 1.0,
-      "freeze": false,
-      "decoding": "greedy",
-      "img_max": 4,
+      "freeze": false, 
+      "decoding": "greedy", 
+      "img_max": 2,
       "src_max": 36,
-      "tgt_max": 72,
+      "tgt_max": 72, 
       "vocab": 10650,
       "attr_num": 965,
       "d_model": 512,

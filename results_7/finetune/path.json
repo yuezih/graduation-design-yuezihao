@@ -1,5 +1,5 @@
 {
-  "output_dir": "../results_6/finetune/",
+  "output_dir": "../results_7/finetune/",
   "pretrain_task": ["mmt"],
   "eval_task": ["mmt"],
   "word2int_file": "../results/pretrain/word2int.json",

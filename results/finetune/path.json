@@ -4,7 +4,7 @@
   "eval_task": ["mmt"],
   "word2int_file": "../results/pretrain/word2int.json",
   "int2word_file": "../results/pretrain/int2word.json",
-  "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_clean.json",
+  "anno_file": "../../Dataset/Fashion-MMT/Clean/anno_imgid_lookup.json",
   "attr2int_file": "../../Dataset/Fashion-MMT/Clean/attr2int.json",
   "ft_root": "../../Dataset/Fashion-MMT/resnet101.finetune",
   "sim_img": {

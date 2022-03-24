@@ -26,6 +26,7 @@ class MMTDataset(torch.utils.data.Dataset):
 
     self.names = np.load(config.name_file[split])
     self.anno = json.load(open(config.anno_file))
+    self.vocab = json.load(open('/data2/yzh/Dataset/Fashion-MMT/Clean/word2int_3.json'))
     self.src = open(config.src_txt[split], 'r', encoding='utf-8').readlines()
     self.trg = open(config.tgt_txt[split], 'r', encoding='utf-8').readlines()
     self.num_text = len(self.src)
@@ -93,14 +94,17 @@ class MMTDataset(torch.utils.data.Dataset):
     return x
 
   def mask_sent(self, x):
-    output_label = [PAD] * len(x)
-    mask_num = round(0.15*len(x))
-    token_list = list(enumerate(x))
-    mask_tokens = random.sample(token_list, mask_num)
-    for each in mask_tokens:
+    output_label = []
+    for i, token in enumerate(x):
       prob = random.random()
-      x = self.random_mask(x, each[0], prob)
-      output_label[each[0]] = each[1]
+      # mask normal token with 15% probability
+      if prob < 0.15:
+        prob /= 0.15
+        x = self.random_mask(x, i, prob)
+        output_label.append(token)
+      else:
+        # no masking token (will be ignored by loss function later)
+        output_label.append(PAD)
     return x, output_label
 
   def get_attr(self, x, id):
@@ -149,18 +153,15 @@ class MMTDataset(torch.utils.data.Dataset):
   def __getitem__(self, idx):
     outs = {}
     name = self.names[idx]
-    # img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
-    # for i, img in enumerate(self.anno[name]['images']):
-    #   if i >= self.img_max:
-    #     break
-    #   img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    # ft_len = min(self.img_max, len(self.anno[name]['images']))
-
-    img_id = np.array([BOS] + self.anno[name]['lookup'][:self.img_max - 2] + [EOS])
+    img_list = self.anno[name]['img_id'][:self.img_max]
+    img_id = []
+    for each in img_list:
+      each_id = self.vocab[self.anno[each]['images'][0]]
+      img_id.append(each_id)
+    img_id = np.array(img_id)
     img_len = self.img_max
 
     if self.task in ['xmlm', 'mmt']:
-      # img_id, img_label, img_len = self.mask_and_pad_sent(self.anno[name]['lookup'], id=name, lang='img')
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
