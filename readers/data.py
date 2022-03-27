@@ -7,6 +7,9 @@ import numpy as np
 import random
 import pdb
 import math
+import re
+import spacy
+import h5py
 
 from cytoolz import partition_all
 import torch.utils.data
@@ -24,8 +27,19 @@ class MMTDataset(torch.utils.data.Dataset):
     else:
       self.print_fn = _logger.info
 
-    self.names = np.load(config.name_file[split])
-    self.anno = json.load(open(config.anno_file))
+    # self.names = json.load(open(config.name_file[split]))
+    # self.anno = json.load(open(config.anno_file))
+    # self.ft_root = config.ft_root[split]
+    # self.img_file = np.load(self.ft_root)
+    # if img_max > 1:
+    #   self.ft_trn_root = config.ft_root['trn']
+    #   self.img_trn_file = np.load(self.ft_trn_root)
+    if img_max >= 10:
+      self.id2name = np.load(config.id2name_file[split])
+      self.name2ft = h5py.File(config.name2ft_file[split], 'r')
+    else:
+      self.idx2id = json.load(open(config.idx2id_file[split]))
+      self.id2ft = np.load(config.id2ft_global)
     self.src = open(config.src_txt[split], 'r', encoding='utf-8').readlines()
     self.trg = open(config.tgt_txt[split], 'r', encoding='utf-8').readlines()
     self.num_text = len(self.src)
@@ -42,11 +56,11 @@ class MMTDataset(torch.utils.data.Dataset):
       for i in range(len(self.src)):
         self.lens.append(len(self.src[i].strip().split())+2)
     
-    self.sim_img = json.load(open(config.sim_img[split]))
+    # self.sim_img = json.load(open(config.sim_img[split]))
     self.stoi = json.load(open(config.word2int_file))
     self.itos = json.load(open(config.int2word_file))
-    self.atoi = json.load(open(config.attr2int_file))
-    self.ft_root = config.ft_root
+    # self.atoi = json.load(open(config.attr2int_file))
+    # self.ft_root = config.ft_root
     self.img_max = img_max
     self.src_max = src_max
     self.tgt_max = tgt_max
@@ -127,6 +141,10 @@ class MMTDataset(torch.utils.data.Dataset):
     int_sent = [self.stoi.get(w, UNK) for w in str_sent.split()]
     return int_sent
 
+  # def sent2int(self, token_list):
+  #   int_sent = [self.stoi.get(w, UNK) for w in token_list]
+  #   return int_sent
+
   def int2sent(self, batch):
     with torch.cuda.device_of(batch):
       batch = batch.tolist()
@@ -150,18 +168,31 @@ class MMTDataset(torch.utils.data.Dataset):
     return self.num_text
 
   def __getitem__(self, idx):
+
     outs = {}
-    name = self.names[idx]
+
+    name = idx
     img_ft = np.zeros(shape=[self.img_max, 2048], dtype=np.float32)
-    for i, img in enumerate(self.anno[name]['images']):
-      if i >= self.img_max:
-        break
-      img_ft[i] = np.load(os.path.join(self.ft_root, img+".npy"))[0]
-    ft_len = min(self.img_max, len(self.anno[name]['images']))
+    ft_len = self.img_max
+    # Lookup Table
+    if self.img_max < 10:
+      img_list = self.idx2id[str(idx)]
+      for i, img_id in enumerate(img_list):
+        if i >= self.img_max:
+          break
+        img_ft[i] = self.id2ft[img_id]
+    # PMT
+    else:
+      img_name = self.id2name[idx]
+      img_ft_list = np.array(self.name2ft[img_name], dtype=np.float32)
+      for i in range(len(img_ft_list)):
+        if i >= self.img_max:
+          break
+        img_ft[i] = img_ft_list[i]
 
     if self.task in ['xmlm', 'mmt']:
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
-      trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
+      trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id = np.array([BOS])

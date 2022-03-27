@@ -26,9 +26,12 @@ def meteor_eval(refs, cands):
 def compute(preds, refs):
   refcaps = {}
   candcaps = {}
+  # for i in range(len(preds)):
+  #   candcaps[str(i)] = [preds[i]]
+  #   refcaps[str(i)] = [refs[i]]
   for i in range(len(preds)):
-    candcaps[str(i)] = [preds[i]]
-    refcaps[str(i)] = [refs[i]]
+    candcaps[str(i)] = [''.join(preds[i].split('@@ '))]
+    refcaps[str(i)] = [''.join(refs[i].strip().split('@@ '))]
 
   bleu = bleu_eval(refcaps, candcaps)
   cider = cider_eval(refcaps, candcaps)

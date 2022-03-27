@@ -58,6 +58,7 @@ class TransModel(framework.modelbase.ModelBase):
     img_len = batch_data['ft_len'].cuda()
     img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
     outputs = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)
+    # pdb.set_trace()
 
     if task == 'itm':
       loss = self.criterion[1](outputs, batch_data['align_label'].cuda())
@@ -85,6 +86,7 @@ class TransModel(framework.modelbase.ModelBase):
         img_ft = batch_data['img_ft'].cuda()
         img_len = batch_data['ft_len'].cuda()
         img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
+        # pdb.set_trace()
 
         if task == 'mmt':
           if self.submods[DECODER].config.decoding == 'greedy':
@@ -111,6 +113,7 @@ class TransModel(framework.modelbase.ModelBase):
           output_label = output_label[output_label != 1]
           n_correct += (output.max(dim=-1)[1] == output_label).sum().item()
           n_word += output_label.numel()
+          # pdb.set_trace()
 
       if task == 'mmt':
         score.update(utils.evaluation.compute(pred_sents, ref_sents))

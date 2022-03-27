@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=1 python train.py ../results_2/pretrain/model.json ../results_2/pretrain/path.json --is_train
+#CUDA_VISIBLE_DEVICES=1 python train.py ../results_2/finetune/model.json ../results_2/finetune/path.json --is_train --resume_file ../results_2/pretrain/model/step.114000.th
+#CUDA_VISIBLE_DEVICES=1 python train.py ../results_2/finetune/model.json ../results_2/finetune/path.json --eval_set val --resume_file ../results_2/finetune/model/step.33000.th
+#CUDA_VISIBLE_DEVICES=1 python train.py ../results_2/finetune/model.json ../results_2/finetune/path.json --eval_set tst --resume_file ../results_2/finetune/model/step.33000.th
