@@ -192,7 +192,7 @@ class MMTDataset(torch.utils.data.Dataset):
 
     if self.task in ['xmlm', 'mmt']:
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
-      trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='trg')
+      trg_id, trg_label, trg_len = self.mask_and_pad_sent(self.sent2int(self.trg[idx].strip()), id=name, lang='trg')
     elif self.task == 'attp':
       src_id, src_label, src_len = self.mask_and_pad_sent(self.sent2int(self.src[idx].strip()), id=name, lang='src')
       trg_id = np.array([BOS])

@@ -1,0 +1,33 @@
+{
+  "output_dir": "../results_5/finetune/",
+  "pretrain_task": ["mmt"],
+  "eval_task": ["mmt"],
+  "word2int_file": "../../Dataset/Multi-30K/stoi_bpe.json",
+  "int2word_file": "../../Dataset/Multi-30K/itos_bpe.json",
+  "idx2id_file": {
+    "tst": "../../Dataset/Multi-30K/img_list_bpe.tst2016.json",
+    "val": "../../Dataset/Multi-30K/img_list_bpe.val.json",
+    "trn": "../../Dataset/Multi-30K/img_list_bpe.trn.json"
+  },
+  "id2name_file": {
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/public_split/tst2016_names.npy",
+    "val": "../../Dataset/Multi-30K/multi30k_bpe/public_split/val_names.npy",
+    "trn": "../../Dataset/Multi-30K/multi30k_bpe/public_split/trn_names.npy"
+  },
+  "name2ft_file": {
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/tst2016_ft.hdf5",
+    "val": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/val_ft.hdf5",
+    "trn": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/trn_ft.hdf5"
+  },
+  "src_txt": {
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/tst2016.en.bpe.txt",
+    "val": "../../Dataset/Multi-30K/multi30k_bpe/annotation/val.en.bpe.txt",
+    "trn": "../../Dataset/Multi-30K/multi30k_bpe/annotation/trn.en.bpe.txt"
+  },
+  "tgt_txt": {
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/tst2016.de.bpe.txt",
+    "val": "../../Dataset/Multi-30K/multi30k_bpe/annotation/val.de.bpe.txt",
+    "trn": "../../Dataset/Multi-30K/multi30k_bpe/annotation/trn.de.bpe.txt"
+  },
+  "id2ft_global": "/data8/syq/multi30k/ordered_feature/resnext101.pth/trn_ft.npy"
+}
