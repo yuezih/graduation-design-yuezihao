@@ -33,7 +33,7 @@
     "transformer": "TransformerConfig"
   }, 
   "opt_alg": "Adam_bert",
-  "warmup": 8000, 
+  "warmup": 10000,
   "is_pretrain": true,
   "is_finetune": false, 
   "submod_types": {

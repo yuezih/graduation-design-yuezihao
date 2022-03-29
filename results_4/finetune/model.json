@@ -7,7 +7,7 @@
     "transformer": {
       "lr_mult": 0.8,
       "freeze": false, 
-      "decoding": "beam_search",
+      "decoding": "greedy",
       "img_max": 3,
       "src_max": 36,
       "tgt_max": 36,
@@ -16,7 +16,7 @@
       "d_model": 512,
       "vis_layers": 1,
       "txt_layers": 1,
-      "n_layers": 3,
+      "n_layers": 1,
       "heads": 8,
       "dropout": 0.2,
       "encoder_sharing": false

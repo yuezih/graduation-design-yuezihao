@@ -5,9 +5,9 @@
   "decay_schema": null, 
   "subcfgs": {
     "transformer": {
-      "lr_mult": 0.8,
+      "lr_mult": 1.0,
       "freeze": false, 
-      "decoding": "beam_search",
+      "decoding": "greedy", 
       "img_max": 3,
       "src_max": 36,
       "tgt_max": 36,
@@ -16,10 +16,10 @@
       "d_model": 512,
       "vis_layers": 1,
       "txt_layers": 1,
-      "n_layers": 3,
+      "n_layers": 1,
       "heads": 8,
       "dropout": 0.2,
-      "encoder_sharing": false
+      "encoder_sharing": true
     }
   }, 
   "monitor_iter": 100, 
@@ -32,10 +32,10 @@
   "subcfg_types": {
     "transformer": "TransformerConfig"
   }, 
-  "opt_alg": "Adam",
-  "warmup": -1, 
-  "is_pretrain": false,
-  "is_finetune": true, 
+  "opt_alg": "Adam_bert",
+  "warmup": 10000,
+  "is_pretrain": true,
+  "is_finetune": false, 
   "submod_types": {
     "transformer": "Transformer"
   }

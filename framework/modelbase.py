@@ -146,7 +146,7 @@ class ModelBase(object):
     loss.backward()
 
     if self.config.is_finetune:
-      if step in [10000, 20000, 30000, 50000, 70000]:
+      if step in [5000, 10000, 15000, 25000, 35000]:
         lr = self.optimizer.param_groups[0]['lr'] / 2
         self.optimizer.param_groups[0]['lr'] = lr
         

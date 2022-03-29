@@ -15,17 +15,17 @@
     "trn": "../../Dataset/Multi-30K/multi30k_bpe/public_split/trn_names.npy"
   },
   "name2ft_file": {
-    "tst": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/test2016_ft.hdf5",
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/tst2016_ft.hdf5",
     "val": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/val_ft.hdf5",
     "trn": "../../Dataset/Multi-30K/multi30k_bpe/bboxes.vg/trn_ft.hdf5"
   },
   "src_txt": {
-    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/test2016.en.bpe.txt",
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/tst2016.en.bpe.txt",
     "val": "../../Dataset/Multi-30K/multi30k_bpe/annotation/val.en.bpe.txt",
     "trn": "../../Dataset/Multi-30K/multi30k_bpe/annotation/trn.en.bpe.txt"
   },
   "tgt_txt": {
-    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/test2016.de.bpe.txt",
+    "tst": "../../Dataset/Multi-30K/multi30k_bpe/annotation/tst2016.de.bpe.txt",
     "val": "../../Dataset/Multi-30K/multi30k_bpe/annotation/val.de.bpe.txt",
     "trn": "../../Dataset/Multi-30K/multi30k_bpe/annotation/trn.de.bpe.txt"
   },
