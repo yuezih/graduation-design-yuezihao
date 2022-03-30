@@ -58,6 +58,7 @@ class TransModel(framework.modelbase.ModelBase):
     img_len = batch_data['ft_len'].cuda()
     img_mask = self.img_mask(img_len, max_len=img_ft.size(1)).unsqueeze(1)
     outputs = self.submods[DECODER](src, trg, img_ft, src_mask, trg_mask, img_mask, task=task)
+    # pdb.set_trace()
 
     if task == 'itm':
       loss = self.criterion[1](outputs, batch_data['align_label'].cuda())

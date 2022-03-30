@@ -8,9 +8,9 @@
       "lr_mult": 1.0,
       "freeze": false, 
       "decoding": "greedy", 
-      "img_max": 2,
+      "img_max": 4,
       "src_max": 36,
-      "tgt_max": 72, 
+      "tgt_max": 72,
       "vocab": 10650,
       "attr_num": 965,
       "d_model": 512,
@@ -21,8 +21,8 @@
       "dropout": 0.1,
       "encoder_sharing": true
     }
-  }, 
-  "monitor_iter": 100, 
+  },
+  "monitor_iter": 100,
   "save_per_epoch": false,
   "val_per_epoch": false,
   "val_iter": 1000,

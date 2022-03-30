@@ -1,16 +1,16 @@
 {
   "decay_boundarys": [],
   "num_epoch": 50,
-  "maximum_steps": 500000,
-  "decay_schema": null, 
+  "maximum_steps": 800000,
+  "decay_schema": null,
   "subcfgs": {
     "transformer": {
       "lr_mult": 1.0,
-      "freeze": false, 
-      "decoding": "greedy", 
-      "img_max": 2,
+      "freeze": false,
+      "decoding": "greedy",
+      "img_max": 3,
       "src_max": 36,
-      "tgt_max": 72, 
+      "tgt_max": 72,
       "vocab": 10650,
       "attr_num": 965,
       "d_model": 512,
@@ -19,7 +19,7 @@
       "n_layers": 3,
       "heads": 8,
       "dropout": 0.1,
-      "encoder_sharing": true
+      "encoder_sharing": false
     }
   }, 
   "monitor_iter": 100, 
@@ -32,10 +32,10 @@
   "subcfg_types": {
     "transformer": "TransformerConfig"
   }, 
-  "opt_alg": "Adam_bert",
-  "warmup": 8000, 
-  "is_pretrain": true,
-  "is_finetune": false, 
+  "opt_alg": "Adam",
+  "warmup": -1, 
+  "is_pretrain": false,
+  "is_finetune": true, 
   "submod_types": {
     "transformer": "Transformer"
   }
