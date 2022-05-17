@@ -1,0 +1,2326 @@
+2022-03-10 17:45:39,231 transformer: vis_encoder.embed.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,232 transformer: vis_encoder.embed.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,232 transformer: vis_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-10 17:45:39,232 transformer: vis_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-10 17:45:39,232 transformer: vis_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,232 transformer: vis_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,232 transformer: vis_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,232 transformer: vis_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,232 transformer: vis_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,233 transformer: vis_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,234 transformer: vis_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,234 transformer: vis_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,234 transformer: vis_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,234 transformer: vis_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,234 transformer: vis_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,234 transformer: src_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-10 17:45:39,234 transformer: src_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-10 17:45:39,234 transformer: src_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-10 17:45:39,234 transformer: src_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,235 transformer: src_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,236 transformer: src_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,236 transformer: src_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,236 transformer: src_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,236 transformer: trg_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-10 17:45:39,237 transformer: trg_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-10 17:45:39,237 transformer: trg_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,237 transformer: trg_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,238 transformer: trg_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: trg_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: trg_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,239 transformer: cross_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,240 transformer: cross_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,241 transformer: cross_encoder.layers.1.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.1.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.2.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,242 transformer: cross_encoder.layers.2.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,243 transformer: cross_encoder.layers.2.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-10 17:45:39,244 transformer: cross_encoder.layers.2.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,244 transformer: cross_encoder.layers.2.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-10 17:45:39,244 transformer: cross_encoder.layers.2.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-10 17:45:39,244 transformer: cross_encoder.layers.2.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-10 17:45:39,244 transformer: cross_encoder.layers.2.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,244 transformer: cross_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,244 transformer: cross_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-10 17:45:39,244 transformer: logit.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-10 17:45:39,244 transformer: logit.bias, shape=torch.Size([10650]), num:10650
+2022-03-10 17:45:39,245 transformer: cls.weight, shape=torch.Size([2, 512]), num:1024
+2022-03-10 17:45:39,245 transformer: cls.bias, shape=torch.Size([2]), num:2
+2022-03-10 17:45:39,245 transformer: attr_cls.weight, shape=torch.Size([965, 512]), num:494080
+2022-03-10 17:45:39,245 transformer: attr_cls.bias, shape=torch.Size([965]), num:965
+2022-03-10 17:45:39,245 num params 120, num weights 37144417
+2022-03-10 17:45:39,246 trainable: num params 95, num weights 22775137
+2022-03-10 17:45:39,746 text size 36000
+2022-03-10 17:45:40,596 text size 36000
+2022-03-10 17:45:41,278 text size 36000
+2022-03-10 17:45:43,263 text size 2000
+2022-03-10 17:45:43,952 text size 2000
+2022-03-10 17:45:44,303 text size 2000
+2022-03-10 17:45:58,716 	trn step 100 loss: 0.7612
+2022-03-10 17:46:12,018 	trn step 200 loss: 7.3228
+2022-03-10 17:46:25,201 	trn step 300 loss: 0.6825
+2022-03-10 17:46:39,056 	trn step 400 loss: 6.4295
+2022-03-10 17:46:53,120 	trn step 500 loss: 5.8928
+2022-03-10 17:47:08,134 	trn step 600 loss: 5.7344
+2022-03-10 17:47:22,170 	trn step 700 loss: 5.6303
+2022-03-10 17:47:36,622 	trn step 800 loss: 5.4440
+2022-03-10 17:47:51,422 	trn step 900 loss: 5.2313
+2022-03-10 17:48:15,670 	val step 1000: mlm_avg_acc 0.1416 itm_avg_acc 0.1806 attp_r@1 0.0394 attp_r@5 0.1032 attp_p@1 0.1700 attp_p@5 0.0890
+2022-03-10 17:48:15,761 	trn step 1000 loss: 0.6996
+2022-03-10 17:48:29,280 	trn step 1100 loss: 0.7136
+2022-03-10 17:48:43,066 	trn step 1200 loss: 5.2324
+2022-03-10 17:48:56,390 	trn step 1300 loss: 4.9452
+2022-03-10 17:49:10,531 	trn step 1400 loss: 4.8107
+2022-03-10 17:49:23,979 	trn step 1500 loss: 4.8802
+2022-03-10 17:49:38,903 	trn step 1600 loss: 4.7388
+2022-03-10 17:49:53,237 	trn step 1700 loss: 4.8413
+2022-03-10 17:50:07,093 	trn step 1800 loss: 7.9277
+2022-03-10 17:50:21,108 	trn step 1900 loss: 4.6014
+2022-03-10 17:50:49,968 	val step 2000: mlm_avg_acc 0.2430 itm_avg_acc 0.2673 attp_r@1 0.0457 attp_r@5 0.1361 attp_p@1 0.1970 attp_p@5 0.1173
+2022-03-10 17:50:50,117 	trn step 2000 loss: 4.3084
+2022-03-10 17:51:03,536 	trn step 2100 loss: 4.3575
+2022-03-10 17:51:16,980 	trn step 2200 loss: 4.3540
+2022-03-10 17:51:32,020 	trn step 2300 loss: 3.9926
+2022-03-10 17:51:45,683 	trn step 2400 loss: 3.9891
+2022-03-10 17:51:59,497 	trn step 2500 loss: 3.9895
+2022-03-10 17:52:13,879 	trn step 2600 loss: 3.8749
+2022-03-10 17:52:28,378 	trn step 2700 loss: 3.5922
+2022-03-10 17:52:42,407 	trn step 2800 loss: 3.5930
+2022-03-10 17:52:56,696 	trn step 2900 loss: 3.2748
+2022-03-10 17:53:22,797 	val step 3000: mlm_avg_acc 0.4301 itm_avg_acc 0.4363 attp_r@1 0.0577 attp_r@5 0.1839 attp_p@1 0.2485 attp_p@5 0.1585
+2022-03-10 17:53:22,933 	trn step 3000 loss: 3.3091
+2022-03-10 17:53:38,038 	trn step 3100 loss: 2.8762
+2022-03-10 17:53:51,719 	trn step 3200 loss: 2.7787
+2022-03-10 17:54:05,900 	trn step 3300 loss: 3.0073
+2022-03-10 17:54:19,423 	trn step 3400 loss: 2.7581
+2022-03-10 17:54:33,153 	trn step 3500 loss: 2.9875
+2022-03-10 17:54:47,515 	trn step 3600 loss: 0.6934
+2022-03-10 17:55:01,017 	trn step 3700 loss: 2.6584
+2022-03-10 17:55:15,932 	trn step 3800 loss: 2.4088
+2022-03-10 17:55:29,521 	trn step 3900 loss: 2.7852
+2022-03-10 17:55:54,156 	val step 4000: mlm_avg_acc 0.5428 itm_avg_acc 0.5385 attp_r@1 0.0684 attp_r@5 0.2065 attp_p@1 0.2950 attp_p@5 0.1780
+2022-03-10 17:55:54,330 	trn step 4000 loss: 2.3373
+2022-03-10 17:56:08,256 	trn step 4100 loss: 7.5703
+2022-03-10 17:56:22,358 	trn step 4200 loss: 2.3026
+2022-03-10 17:56:36,251 	trn step 4300 loss: 2.3364
+2022-03-10 17:56:49,644 	trn step 4400 loss: 2.5423
+2022-03-10 17:57:04,158 	trn step 4500 loss: 2.0421
+2022-03-10 17:57:19,574 	trn step 4600 loss: 2.0748
+2022-03-10 17:57:33,832 	trn step 4700 loss: 0.6982
+2022-03-10 17:57:47,469 	trn step 4800 loss: 2.1524
+2022-03-10 17:58:00,677 	trn step 4900 loss: 2.3545
+2022-03-10 17:58:26,167 	val step 5000: mlm_avg_acc 0.6111 itm_avg_acc 0.6003 attp_r@1 0.0697 attp_r@5 0.2084 attp_p@1 0.3005 attp_p@5 0.1796
+2022-03-10 17:58:26,316 	trn step 5000 loss: 1.9545
+2022-03-10 17:58:40,646 	trn step 5100 loss: 2.0212
+2022-03-10 17:58:54,332 	trn step 5200 loss: 1.7326
+2022-03-10 17:59:07,701 	trn step 5300 loss: 1.8150
+2022-03-10 17:59:21,926 	trn step 5400 loss: 2.0036
+2022-03-10 17:59:37,628 	trn step 5500 loss: 1.7233
+2022-03-10 17:59:52,700 	trn step 5600 loss: 0.6784
+2022-03-10 18:00:05,564 	trn step 5700 loss: 0.6704
+2022-03-10 18:00:19,647 	trn step 5800 loss: 2.0496
+2022-03-10 18:00:33,323 	trn step 5900 loss: 0.6788
+2022-03-10 18:00:57,854 	val step 6000: mlm_avg_acc 0.6460 itm_avg_acc 0.6345 attp_r@1 0.0769 attp_r@5 0.2303 attp_p@1 0.3315 attp_p@5 0.1985
+2022-03-10 18:00:57,986 	trn step 6000 loss: 2.0832
+2022-03-10 18:01:12,301 	trn step 6100 loss: 1.9422
+2022-03-10 18:01:27,189 	trn step 6200 loss: 1.9890
+2022-03-10 18:01:41,301 	trn step 6300 loss: 0.7202
+2022-03-10 18:01:54,343 	trn step 6400 loss: 0.6681
+2022-03-10 18:02:07,751 	trn step 6500 loss: 7.0971
+2022-03-10 18:02:22,799 	trn step 6600 loss: 2.0754
+2022-03-10 18:02:35,578 	trn step 6700 loss: 0.7423
+2022-03-10 18:02:50,083 	trn step 6800 loss: 0.6709
+2022-03-10 18:03:04,644 	trn step 6900 loss: 1.9296
+2022-03-10 18:03:31,933 	val step 7000: mlm_avg_acc 0.6706 itm_avg_acc 0.6581 attp_r@1 0.0748 attp_r@5 0.2219 attp_p@1 0.3225 attp_p@5 0.1913
+2022-03-10 18:03:32,123 	trn step 7000 loss: 1.5552
+2022-03-10 18:03:45,921 	trn step 7100 loss: 1.6689
+2022-03-10 18:03:59,436 	trn step 7200 loss: 1.6217
+2022-03-10 18:04:13,078 	trn step 7300 loss: 7.2661
+2022-03-10 18:04:26,076 	trn step 7400 loss: 1.8312
+2022-03-10 18:04:39,196 	trn step 7500 loss: 0.6606
+2022-03-10 18:04:53,901 	trn step 7600 loss: 1.4329
+2022-03-10 18:05:09,433 	trn step 7700 loss: 1.6035
+2022-03-10 18:05:23,481 	trn step 7800 loss: 1.5802
+2022-03-10 18:05:36,999 	trn step 7900 loss: 1.3819
+2022-03-10 18:06:07,982 	val step 8000: mlm_avg_acc 0.6918 itm_avg_acc 0.6745 attp_r@1 0.0869 attp_r@5 0.2528 attp_p@1 0.3745 attp_p@5 0.2179
+2022-03-10 18:06:08,113 	trn step 8000 loss: 1.7867
+2022-03-10 18:06:21,538 	trn step 8100 loss: 1.4775
+2022-03-10 18:06:34,717 	trn step 8200 loss: 1.5751
+2022-03-10 18:06:48,574 	trn step 8300 loss: 2.0281
+2022-03-10 18:07:04,265 	trn step 8400 loss: 1.2913
+2022-03-10 18:07:18,486 	trn step 8500 loss: 0.6889
+2022-03-10 18:07:31,647 	trn step 8600 loss: 1.2885
+2022-03-10 18:07:45,052 	trn step 8700 loss: 1.4631
+2022-03-10 18:07:59,642 	trn step 8800 loss: 6.4641
+2022-03-10 18:08:13,371 	trn step 8900 loss: 1.4905
+2022-03-10 18:08:40,128 	val step 9000: mlm_avg_acc 0.7080 itm_avg_acc 0.6950 attp_r@1 0.0896 attp_r@5 0.2660 attp_p@1 0.3860 attp_p@5 0.2293
+2022-03-10 18:08:40,292 	trn step 9000 loss: 1.5736
+2022-03-10 18:08:54,372 	trn step 9100 loss: 6.4892
+2022-03-10 18:09:09,856 	trn step 9200 loss: 1.6618
+2022-03-10 18:09:24,355 	trn step 9300 loss: 1.4875
+2022-03-10 18:09:38,461 	trn step 9400 loss: 1.0410
+2022-03-10 18:09:52,740 	trn step 9500 loss: 1.3293
+2022-03-10 18:10:06,367 	trn step 9600 loss: 1.6625
+2022-03-10 18:10:19,905 	trn step 9700 loss: 1.3828
+2022-03-10 18:10:34,745 	trn step 9800 loss: 1.5996
+2022-03-10 18:10:49,086 	trn step 9900 loss: 0.6401
+2022-03-10 18:11:15,007 	val step 10000: mlm_avg_acc 0.7304 itm_avg_acc 0.7172 attp_r@1 0.0947 attp_r@5 0.2722 attp_p@1 0.4080 attp_p@5 0.2346
+2022-03-10 18:11:15,167 	trn step 10000 loss: 1.2257
+2022-03-10 18:11:30,748 	trn step 10100 loss: 0.6424
+2022-03-10 18:11:44,116 	trn step 10200 loss: 1.3648
+2022-03-10 18:11:57,833 	trn step 10300 loss: 1.4332
+2022-03-10 18:12:12,395 	trn step 10400 loss: 1.1777
+2022-03-10 18:12:28,523 	trn step 10500 loss: 1.2159
+2022-03-10 18:12:44,949 	trn step 10600 loss: 1.4977
+2022-03-10 18:12:58,645 	trn step 10700 loss: 6.4602
+2022-03-10 18:13:13,148 	trn step 10800 loss: 1.3421
+2022-03-10 18:13:27,260 	trn step 10900 loss: 1.3335
+2022-03-10 18:13:53,092 	val step 11000: mlm_avg_acc 0.7355 itm_avg_acc 0.7235 attp_r@1 0.0911 attp_r@5 0.2751 attp_p@1 0.3925 attp_p@5 0.2371
+2022-03-10 18:13:53,164 	trn step 11000 loss: 6.8589
+2022-03-10 18:14:08,469 	trn step 11100 loss: 0.6697
+2022-03-10 18:14:22,215 	trn step 11200 loss: 1.3445
+2022-03-10 18:14:35,498 	trn step 11300 loss: 1.1785
+2022-03-10 18:14:48,923 	trn step 11400 loss: 1.6146
+2022-03-10 18:15:03,515 	trn step 11500 loss: 1.2002
+2022-03-10 18:15:18,192 	trn step 11600 loss: 1.3141
+2022-03-10 18:15:31,708 	trn step 11700 loss: 0.6590
+2022-03-10 18:15:45,704 	trn step 11800 loss: 1.2176
+2022-03-10 18:16:00,683 	trn step 11900 loss: 1.3381
+2022-03-10 18:16:29,214 	val step 12000: mlm_avg_acc 0.7495 itm_avg_acc 0.7374 attp_r@1 0.0867 attp_r@5 0.2667 attp_p@1 0.3735 attp_p@5 0.2299
+2022-03-10 18:16:29,375 	trn step 12000 loss: 1.1002
+2022-03-10 18:16:43,043 	trn step 12100 loss: 1.4128
+2022-03-10 18:16:56,391 	trn step 12200 loss: 0.6037
+2022-03-10 18:17:10,232 	trn step 12300 loss: 0.6282
+2022-03-10 18:17:25,918 	trn step 12400 loss: 1.1112
+2022-03-10 18:17:39,045 	trn step 12500 loss: 1.2490
+2022-03-10 18:17:52,210 	trn step 12600 loss: 1.1747
+2022-03-10 18:18:07,860 	trn step 12700 loss: 1.2696
+2022-03-10 18:18:21,788 	trn step 12800 loss: 1.1660
+2022-03-10 18:18:35,410 	trn step 12900 loss: 6.4559
+2022-03-10 18:19:03,759 	val step 13000: mlm_avg_acc 0.7565 itm_avg_acc 0.7444 attp_r@1 0.1014 attp_r@5 0.2994 attp_p@1 0.4370 attp_p@5 0.2581
+2022-03-10 18:19:03,836 	trn step 13000 loss: 0.6209
+2022-03-10 18:19:18,776 	trn step 13100 loss: 1.4020
+2022-03-10 18:19:33,621 	trn step 13200 loss: 0.6150
+2022-03-10 18:19:48,554 	trn step 13300 loss: 0.6139
+2022-03-10 18:20:02,542 	trn step 13400 loss: 1.1589
+2022-03-10 18:20:16,419 	trn step 13500 loss: 1.3739
+2022-03-10 18:20:30,461 	trn step 13600 loss: 1.3588
+2022-03-10 18:20:44,277 	trn step 13700 loss: 1.0935
+2022-03-10 18:20:57,500 	trn step 13800 loss: 1.3119
+2022-03-10 18:21:12,536 	trn step 13900 loss: 1.2185
+2022-03-10 18:21:41,488 	val step 14000: mlm_avg_acc 0.7591 itm_avg_acc 0.7407 attp_r@1 0.1050 attp_r@5 0.3095 attp_p@1 0.4525 attp_p@5 0.2668
+2022-03-10 18:21:41,664 	trn step 14000 loss: 1.2593
+2022-03-10 18:21:55,718 	trn step 14100 loss: 0.6267
+2022-03-10 18:22:10,433 	trn step 14200 loss: 1.1382
+2022-03-10 18:22:23,627 	trn step 14300 loss: 1.0539
+2022-03-10 18:22:37,554 	trn step 14400 loss: 1.1525
+2022-03-10 18:22:50,541 	trn step 14500 loss: 0.9854
+2022-03-10 18:23:04,349 	trn step 14600 loss: 1.0160
+2022-03-10 18:23:18,628 	trn step 14700 loss: 6.1199
+2022-03-10 18:23:33,496 	trn step 14800 loss: 0.9207
+2022-03-10 18:23:47,016 	trn step 14900 loss: 0.6449
+2022-03-10 18:24:15,194 	val step 15000: mlm_avg_acc 0.7688 itm_avg_acc 0.7548 attp_r@1 0.1029 attp_r@5 0.3113 attp_p@1 0.4435 attp_p@5 0.2683
+2022-03-10 18:24:15,404 	trn step 15000 loss: 1.1089
+2022-03-10 18:24:29,336 	trn step 15100 loss: 6.4475
+2022-03-10 18:24:43,288 	trn step 15200 loss: 0.6129
+2022-03-10 18:24:56,564 	trn step 15300 loss: 1.1750
+2022-03-10 18:25:10,236 	trn step 15400 loss: 0.9859
+2022-03-10 18:25:24,959 	trn step 15500 loss: 0.5773
+2022-03-10 18:25:39,291 	trn step 15600 loss: 1.1298
+2022-03-10 18:25:53,304 	trn step 15700 loss: 1.0662
+2022-03-10 18:26:08,018 	trn step 15800 loss: 1.0978
+2022-03-10 18:26:22,173 	trn step 15900 loss: 1.1225
+2022-03-10 18:26:49,880 	val step 16000: mlm_avg_acc 0.7711 itm_avg_acc 0.7610 attp_r@1 0.1111 attp_r@5 0.3254 attp_p@1 0.4790 attp_p@5 0.2805
+2022-03-10 18:26:49,944 	trn step 16000 loss: 0.5196
+2022-03-10 18:27:03,530 	trn step 16100 loss: 1.2407
+2022-03-10 18:27:17,088 	trn step 16200 loss: 0.9949
+2022-03-10 18:27:33,330 	trn step 16300 loss: 1.1360
+2022-03-10 18:27:46,988 	trn step 16400 loss: 1.0148
+2022-03-10 18:28:01,314 	trn step 16500 loss: 6.9225
+2022-03-10 18:28:14,787 	trn step 16600 loss: 0.8903
+2022-03-10 18:28:28,081 	trn step 16700 loss: 1.0609
+2022-03-10 18:28:41,869 	trn step 16800 loss: 0.9380
+2022-03-10 18:28:56,066 	trn step 16900 loss: 1.0933
+2022-03-10 18:29:28,194 	val step 17000: mlm_avg_acc 0.7741 itm_avg_acc 0.7616 attp_r@1 0.1096 attp_r@5 0.3258 attp_p@1 0.4725 attp_p@5 0.2808
+2022-03-10 18:29:28,280 	trn step 17000 loss: 6.3716
+2022-03-10 18:29:42,088 	trn step 17100 loss: 1.4132
+2022-03-10 18:29:56,295 	trn step 17200 loss: 1.1582
+2022-03-10 18:30:09,894 	trn step 17300 loss: 1.0270
+2022-03-10 18:30:23,615 	trn step 17400 loss: 0.9652
+2022-03-10 18:30:37,423 	trn step 17500 loss: 0.8667
+2022-03-10 18:30:50,923 	trn step 17600 loss: 6.1557
+2022-03-10 18:31:04,926 	trn step 17700 loss: 1.1046
+2022-03-10 18:31:21,224 	trn step 17800 loss: 1.2367
+2022-03-10 18:31:35,555 	trn step 17900 loss: 1.0445
+2022-03-10 18:32:04,377 	val step 18000: mlm_avg_acc 0.7833 itm_avg_acc 0.7693 attp_r@1 0.1094 attp_r@5 0.3202 attp_p@1 0.4715 attp_p@5 0.2760
+2022-03-10 18:32:04,513 	trn step 18000 loss: 1.1432
+2022-03-10 18:32:18,066 	trn step 18100 loss: 1.0302
+2022-03-10 18:32:31,841 	trn step 18200 loss: 1.1823
+2022-03-10 18:32:44,900 	trn step 18300 loss: 1.1764
+2022-03-10 18:33:01,584 	trn step 18400 loss: 6.7048
+2022-03-10 18:33:14,763 	trn step 18500 loss: 1.0828
+2022-03-10 18:33:31,055 	trn step 18600 loss: 1.0088
+2022-03-10 18:33:44,741 	trn step 18700 loss: 1.0791
+2022-03-10 18:33:58,623 	trn step 18800 loss: 1.1109
+2022-03-10 18:34:12,904 	trn step 18900 loss: 0.6212
+2022-03-10 18:34:41,237 	val step 19000: mlm_avg_acc 0.7802 itm_avg_acc 0.7678 attp_r@1 0.1104 attp_r@5 0.3363 attp_p@1 0.4760 attp_p@5 0.2899
+2022-03-10 18:34:41,332 	trn step 19000 loss: 0.6263
+2022-03-10 18:34:55,651 	trn step 19100 loss: 0.9425
+2022-03-10 18:35:09,322 	trn step 19200 loss: 0.5706
+2022-03-10 18:35:24,785 	trn step 19300 loss: 1.2151
+2022-03-10 18:35:37,662 	trn step 19400 loss: 6.9902
+2022-03-10 18:35:51,476 	trn step 19500 loss: 0.8933
+2022-03-10 18:36:04,344 	trn step 19600 loss: 1.1923
+2022-03-10 18:36:18,399 	trn step 19700 loss: 1.0852
+2022-03-10 18:36:32,081 	trn step 19800 loss: 1.0267
+2022-03-10 18:36:46,227 	trn step 19900 loss: 0.9474
+2022-03-10 18:37:14,180 	val step 20000: mlm_avg_acc 0.7867 itm_avg_acc 0.7759 attp_r@1 0.1176 attp_r@5 0.3517 attp_p@1 0.5070 attp_p@5 0.3032
+2022-03-10 18:37:14,273 	trn step 20000 loss: 0.6028
+2022-03-10 18:37:29,462 	trn step 20100 loss: 0.5306
+2022-03-10 18:37:42,602 	trn step 20200 loss: 0.6031
+2022-03-10 18:37:55,518 	trn step 20300 loss: 0.9791
+2022-03-10 18:38:09,229 	trn step 20400 loss: 1.0206
+2022-03-10 18:38:22,814 	trn step 20500 loss: 6.6048
+2022-03-10 18:38:36,601 	trn step 20600 loss: 0.9739
+2022-03-10 18:38:50,299 	trn step 20700 loss: 5.5865
+2022-03-10 18:39:05,389 	trn step 20800 loss: 1.0472
+2022-03-10 18:39:20,267 	trn step 20900 loss: 1.0412
+2022-03-10 18:39:45,156 	val step 21000: mlm_avg_acc 0.7896 itm_avg_acc 0.7809 attp_r@1 0.1148 attp_r@5 0.3425 attp_p@1 0.4950 attp_p@5 0.2952
+2022-03-10 18:39:45,284 	trn step 21000 loss: 1.1364
+2022-03-10 18:39:58,441 	trn step 21100 loss: 1.1228
+2022-03-10 18:40:12,019 	trn step 21200 loss: 0.5860
+2022-03-10 18:40:27,107 	trn step 21300 loss: 0.9284
+2022-03-10 18:40:40,032 	trn step 21400 loss: 1.1710
+2022-03-10 18:40:54,855 	trn step 21500 loss: 1.0319
+2022-03-10 18:41:08,433 	trn step 21600 loss: 1.0304
+2022-03-10 18:41:22,718 	trn step 21700 loss: 0.5309
+2022-03-10 18:41:37,144 	trn step 21800 loss: 0.4633
+2022-03-10 18:41:50,086 	trn step 21900 loss: 1.0261
+2022-03-10 18:42:14,783 	val step 22000: mlm_avg_acc 0.7908 itm_avg_acc 0.7793 attp_r@1 0.1206 attp_r@5 0.3515 attp_p@1 0.5200 attp_p@5 0.3030
+2022-03-10 18:42:14,930 	trn step 22000 loss: 1.0554
+2022-03-10 18:42:28,974 	trn step 22100 loss: 1.0537
+2022-03-10 18:42:42,613 	trn step 22200 loss: 0.5260
+2022-03-10 18:42:56,705 	trn step 22300 loss: 1.0470
+2022-03-10 18:43:11,087 	trn step 22400 loss: 1.1837
+2022-03-10 18:43:25,257 	trn step 22500 loss: 0.5218
+2022-03-10 18:43:39,282 	trn step 22600 loss: 1.0624
+2022-03-10 18:43:53,972 	trn step 22700 loss: 0.8052
+2022-03-10 18:44:07,700 	trn step 22800 loss: 0.9931
+2022-03-10 18:44:21,335 	trn step 22900 loss: 1.0028
+2022-03-10 18:44:50,251 	val step 23000: mlm_avg_acc 0.8032 itm_avg_acc 0.7928 attp_r@1 0.1193 attp_r@5 0.3480 attp_p@1 0.5140 attp_p@5 0.3000
+2022-03-10 18:44:50,412 	trn step 23000 loss: 1.1358
+2022-03-10 18:45:04,523 	trn step 23100 loss: 0.9484
+2022-03-10 18:45:19,780 	trn step 23200 loss: 0.9325
+2022-03-10 18:45:33,594 	trn step 23300 loss: 1.0418
+2022-03-10 18:45:47,211 	trn step 23400 loss: 1.1755
+2022-03-10 18:46:02,177 	trn step 23500 loss: 0.5098
+2022-03-10 18:46:16,450 	trn step 23600 loss: 1.0149
+2022-03-10 18:46:30,634 	trn step 23700 loss: 0.8511
+2022-03-10 18:46:44,184 	trn step 23800 loss: 0.9360
+2022-03-10 18:46:57,905 	trn step 23900 loss: 1.0425
+2022-03-10 18:47:24,704 	val step 24000: mlm_avg_acc 0.7985 itm_avg_acc 0.7899 attp_r@1 0.1247 attp_r@5 0.3636 attp_p@1 0.5375 attp_p@5 0.3134
+2022-03-10 18:47:24,870 	trn step 24000 loss: 0.8658
+2022-03-10 18:47:38,606 	trn step 24100 loss: 1.0147
+2022-03-10 18:47:51,898 	trn step 24200 loss: 0.4965
+2022-03-10 18:48:04,687 	trn step 24300 loss: 0.9098
+2022-03-10 18:48:17,789 	trn step 24400 loss: 0.5876
+2022-03-10 18:48:30,810 	trn step 24500 loss: 5.9340
+2022-03-10 18:48:44,661 	trn step 24600 loss: 1.0567
+2022-03-10 18:48:57,876 	trn step 24700 loss: 0.8222
+2022-03-10 18:49:12,970 	trn step 24800 loss: 1.0738
+2022-03-10 18:49:26,454 	trn step 24900 loss: 0.9375
+2022-03-10 18:49:51,996 	val step 25000: mlm_avg_acc 0.7964 itm_avg_acc 0.7886 attp_r@1 0.1287 attp_r@5 0.3673 attp_p@1 0.5545 attp_p@5 0.3166
+2022-03-10 18:49:52,248 	trn step 25000 loss: 0.8575
+2022-03-10 18:50:06,626 	trn step 25100 loss: 1.0461
+2022-03-10 18:50:19,359 	trn step 25200 loss: 0.9597
+2022-03-10 18:50:33,217 	trn step 25300 loss: 0.9119
+2022-03-10 18:50:46,542 	trn step 25400 loss: 0.8684
+2022-03-10 18:51:00,700 	trn step 25500 loss: 0.9773
+2022-03-10 18:51:15,882 	trn step 25600 loss: 0.7851
+2022-03-10 18:51:29,638 	trn step 25700 loss: 0.4692
+2022-03-10 18:51:43,751 	trn step 25800 loss: 0.7226
+2022-03-10 18:51:57,585 	trn step 25900 loss: 6.1622
+2022-03-10 18:52:22,679 	val step 26000: mlm_avg_acc 0.8028 itm_avg_acc 0.7912 attp_r@1 0.1246 attp_r@5 0.3720 attp_p@1 0.5370 attp_p@5 0.3207
+2022-03-10 18:52:22,773 	trn step 26000 loss: 5.9732
+2022-03-10 18:52:37,818 	trn step 26100 loss: 0.8115
+2022-03-10 18:52:51,484 	trn step 26200 loss: 0.9750
+2022-03-10 18:53:06,170 	trn step 26300 loss: 0.7223
+2022-03-10 18:53:20,851 	trn step 26400 loss: 0.9065
+2022-03-10 18:53:34,519 	trn step 26500 loss: 0.8889
+2022-03-10 18:53:48,504 	trn step 26600 loss: 0.5337
+2022-03-10 18:54:02,443 	trn step 26700 loss: 0.5844
+2022-03-10 18:54:15,979 	trn step 26800 loss: 0.8577
+2022-03-10 18:54:29,008 	trn step 26900 loss: 0.6865
+2022-03-10 18:54:53,371 	val step 27000: mlm_avg_acc 0.7957 itm_avg_acc 0.7874 attp_r@1 0.1259 attp_r@5 0.3734 attp_p@1 0.5425 attp_p@5 0.3219
+2022-03-10 18:54:53,436 	trn step 27000 loss: 0.4612
+2022-03-10 18:55:08,198 	trn step 27100 loss: 0.9282
+2022-03-10 18:55:21,444 	trn step 27200 loss: 5.9554
+2022-03-10 18:55:35,192 	trn step 27300 loss: 0.9280
+2022-03-10 18:55:49,343 	trn step 27400 loss: 0.8915
+2022-03-10 18:56:03,329 	trn step 27500 loss: 0.9370
+2022-03-10 18:56:17,553 	trn step 27600 loss: 0.5993
+2022-03-10 18:56:31,298 	trn step 27700 loss: 0.9094
+2022-03-10 18:56:44,510 	trn step 27800 loss: 0.8946
+2022-03-10 18:56:58,455 	trn step 27900 loss: 6.5756
+2022-03-10 18:57:23,713 	val step 28000: mlm_avg_acc 0.8088 itm_avg_acc 0.7987 attp_r@1 0.1277 attp_r@5 0.3755 attp_p@1 0.5505 attp_p@5 0.3237
+2022-03-10 18:57:23,861 	trn step 28000 loss: 0.9676
+2022-03-10 18:57:38,348 	trn step 28100 loss: 0.8274
+2022-03-10 18:57:52,988 	trn step 28200 loss: 6.5567
+2022-03-10 18:58:06,805 	trn step 28300 loss: 6.5830
+2022-03-10 18:58:21,139 	trn step 28400 loss: 0.8574
+2022-03-10 18:58:34,821 	trn step 28500 loss: 0.7053
+2022-03-10 18:58:49,262 	trn step 28600 loss: 0.9747
+2022-03-10 18:59:04,013 	trn step 28700 loss: 0.7134
+2022-03-10 18:59:17,684 	trn step 28800 loss: 0.8347
+2022-03-10 18:59:31,549 	trn step 28900 loss: 0.7716
+2022-03-10 18:59:57,325 	val step 29000: mlm_avg_acc 0.8087 itm_avg_acc 0.7985 attp_r@1 0.1277 attp_r@5 0.3806 attp_p@1 0.5505 attp_p@5 0.3281
+2022-03-10 18:59:57,456 	trn step 29000 loss: 1.1247
+2022-03-10 19:00:11,652 	trn step 29100 loss: 6.9230
+2022-03-10 19:00:24,398 	trn step 29200 loss: 0.9484
+2022-03-10 19:00:37,734 	trn step 29300 loss: 0.8263
+2022-03-10 19:00:52,568 	trn step 29400 loss: 0.5642
+2022-03-10 19:01:06,378 	trn step 29500 loss: 0.9277
+2022-03-10 19:01:19,569 	trn step 29600 loss: 0.8208
+2022-03-10 19:01:32,711 	trn step 29700 loss: 0.7599
+2022-03-10 19:01:46,921 	trn step 29800 loss: 1.0048
+2022-03-10 19:02:00,738 	trn step 29900 loss: 1.0036
+2022-03-10 19:02:26,770 	val step 30000: mlm_avg_acc 0.8032 itm_avg_acc 0.7953 attp_r@1 0.1333 attp_r@5 0.3871 attp_p@1 0.5745 attp_p@5 0.3337
+2022-03-10 19:02:26,918 	trn step 30000 loss: 0.8288
+2022-03-10 19:02:40,509 	trn step 30100 loss: 0.9820
+2022-03-10 19:02:55,110 	trn step 30200 loss: 0.9523
+2022-03-10 19:03:09,132 	trn step 30300 loss: 0.9184
+2022-03-10 19:03:22,794 	trn step 30400 loss: 0.9228
+2022-03-10 19:03:36,270 	trn step 30500 loss: 6.0948
+2022-03-10 19:03:50,219 	trn step 30600 loss: 0.8476
+2022-03-10 19:04:03,801 	trn step 30700 loss: 0.5286
+2022-03-10 19:04:16,902 	trn step 30800 loss: 0.9899
+2022-03-10 19:04:30,616 	trn step 30900 loss: 0.5433
+2022-03-10 19:04:55,969 	val step 31000: mlm_avg_acc 0.8051 itm_avg_acc 0.7961 attp_r@1 0.1333 attp_r@5 0.3915 attp_p@1 0.5745 attp_p@5 0.3375
+2022-03-10 19:04:56,115 	trn step 31000 loss: 0.9290
+2022-03-10 19:05:09,986 	trn step 31100 loss: 0.9366
+2022-03-10 19:05:23,921 	trn step 31200 loss: 0.4981
+2022-03-10 19:05:37,170 	trn step 31300 loss: 0.9274
+2022-03-10 19:05:52,448 	trn step 31400 loss: 0.9318
+2022-03-10 19:06:07,769 	trn step 31500 loss: 0.8329
+2022-03-10 19:06:20,697 	trn step 31600 loss: 0.4894
+2022-03-10 19:06:36,165 	trn step 31700 loss: 0.7769
+2022-03-10 19:06:50,128 	trn step 31800 loss: 0.9256
+2022-03-10 19:07:04,312 	trn step 31900 loss: 0.4984
+2022-03-10 19:07:28,788 	val step 32000: mlm_avg_acc 0.8125 itm_avg_acc 0.8043 attp_r@1 0.1352 attp_r@5 0.3914 attp_p@1 0.5825 attp_p@5 0.3374
+2022-03-10 19:07:28,950 	trn step 32000 loss: 0.7761
+2022-03-10 19:07:42,559 	trn step 32100 loss: 0.8563
+2022-03-10 19:07:56,719 	trn step 32200 loss: 0.9060
+2022-03-10 19:08:10,438 	trn step 32300 loss: 0.5322
+2022-03-10 19:08:24,203 	trn step 32400 loss: 0.8278
+2022-03-10 19:08:38,810 	trn step 32500 loss: 0.8818
+2022-03-10 19:08:52,700 	trn step 32600 loss: 0.8199
+2022-03-10 19:09:06,625 	trn step 32700 loss: 1.0487
+2022-03-10 19:09:20,856 	trn step 32800 loss: 0.7138
+2022-03-10 19:09:34,053 	trn step 32900 loss: 0.7225
+2022-03-10 19:09:59,531 	val step 33000: mlm_avg_acc 0.8108 itm_avg_acc 0.7986 attp_r@1 0.1298 attp_r@5 0.3881 attp_p@1 0.5595 attp_p@5 0.3345
+2022-03-10 19:09:59,599 	trn step 33000 loss: 0.6002
+2022-03-10 19:10:13,728 	trn step 33100 loss: 0.4751
+2022-03-10 19:10:28,977 	trn step 33200 loss: 6.4055
+2022-03-10 19:10:42,413 	trn step 33300 loss: 0.5064
+2022-03-10 19:10:56,250 	trn step 33400 loss: 0.9776
+2022-03-10 19:11:09,715 	trn step 33500 loss: 0.7148
+2022-03-10 19:11:23,998 	trn step 33600 loss: 0.4551
+2022-03-10 19:11:37,645 	trn step 33700 loss: 0.8172
+2022-03-10 19:11:51,840 	trn step 33800 loss: 0.8509
+2022-03-10 19:12:05,307 	trn step 33900 loss: 0.9957
+2022-03-10 19:12:32,785 	val step 34000: mlm_avg_acc 0.8068 itm_avg_acc 0.7989 attp_r@1 0.1341 attp_r@5 0.3964 attp_p@1 0.5780 attp_p@5 0.3417
+2022-03-10 19:12:32,889 	trn step 34000 loss: 0.4576
+2022-03-10 19:12:46,342 	trn step 34100 loss: 5.9374
+2022-03-10 19:13:00,378 	trn step 34200 loss: 0.5841
+2022-03-10 19:13:14,114 	trn step 34300 loss: 0.8265
+2022-03-10 19:13:27,961 	trn step 34400 loss: 0.7248
+2022-03-10 19:13:42,435 	trn step 34500 loss: 0.8704
+2022-03-10 19:13:56,081 	trn step 34600 loss: 0.9537
+2022-03-10 19:14:10,352 	trn step 34700 loss: 0.4566
+2022-03-10 19:14:25,301 	trn step 34800 loss: 0.8976
+2022-03-10 19:14:39,104 	trn step 34900 loss: 0.8304
+2022-03-10 19:15:05,036 	val step 35000: mlm_avg_acc 0.8096 itm_avg_acc 0.8014 attp_r@1 0.1394 attp_r@5 0.3998 attp_p@1 0.6010 attp_p@5 0.3446
+2022-03-10 19:15:05,183 	trn step 35000 loss: 0.9046
+2022-03-10 19:15:18,996 	trn step 35100 loss: 0.9833
+2022-03-10 19:15:32,496 	trn step 35200 loss: 0.8980
+2022-03-10 19:15:46,530 	trn step 35300 loss: 6.2089
+2022-03-10 19:16:00,117 	trn step 35400 loss: 0.8697
+2022-03-10 19:16:14,079 	trn step 35500 loss: 0.5004
+2022-03-10 19:16:28,153 	trn step 35600 loss: 6.8278
+2022-03-10 19:16:41,175 	trn step 35700 loss: 1.0785
+2022-03-10 19:16:55,064 	trn step 35800 loss: 0.8813
+2022-03-10 19:17:08,373 	trn step 35900 loss: 0.8671
+2022-03-10 19:17:32,442 	val step 36000: mlm_avg_acc 0.8097 itm_avg_acc 0.8021 attp_r@1 0.1379 attp_r@5 0.3932 attp_p@1 0.5945 attp_p@5 0.3389
+2022-03-10 19:17:32,606 	trn step 36000 loss: 0.8588
+2022-03-10 19:17:46,131 	trn step 36100 loss: 0.7882
+2022-03-10 19:18:00,103 	trn step 36200 loss: 0.8516
+2022-03-10 19:18:13,692 	trn step 36300 loss: 0.7759
+2022-03-10 19:18:28,881 	trn step 36400 loss: 6.6240
+2022-03-10 19:18:42,671 	trn step 36500 loss: 0.5039
+2022-03-10 19:18:57,191 	trn step 36600 loss: 0.6674
+2022-03-10 19:19:12,020 	trn step 36700 loss: 0.3909
+2022-03-10 19:19:24,861 	trn step 36800 loss: 6.6320
+2022-03-10 19:19:38,875 	trn step 36900 loss: 0.4305
+2022-03-10 19:20:03,515 	val step 37000: mlm_avg_acc 0.8174 itm_avg_acc 0.8090 attp_r@1 0.1391 attp_r@5 0.4036 attp_p@1 0.5995 attp_p@5 0.3479
+2022-03-10 19:20:03,583 	trn step 37000 loss: 0.3558
+2022-03-10 19:20:18,015 	trn step 37100 loss: 0.5398
+2022-03-10 19:20:32,188 	trn step 37200 loss: 0.9544
+2022-03-10 19:20:46,927 	trn step 37300 loss: 0.8231
+2022-03-10 19:21:01,160 	trn step 37400 loss: 0.8672
+2022-03-10 19:21:14,239 	trn step 37500 loss: 0.6938
+2022-03-10 19:21:28,344 	trn step 37600 loss: 0.7894
+2022-03-10 19:21:42,126 	trn step 37700 loss: 7.2650
+2022-03-10 19:21:55,860 	trn step 37800 loss: 0.7081
+2022-03-10 19:22:10,005 	trn step 37900 loss: 0.8906
+2022-03-10 19:22:33,808 	val step 38000: mlm_avg_acc 0.8100 itm_avg_acc 0.8026 attp_r@1 0.1382 attp_r@5 0.4072 attp_p@1 0.5955 attp_p@5 0.3510
+2022-03-10 19:22:33,970 	trn step 38000 loss: 0.8508
+2022-03-10 19:22:48,124 	trn step 38100 loss: 0.3071
+2022-03-10 19:23:01,989 	trn step 38200 loss: 0.6991
+2022-03-10 19:23:16,086 	trn step 38300 loss: 0.4445
+2022-03-10 19:23:29,806 	trn step 38400 loss: 0.8293
+2022-03-10 19:23:44,077 	trn step 38500 loss: 0.7441
+2022-03-10 19:23:57,473 	trn step 38600 loss: 0.7119
+2022-03-10 19:24:11,760 	trn step 38700 loss: 0.8350
+2022-03-10 19:24:25,360 	trn step 38800 loss: 0.9614
+2022-03-10 19:24:39,135 	trn step 38900 loss: 0.8411
+2022-03-10 19:25:05,366 	val step 39000: mlm_avg_acc 0.8118 itm_avg_acc 0.8053 attp_r@1 0.1382 attp_r@5 0.4065 attp_p@1 0.5955 attp_p@5 0.3504
+2022-03-10 19:25:05,525 	trn step 39000 loss: 0.6417
+2022-03-10 19:25:19,359 	trn step 39100 loss: 0.8800
+2022-03-10 19:25:32,999 	trn step 39200 loss: 0.8607
+2022-03-10 19:25:47,572 	trn step 39300 loss: 0.8808
+2022-03-10 19:26:02,077 	trn step 39400 loss: 0.8172
+2022-03-10 19:26:15,234 	trn step 39500 loss: 0.4395
+2022-03-10 19:26:29,555 	trn step 39600 loss: 0.8095
+2022-03-10 19:26:43,565 	trn step 39700 loss: 6.2315
+2022-03-10 19:26:57,465 	trn step 39800 loss: 0.5159
+2022-03-10 19:27:11,029 	trn step 39900 loss: 0.8107
+2022-03-10 19:27:35,554 	val step 40000: mlm_avg_acc 0.8194 itm_avg_acc 0.8102 attp_r@1 0.1348 attp_r@5 0.4106 attp_p@1 0.5810 attp_p@5 0.3539
+2022-03-10 19:27:35,701 	trn step 40000 loss: 0.9287
+2022-03-10 19:27:50,054 	trn step 40100 loss: 6.7014
+2022-03-10 19:28:05,198 	trn step 40200 loss: 0.9209
+2022-03-10 19:28:19,420 	trn step 40300 loss: 0.6646
+2022-03-10 19:28:32,731 	trn step 40400 loss: 0.6328
+2022-03-10 19:28:46,841 	trn step 40500 loss: 6.1432
+2022-03-10 19:29:01,551 	trn step 40600 loss: 6.4881
+2022-03-10 19:29:15,406 	trn step 40700 loss: 0.7780
+2022-03-10 19:29:29,389 	trn step 40800 loss: 0.5736
+2022-03-10 19:29:44,497 	trn step 40900 loss: 0.6508
+2022-03-10 19:30:12,096 	val step 41000: mlm_avg_acc 0.8174 itm_avg_acc 0.8082 attp_r@1 0.1410 attp_r@5 0.4099 attp_p@1 0.6075 attp_p@5 0.3533
+2022-03-10 19:30:12,309 	trn step 41000 loss: 0.8104
+2022-03-10 19:30:25,661 	trn step 41100 loss: 0.5028
+2022-03-10 19:30:39,444 	trn step 41200 loss: 0.5280
+2022-03-10 19:30:53,617 	trn step 41300 loss: 0.8802
+2022-03-10 19:31:07,934 	trn step 41400 loss: 0.6629
+2022-03-10 19:31:22,425 	trn step 41500 loss: 0.4083
+2022-03-10 19:31:36,582 	trn step 41600 loss: 1.0801
+2022-03-10 19:31:51,090 	trn step 41700 loss: 0.6831
+2022-03-10 19:32:04,359 	trn step 41800 loss: 6.4195
+2022-03-10 19:32:17,086 	trn step 41900 loss: 0.6925
+2022-03-10 19:32:42,269 	val step 42000: mlm_avg_acc 0.8158 itm_avg_acc 0.8087 attp_r@1 0.1397 attp_r@5 0.4039 attp_p@1 0.6020 attp_p@5 0.3482
+2022-03-10 19:32:42,335 	trn step 42000 loss: 0.4696
+2022-03-10 19:32:57,640 	trn step 42100 loss: 0.6382
+2022-03-10 19:33:12,461 	trn step 42200 loss: 6.1041
+2022-03-10 19:33:26,643 	trn step 42300 loss: 6.4242
+2022-03-10 19:33:40,212 	trn step 42400 loss: 6.4346
+2022-03-10 19:33:54,096 	trn step 42500 loss: 0.6898
+2022-03-10 19:34:06,869 	trn step 42600 loss: 0.7975
+2022-03-10 19:34:20,538 	trn step 42700 loss: 0.7479
+2022-03-10 19:34:34,434 	trn step 42800 loss: 0.6229
+2022-03-10 19:34:47,994 	trn step 42900 loss: 0.8263
+2022-03-10 19:35:13,668 	val step 43000: mlm_avg_acc 0.8228 itm_avg_acc 0.8144 attp_r@1 0.1403 attp_r@5 0.4173 attp_p@1 0.6045 attp_p@5 0.3597
+2022-03-10 19:35:13,750 	trn step 43000 loss: 0.4139
+2022-03-10 19:35:27,483 	trn step 43100 loss: 0.9326
+2022-03-10 19:35:40,948 	trn step 43200 loss: 0.8202
+2022-03-10 19:35:55,994 	trn step 43300 loss: 0.8465
+2022-03-10 19:36:09,942 	trn step 43400 loss: 0.8959
+2022-03-10 19:36:23,977 	trn step 43500 loss: 0.5225
+2022-03-10 19:36:37,734 	trn step 43600 loss: 0.8397
+2022-03-10 19:36:51,511 	trn step 43700 loss: 0.8319
+2022-03-10 19:37:05,159 	trn step 43800 loss: 1.0602
+2022-03-10 19:37:18,762 	trn step 43900 loss: 0.7524
+2022-03-10 19:37:44,975 	val step 44000: mlm_avg_acc 0.8192 itm_avg_acc 0.8109 attp_r@1 0.1421 attp_r@5 0.4084 attp_p@1 0.6125 attp_p@5 0.3520
+2022-03-10 19:37:45,150 	trn step 44000 loss: 0.7550
+2022-03-10 19:37:58,165 	trn step 44100 loss: 0.6676
+2022-03-10 19:38:11,562 	trn step 44200 loss: 0.8357
+2022-03-10 19:38:25,597 	trn step 44300 loss: 0.7831
+2022-03-10 19:38:39,300 	trn step 44400 loss: 0.6789
+2022-03-10 19:38:52,839 	trn step 44500 loss: 0.5105
+2022-03-10 19:39:05,975 	trn step 44600 loss: 0.8060
+2022-03-10 19:39:19,761 	trn step 44700 loss: 0.7438
+2022-03-10 19:39:34,582 	trn step 44800 loss: 0.8398
+2022-03-10 19:39:48,884 	trn step 44900 loss: 0.6875
+2022-03-10 19:40:14,113 	val step 45000: mlm_avg_acc 0.8242 itm_avg_acc 0.8150 attp_r@1 0.1398 attp_r@5 0.4168 attp_p@1 0.6025 attp_p@5 0.3593
+2022-03-10 19:40:14,185 	trn step 45000 loss: 0.5584
+2022-03-10 19:40:28,750 	trn step 45100 loss: 0.7887
+2022-03-10 19:40:42,022 	trn step 45200 loss: 0.7581
+2022-03-10 19:40:55,975 	trn step 45300 loss: 0.4123
+2022-03-10 19:41:09,851 	trn step 45400 loss: 0.3974
+2022-03-10 19:41:24,193 	trn step 45500 loss: 0.8689
+2022-03-10 19:41:38,674 	trn step 45600 loss: 0.6990
+2022-03-10 19:41:52,534 	trn step 45700 loss: 0.2982
+2022-03-10 19:42:07,137 	trn step 45800 loss: 0.6113
+2022-03-10 19:42:21,193 	trn step 45900 loss: 0.7951
+2022-03-10 19:42:46,364 	val step 46000: mlm_avg_acc 0.8340 itm_avg_acc 0.8237 attp_r@1 0.1430 attp_r@5 0.4169 attp_p@1 0.6165 attp_p@5 0.3594
+2022-03-10 19:42:46,511 	trn step 46000 loss: 0.8339
+2022-03-10 19:43:00,377 	trn step 46100 loss: 0.7132
+2022-03-10 19:43:15,091 	trn step 46200 loss: 0.8200
+2022-03-10 19:43:29,388 	trn step 46300 loss: 0.7554
+2022-03-10 19:43:43,316 	trn step 46400 loss: 0.7394
+2022-03-10 19:43:57,523 	trn step 46500 loss: 0.8121
+2022-03-10 19:44:11,182 	trn step 46600 loss: 6.0950
+2022-03-10 19:44:24,715 	trn step 46700 loss: 0.4904
+2022-03-10 19:44:37,912 	trn step 46800 loss: 0.8507
+2022-03-10 19:44:51,955 	trn step 46900 loss: 0.8114
+2022-03-10 19:45:17,978 	val step 47000: mlm_avg_acc 0.8178 itm_avg_acc 0.8117 attp_r@1 0.1408 attp_r@5 0.4209 attp_p@1 0.6070 attp_p@5 0.3628
+2022-03-10 19:45:18,142 	trn step 47000 loss: 0.6448
+2022-03-10 19:45:33,690 	trn step 47100 loss: 0.4495
+2022-03-10 19:45:48,184 	trn step 47200 loss: 0.3741
+2022-03-10 19:46:01,937 	trn step 47300 loss: 0.7085
+2022-03-10 19:46:17,119 	trn step 47400 loss: 0.3923
+2022-03-10 19:46:31,167 	trn step 47500 loss: 0.9241
+2022-03-10 19:46:44,962 	trn step 47600 loss: 5.7039
+2022-03-10 19:46:58,284 	trn step 47700 loss: 0.4571
+2022-03-10 19:47:11,558 	trn step 47800 loss: 0.9671
+2022-03-10 19:47:26,558 	trn step 47900 loss: 0.7814
+2022-03-10 19:47:51,784 	val step 48000: mlm_avg_acc 0.8222 itm_avg_acc 0.8099 attp_r@1 0.1436 attp_r@5 0.4247 attp_p@1 0.6190 attp_p@5 0.3661
+2022-03-10 19:47:51,974 	trn step 48000 loss: 0.6044
+2022-03-10 19:48:05,742 	trn step 48100 loss: 0.4045
+2022-03-10 19:48:19,242 	trn step 48200 loss: 0.3630
+2022-03-10 19:48:32,426 	trn step 48300 loss: 0.6836
+2022-03-10 19:48:46,182 	trn step 48400 loss: 0.8386
+2022-03-10 19:48:59,539 	trn step 48500 loss: 5.6928
+2022-03-10 19:49:12,854 	trn step 48600 loss: 0.7941
+2022-03-10 19:49:27,135 	trn step 48700 loss: 0.7188
+2022-03-10 19:49:41,413 	trn step 48800 loss: 0.5739
+2022-03-10 19:49:55,409 	trn step 48900 loss: 6.3642
+2022-03-10 19:50:19,102 	val step 49000: mlm_avg_acc 0.8226 itm_avg_acc 0.8147 attp_r@1 0.1463 attp_r@5 0.4249 attp_p@1 0.6305 attp_p@5 0.3663
+2022-03-10 19:50:19,250 	trn step 49000 loss: 0.6856
+2022-03-10 19:50:34,148 	trn step 49100 loss: 0.8096
+2022-03-10 19:50:47,462 	trn step 49200 loss: 6.1914
+2022-03-10 19:51:01,270 	trn step 49300 loss: 0.6392
+2022-03-10 19:51:15,035 	trn step 49400 loss: 0.7241
+2022-03-10 19:51:29,720 	trn step 49500 loss: 0.9076
+2022-03-10 19:51:43,764 	trn step 49600 loss: 0.6863
+2022-03-10 19:51:57,666 	trn step 49700 loss: 0.8080
+2022-03-10 19:52:11,467 	trn step 49800 loss: 0.7957
+2022-03-10 19:52:24,817 	trn step 49900 loss: 0.6492
+2022-03-10 19:52:49,091 	val step 50000: mlm_avg_acc 0.8262 itm_avg_acc 0.8164 attp_r@1 0.1500 attp_r@5 0.4317 attp_p@1 0.6465 attp_p@5 0.3721
+2022-03-10 19:52:49,238 	trn step 50000 loss: 0.8273
+2022-03-10 19:53:04,243 	trn step 50100 loss: 0.6344
+2022-03-10 19:53:18,602 	trn step 50200 loss: 0.6950
+2022-03-10 19:53:32,218 	trn step 50300 loss: 0.6400
+2022-03-10 19:53:45,706 	trn step 50400 loss: 0.7863
+2022-03-10 19:53:59,219 	trn step 50500 loss: 0.8304
+2022-03-10 19:54:12,994 	trn step 50600 loss: 0.3295
+2022-03-10 19:54:27,124 	trn step 50700 loss: 0.7792
+2022-03-10 19:54:40,496 	trn step 50800 loss: 0.6818
+2022-03-10 19:54:54,079 	trn step 50900 loss: 6.4941
+2022-03-10 19:55:19,079 	val step 51000: mlm_avg_acc 0.8233 itm_avg_acc 0.8178 attp_r@1 0.1469 attp_r@5 0.4287 attp_p@1 0.6330 attp_p@5 0.3695
+2022-03-10 19:55:19,152 	trn step 51000 loss: 5.9635
+2022-03-10 19:55:33,616 	trn step 51100 loss: 0.7654
+2022-03-10 19:55:47,986 	trn step 51200 loss: 0.8588
+2022-03-10 19:56:01,556 	trn step 51300 loss: 0.6384
+2022-03-10 19:56:15,593 	trn step 51400 loss: 0.5700
+2022-03-10 19:56:29,552 	trn step 51500 loss: 0.7379
+2022-03-10 19:56:43,648 	trn step 51600 loss: 0.8474
+2022-03-10 19:56:58,976 	trn step 51700 loss: 5.2552
+2022-03-10 19:57:12,398 	trn step 51800 loss: 0.6751
+2022-03-10 19:57:26,025 	trn step 51900 loss: 0.7256
+2022-03-10 19:57:51,400 	val step 52000: mlm_avg_acc 0.8219 itm_avg_acc 0.8141 attp_r@1 0.1441 attp_r@5 0.4318 attp_p@1 0.6210 attp_p@5 0.3722
+2022-03-10 19:57:51,493 	trn step 52000 loss: 0.4647
+2022-03-10 19:58:05,403 	trn step 52100 loss: 0.6859
+2022-03-10 19:58:18,980 	trn step 52200 loss: 0.6425
+2022-03-10 19:58:32,546 	trn step 52300 loss: 0.7278
+2022-03-10 19:58:47,030 	trn step 52400 loss: 0.7563
+2022-03-10 19:59:02,826 	trn step 52500 loss: 5.9087
+2022-03-10 19:59:17,380 	trn step 52600 loss: 0.7087
+2022-03-10 19:59:30,892 	trn step 52700 loss: 0.7019
+2022-03-10 19:59:45,765 	trn step 52800 loss: 0.7864
+2022-03-10 19:59:59,433 	trn step 52900 loss: 0.6581
+2022-03-10 20:00:26,941 	val step 53000: mlm_avg_acc 0.8252 itm_avg_acc 0.8148 attp_r@1 0.1444 attp_r@5 0.4335 attp_p@1 0.6225 attp_p@5 0.3737
+2022-03-10 20:00:27,105 	trn step 53000 loss: 0.9030
+2022-03-10 20:00:41,052 	trn step 53100 loss: 6.7033
+2022-03-10 20:00:55,960 	trn step 53200 loss: 0.3583
+2022-03-10 20:01:09,688 	trn step 53300 loss: 0.6058
+2022-03-10 20:01:23,125 	trn step 53400 loss: 5.8221
+2022-03-10 20:01:36,561 	trn step 53500 loss: 0.3410
+2022-03-10 20:01:49,834 	trn step 53600 loss: 0.7411
+2022-03-10 20:02:03,195 	trn step 53700 loss: 0.7041
+2022-03-10 20:02:15,791 	trn step 53800 loss: 0.5149
+2022-03-10 20:02:29,990 	trn step 53900 loss: 0.6469
+2022-03-10 20:02:56,475 	val step 54000: mlm_avg_acc 0.8278 itm_avg_acc 0.8211 attp_r@1 0.1492 attp_r@5 0.4340 attp_p@1 0.6430 attp_p@5 0.3741
+2022-03-10 20:02:56,636 	trn step 54000 loss: 0.5464
+2022-03-10 20:03:10,204 	trn step 54100 loss: 0.8351
+2022-03-10 20:03:23,504 	trn step 54200 loss: 0.4096
+2022-03-10 20:03:36,607 	trn step 54300 loss: 0.7946
+2022-03-10 20:03:50,037 	trn step 54400 loss: 0.6685
+2022-03-10 20:04:03,501 	trn step 54500 loss: 0.7980
+2022-03-10 20:04:16,971 	trn step 54600 loss: 0.4259
+2022-03-10 20:04:30,070 	trn step 54700 loss: 0.7030
+2022-03-10 20:04:44,818 	trn step 54800 loss: 0.6766
+2022-03-10 20:04:58,644 	trn step 54900 loss: 0.6206
+2022-03-10 20:05:23,411 	val step 55000: mlm_avg_acc 0.8233 itm_avg_acc 0.8152 attp_r@1 0.1471 attp_r@5 0.4358 attp_p@1 0.6340 attp_p@5 0.3757
+2022-03-10 20:05:23,567 	trn step 55000 loss: 0.7507
+2022-03-10 20:05:38,868 	trn step 55100 loss: 0.8435
+2022-03-10 20:05:52,298 	trn step 55200 loss: 0.7291
+2022-03-10 20:06:07,121 	trn step 55300 loss: 0.7473
+2022-03-10 20:06:21,245 	trn step 55400 loss: 0.4089
+2022-03-10 20:06:35,020 	trn step 55500 loss: 0.8757
+2022-03-10 20:06:49,574 	trn step 55600 loss: 0.6655
+2022-03-10 20:07:03,100 	trn step 55700 loss: 0.7098
+2022-03-10 20:07:16,501 	trn step 55800 loss: 0.5943
+2022-03-10 20:07:30,318 	trn step 55900 loss: 0.7998
+2022-03-10 20:07:54,831 	val step 56000: mlm_avg_acc 0.8298 itm_avg_acc 0.8225 attp_r@1 0.1481 attp_r@5 0.4365 attp_p@1 0.6385 attp_p@5 0.3763
+2022-03-10 20:07:54,975 	trn step 56000 loss: 0.6875
+2022-03-10 20:08:08,425 	trn step 56100 loss: 0.4742
+2022-03-10 20:08:23,157 	trn step 56200 loss: 0.7465
+2022-03-10 20:08:37,085 	trn step 56300 loss: 5.8939
+2022-03-10 20:08:51,570 	trn step 56400 loss: 0.6927
+2022-03-10 20:09:04,859 	trn step 56500 loss: 0.6615
+2022-03-10 20:09:17,802 	trn step 56600 loss: 0.4253
+2022-03-10 20:09:31,821 	trn step 56700 loss: 0.8281
+2022-03-10 20:09:45,370 	trn step 56800 loss: 0.7773
+2022-03-10 20:09:59,635 	trn step 56900 loss: 0.7997
+2022-03-10 20:10:24,215 	val step 57000: mlm_avg_acc 0.8292 itm_avg_acc 0.8224 attp_r@1 0.1465 attp_r@5 0.4415 attp_p@1 0.6315 attp_p@5 0.3806
+2022-03-10 20:10:24,283 	trn step 57000 loss: 0.3425
+2022-03-10 20:10:37,046 	trn step 57100 loss: 0.7518
+2022-03-10 20:10:51,936 	trn step 57200 loss: 0.6459
+2022-03-10 20:11:05,384 	trn step 57300 loss: 0.7804
+2022-03-10 20:11:19,186 	trn step 57400 loss: 0.6866
+2022-03-10 20:11:33,543 	trn step 57500 loss: 0.4060
+2022-03-10 20:11:48,655 	trn step 57600 loss: 0.7180
+2022-03-10 20:12:02,971 	trn step 57700 loss: 0.6248
+2022-03-10 20:12:17,133 	trn step 57800 loss: 0.6600
+2022-03-10 20:12:31,243 	trn step 57900 loss: 0.6777
+2022-03-10 20:12:58,550 	val step 58000: mlm_avg_acc 0.8237 itm_avg_acc 0.8190 attp_r@1 0.1463 attp_r@5 0.4407 attp_p@1 0.6305 attp_p@5 0.3799
+2022-03-10 20:12:58,742 	trn step 58000 loss: 0.7366
+2022-03-10 20:13:12,738 	trn step 58100 loss: 0.6705
+2022-03-10 20:13:26,717 	trn step 58200 loss: 0.7277
+2022-03-10 20:13:40,756 	trn step 58300 loss: 6.2439
+2022-03-10 20:13:54,713 	trn step 58400 loss: 0.7026
+2022-03-10 20:14:08,392 	trn step 58500 loss: 0.7081
+2022-03-10 20:14:21,215 	trn step 58600 loss: 0.6510
+2022-03-10 20:14:36,499 	trn step 58700 loss: 0.7121
+2022-03-10 20:14:50,211 	trn step 58800 loss: 0.4937
+2022-03-10 20:15:04,064 	trn step 58900 loss: 0.7872
+2022-03-10 20:15:29,435 	val step 59000: mlm_avg_acc 0.8251 itm_avg_acc 0.8188 attp_r@1 0.1488 attp_r@5 0.4432 attp_p@1 0.6415 attp_p@5 0.3820
+2022-03-10 20:15:29,665 	trn step 59000 loss: 0.7186
+2022-03-10 20:15:43,790 	trn step 59100 loss: 0.4059
+2022-03-10 20:15:57,559 	trn step 59200 loss: 0.7038
+2022-03-10 20:16:11,108 	trn step 59300 loss: 0.7436
+2022-03-10 20:16:25,157 	trn step 59400 loss: 0.8292
+2022-03-10 20:16:39,707 	trn step 59500 loss: 0.5391
+2022-03-10 20:16:53,624 	trn step 59600 loss: 0.6512
+2022-03-10 20:17:06,863 	trn step 59700 loss: 0.6735
+2022-03-10 20:17:20,377 	trn step 59800 loss: 0.6524
+2022-03-10 20:17:34,270 	trn step 59900 loss: 0.6562
+2022-03-10 20:17:58,461 	val step 60000: mlm_avg_acc 0.8296 itm_avg_acc 0.8223 attp_r@1 0.1543 attp_r@5 0.4421 attp_p@1 0.6650 attp_p@5 0.3811
+2022-03-10 20:17:58,595 	trn step 60000 loss: 0.7632
+2022-03-10 20:18:12,402 	trn step 60100 loss: 0.7683
+2022-03-10 20:18:25,829 	trn step 60200 loss: 0.7447
+2022-03-10 20:18:41,290 	trn step 60300 loss: 0.4531
+2022-03-10 20:18:55,824 	trn step 60400 loss: 0.7222
+2022-03-10 20:19:09,355 	trn step 60500 loss: 0.7035
+2022-03-10 20:19:23,464 	trn step 60600 loss: 0.6584
+2022-03-10 20:19:36,271 	trn step 60700 loss: 0.8626
+2022-03-10 20:19:49,891 	trn step 60800 loss: 5.9379
+2022-03-10 20:20:03,914 	trn step 60900 loss: 0.4315
+2022-03-10 20:20:29,455 	val step 61000: mlm_avg_acc 0.8313 itm_avg_acc 0.8244 attp_r@1 0.1501 attp_r@5 0.4354 attp_p@1 0.6470 attp_p@5 0.3753
+2022-03-10 20:20:29,619 	trn step 61000 loss: 0.8238
+2022-03-10 20:20:43,019 	trn step 61100 loss: 0.6977
+2022-03-10 20:20:57,384 	trn step 61200 loss: 0.6393
+2022-03-10 20:21:11,727 	trn step 61300 loss: 0.5732
+2022-03-10 20:21:25,751 	trn step 61400 loss: 0.5223
+2022-03-10 20:21:39,290 	trn step 61500 loss: 0.6989
+2022-03-10 20:21:53,013 	trn step 61600 loss: 0.4181
+2022-03-10 20:22:07,317 	trn step 61700 loss: 0.8189
+2022-03-10 20:22:23,004 	trn step 61800 loss: 0.8854
+2022-03-10 20:22:36,483 	trn step 61900 loss: 0.7325
+2022-03-10 20:23:01,812 	val step 62000: mlm_avg_acc 0.8288 itm_avg_acc 0.8204 attp_r@1 0.1488 attp_r@5 0.4363 attp_p@1 0.6415 attp_p@5 0.3761
+2022-03-10 20:23:01,887 	trn step 62000 loss: 6.0931
+2022-03-10 20:23:15,648 	trn step 62100 loss: 0.7356
+2022-03-10 20:23:29,385 	trn step 62200 loss: 0.7966
+2022-03-10 20:23:42,752 	trn step 62300 loss: 0.4839
+2022-03-10 20:23:56,642 	trn step 62400 loss: 0.4387
+2022-03-10 20:24:11,147 	trn step 62500 loss: 0.4357
+2022-03-10 20:24:24,512 	trn step 62600 loss: 0.7043
+2022-03-10 20:24:38,058 	trn step 62700 loss: 5.1740
+2022-03-10 20:24:52,282 	trn step 62800 loss: 0.6356
+2022-03-10 20:25:06,048 	trn step 62900 loss: 0.4095
+2022-03-10 20:25:30,058 	val step 63000: mlm_avg_acc 0.8323 itm_avg_acc 0.8256 attp_r@1 0.1503 attp_r@5 0.4471 attp_p@1 0.6480 attp_p@5 0.3854
+2022-03-10 20:25:30,209 	trn step 63000 loss: 0.7439
+2022-03-10 20:25:45,657 	trn step 63100 loss: 0.3668
+2022-03-10 20:26:00,599 	trn step 63200 loss: 0.6521
+2022-03-10 20:26:15,625 	trn step 63300 loss: 0.7526
+2022-03-10 20:26:29,337 	trn step 63400 loss: 0.6843
+2022-03-10 20:26:43,038 	trn step 63500 loss: 0.4943
+2022-03-10 20:26:55,926 	trn step 63600 loss: 6.2123
+2022-03-10 20:27:09,977 	trn step 63700 loss: 0.7133
+2022-03-10 20:27:23,926 	trn step 63800 loss: 0.7811
+2022-03-10 20:27:38,273 	trn step 63900 loss: 0.7475
+2022-03-10 20:28:01,712 	val step 64000: mlm_avg_acc 0.8316 itm_avg_acc 0.8230 attp_r@1 0.1519 attp_r@5 0.4452 attp_p@1 0.6545 attp_p@5 0.3838
+2022-03-10 20:28:01,796 	trn step 64000 loss: 0.4106
+2022-03-10 20:28:17,033 	trn step 64100 loss: 0.7245
+2022-03-10 20:28:31,172 	trn step 64200 loss: 0.3653
+2022-03-10 20:28:45,193 	trn step 64300 loss: 0.7654
+2022-03-10 20:28:58,016 	trn step 64400 loss: 0.6063
+2022-03-10 20:29:11,582 	trn step 64500 loss: 5.4565
+2022-03-10 20:29:25,160 	trn step 64600 loss: 5.7733
+2022-03-10 20:29:39,191 	trn step 64700 loss: 0.8543
+2022-03-10 20:29:53,727 	trn step 64800 loss: 0.5681
+2022-03-10 20:30:06,516 	trn step 64900 loss: 0.6708
+2022-03-10 20:30:32,558 	val step 65000: mlm_avg_acc 0.8290 itm_avg_acc 0.8224 attp_r@1 0.1433 attp_r@5 0.4321 attp_p@1 0.6175 attp_p@5 0.3725
+2022-03-10 20:30:32,708 	trn step 65000 loss: 0.7501
+2022-03-10 20:30:46,502 	trn step 65100 loss: 0.5975
+2022-03-10 20:30:59,929 	trn step 65200 loss: 0.4674
+2022-03-10 20:31:13,469 	trn step 65300 loss: 0.7411
+2022-03-10 20:31:27,103 	trn step 65400 loss: 6.1981
+2022-03-10 20:31:41,082 	trn step 65500 loss: 6.0596
+2022-03-10 20:31:55,493 	trn step 65600 loss: 0.8803
+2022-03-10 20:32:09,755 	trn step 65700 loss: 0.6760
+2022-03-10 20:32:23,248 	trn step 65800 loss: 0.6729
+2022-03-10 20:32:36,817 	trn step 65900 loss: 0.7108
+2022-03-10 20:33:02,022 	val step 66000: mlm_avg_acc 0.8256 itm_avg_acc 0.8204 attp_r@1 0.1505 attp_r@5 0.4480 attp_p@1 0.6485 attp_p@5 0.3862
+2022-03-10 20:33:02,093 	trn step 66000 loss: 0.4659
+2022-03-10 20:33:15,547 	trn step 66100 loss: 0.8241
+2022-03-10 20:33:29,261 	trn step 66200 loss: 0.6481
+2022-03-10 20:33:43,688 	trn step 66300 loss: 0.6841
+2022-03-10 20:33:58,083 	trn step 66400 loss: 0.6420
+2022-03-10 20:34:11,369 	trn step 66500 loss: 0.6214
+2022-03-10 20:34:24,894 	trn step 66600 loss: 0.5666
+2022-03-10 20:34:38,852 	trn step 66700 loss: 0.8082
+2022-03-10 20:34:52,613 	trn step 66800 loss: 0.6924
+2022-03-10 20:35:06,894 	trn step 66900 loss: 0.8332
+2022-03-10 20:35:32,390 	val step 67000: mlm_avg_acc 0.8324 itm_avg_acc 0.8252 attp_r@1 0.1495 attp_r@5 0.4444 attp_p@1 0.6445 attp_p@5 0.3831
+2022-03-10 20:35:32,525 	trn step 67000 loss: 0.7485
+2022-03-10 20:35:46,190 	trn step 67100 loss: 0.7376
+2022-03-10 20:36:01,621 	trn step 67200 loss: 0.7585
+2022-03-10 20:36:15,246 	trn step 67300 loss: 0.7734
+2022-03-10 20:36:29,219 	trn step 67400 loss: 0.7283
+2022-03-10 20:36:43,569 	trn step 67500 loss: 0.6666
+2022-03-10 20:36:57,395 	trn step 67600 loss: 0.6662
+2022-03-10 20:37:10,973 	trn step 67700 loss: 0.6949
+2022-03-10 20:37:24,694 	trn step 67800 loss: 0.7512
+2022-03-10 20:37:39,395 	trn step 67900 loss: 0.6582
+2022-03-10 20:38:04,491 	val step 68000: mlm_avg_acc 0.8322 itm_avg_acc 0.8257 attp_r@1 0.1546 attp_r@5 0.4520 attp_p@1 0.6665 attp_p@5 0.3896
+2022-03-10 20:38:04,677 	trn step 68000 loss: 0.6664
+2022-03-10 20:38:18,658 	trn step 68100 loss: 0.7247
+2022-03-10 20:38:32,817 	trn step 68200 loss: 0.6689
+2022-03-10 20:38:47,168 	trn step 68300 loss: 0.6816
+2022-03-10 20:39:01,641 	trn step 68400 loss: 0.5192
+2022-03-10 20:39:16,212 	trn step 68500 loss: 0.3961
+2022-03-10 20:39:30,200 	trn step 68600 loss: 0.8125
+2022-03-10 20:39:44,312 	trn step 68700 loss: 0.7340
+2022-03-10 20:39:57,643 	trn step 68800 loss: 0.6260
+2022-03-10 20:40:11,591 	trn step 68900 loss: 0.5666
+2022-03-10 20:40:35,702 	val step 69000: mlm_avg_acc 0.8361 itm_avg_acc 0.8291 attp_r@1 0.1506 attp_r@5 0.4468 attp_p@1 0.6490 attp_p@5 0.3851
+2022-03-10 20:40:35,837 	trn step 69000 loss: 0.7266
+2022-03-10 20:40:50,011 	trn step 69100 loss: 0.7381
+2022-03-10 20:41:03,796 	trn step 69200 loss: 0.6879
+2022-03-10 20:41:18,040 	trn step 69300 loss: 0.6246
+2022-03-10 20:41:30,925 	trn step 69400 loss: 0.4627
+2022-03-10 20:41:45,118 	trn step 69500 loss: 0.3778
+2022-03-10 20:41:59,149 	trn step 69600 loss: 0.3147
+2022-03-10 20:42:12,738 	trn step 69700 loss: 0.6969
+2022-03-10 20:42:26,167 	trn step 69800 loss: 0.3759
+2022-03-10 20:42:39,543 	trn step 69900 loss: 0.7031
+2022-03-10 20:43:05,237 	val step 70000: mlm_avg_acc 0.8353 itm_avg_acc 0.8278 attp_r@1 0.1526 attp_r@5 0.4472 attp_p@1 0.6575 attp_p@5 0.3855
+2022-03-10 20:43:05,403 	trn step 70000 loss: 0.6597
+2022-03-10 20:43:18,278 	trn step 70100 loss: 0.6779
+2022-03-10 20:43:32,392 	trn step 70200 loss: 0.8641
+2022-03-10 20:43:46,909 	trn step 70300 loss: 0.7216
+2022-03-10 20:44:00,144 	trn step 70400 loss: 0.5897
+2022-03-10 20:44:13,575 	trn step 70500 loss: 0.6971
+2022-03-10 20:44:26,980 	trn step 70600 loss: 0.6289
+2022-03-10 20:44:40,504 	trn step 70700 loss: 0.7403
+2022-03-10 20:44:54,480 	trn step 70800 loss: 0.7077
+2022-03-10 20:45:08,032 	trn step 70900 loss: 0.7439
+2022-03-10 20:45:31,927 	val step 71000: mlm_avg_acc 0.8409 itm_avg_acc 0.8350 attp_r@1 0.1529 attp_r@5 0.4515 attp_p@1 0.6590 attp_p@5 0.3892
+2022-03-10 20:45:32,073 	trn step 71000 loss: 0.7589
+2022-03-10 20:45:47,231 	trn step 71100 loss: 0.8305
+2022-03-10 20:46:00,890 	trn step 71200 loss: 0.6416
+2022-03-10 20:46:13,892 	trn step 71300 loss: 0.3066
+2022-03-10 20:46:27,645 	trn step 71400 loss: 0.6860
+2022-03-10 20:46:41,041 	trn step 71500 loss: 0.6690
+2022-03-10 20:46:54,817 	trn step 71600 loss: 0.7611
+2022-03-10 20:47:08,444 	trn step 71700 loss: 0.5591
+2022-03-10 20:47:22,921 	trn step 71800 loss: 0.6608
+2022-03-10 20:47:35,981 	trn step 71900 loss: 0.3718
+2022-03-10 20:48:00,343 	val step 72000: mlm_avg_acc 0.8302 itm_avg_acc 0.8252 attp_r@1 0.1532 attp_r@5 0.4529 attp_p@1 0.6605 attp_p@5 0.3904
+2022-03-10 20:48:00,412 	trn step 72000 loss: 5.9738
+2022-03-10 20:48:13,291 	trn step 72100 loss: 0.4327
+2022-03-10 20:48:26,850 	trn step 72200 loss: 0.6650
+2022-03-10 20:48:40,755 	trn step 72300 loss: 0.5962
+2022-03-10 20:48:53,976 	trn step 72400 loss: 0.7541
+2022-03-10 20:49:07,183 	trn step 72500 loss: 0.6331
+2022-03-10 20:49:21,272 	trn step 72600 loss: 0.7096
+2022-03-10 20:49:35,949 	trn step 72700 loss: 0.3331
+2022-03-10 20:49:50,569 	trn step 72800 loss: 0.4988
+2022-03-10 20:50:04,762 	trn step 72900 loss: 0.6281
+2022-03-10 20:50:25,561 	val step 73000: mlm_avg_acc 0.8350 itm_avg_acc 0.8285 attp_r@1 0.1529 attp_r@5 0.4557 attp_p@1 0.6590 attp_p@5 0.3928
+2022-03-10 20:50:25,711 	trn step 73000 loss: 0.7468
+2022-03-10 20:50:39,368 	trn step 73100 loss: 0.6886
+2022-03-10 20:50:53,324 	trn step 73200 loss: 0.4261
+2022-03-10 20:51:06,364 	trn step 73300 loss: 5.4923
+2022-03-10 20:51:21,771 	trn step 73400 loss: 0.6938
+2022-03-10 20:51:36,066 	trn step 73500 loss: 0.5566
+2022-03-10 20:51:50,275 	trn step 73600 loss: 0.6266
+2022-03-10 20:52:04,180 	trn step 73700 loss: 0.7151
+2022-03-10 20:52:17,727 	trn step 73800 loss: 0.4757
+2022-03-10 20:52:31,437 	trn step 73900 loss: 0.7208
+2022-03-10 20:52:56,185 	val step 74000: mlm_avg_acc 0.8364 itm_avg_acc 0.8297 attp_r@1 0.1564 attp_r@5 0.4512 attp_p@1 0.6740 attp_p@5 0.3889
+2022-03-10 20:52:56,377 	trn step 74000 loss: 0.6869
+2022-03-10 20:53:09,896 	trn step 74100 loss: 0.8266
+2022-03-10 20:53:24,523 	trn step 74200 loss: 0.6579
+2022-03-10 20:53:38,092 	trn step 74300 loss: 0.6604
+2022-03-10 20:53:51,799 	trn step 74400 loss: 0.7254
+2022-03-10 20:54:05,025 	trn step 74500 loss: 0.7184
+2022-03-10 20:54:18,867 	trn step 74600 loss: 0.7682
+2022-03-10 20:54:33,595 	trn step 74700 loss: 0.6133
+2022-03-10 20:54:47,123 	trn step 74800 loss: 0.6506
+2022-03-10 20:55:00,630 	trn step 74900 loss: 0.5817
+2022-03-10 20:55:26,810 	val step 75000: mlm_avg_acc 0.8331 itm_avg_acc 0.8258 attp_r@1 0.1551 attp_r@5 0.4607 attp_p@1 0.6685 attp_p@5 0.3971
+2022-03-10 20:55:26,959 	trn step 75000 loss: 0.8507
+2022-03-10 20:55:40,657 	trn step 75100 loss: 0.5359
+2022-03-10 20:55:54,638 	trn step 75200 loss: 0.4018
+2022-03-10 20:56:07,642 	trn step 75300 loss: 0.7266
+2022-03-10 20:56:21,442 	trn step 75400 loss: 0.6911
+2022-03-10 20:56:35,383 	trn step 75500 loss: 0.6129
+2022-03-10 20:56:49,139 	trn step 75600 loss: 0.3329
+2022-03-10 20:57:04,261 	trn step 75700 loss: 0.6962
+2022-03-10 20:57:17,958 	trn step 75800 loss: 0.7037
+2022-03-10 20:57:32,026 	trn step 75900 loss: 0.4381
+2022-03-10 20:57:57,540 	val step 76000: mlm_avg_acc 0.8370 itm_avg_acc 0.8307 attp_r@1 0.1508 attp_r@5 0.4407 attp_p@1 0.6500 attp_p@5 0.3799
+2022-03-10 20:57:57,688 	trn step 76000 loss: 0.8248
+2022-03-10 20:58:11,086 	trn step 76100 loss: 0.5988
+2022-03-10 20:58:24,410 	trn step 76200 loss: 0.7810
+2022-03-10 20:58:38,949 	trn step 76300 loss: 0.6468
+2022-03-10 20:58:52,928 	trn step 76400 loss: 0.6519
+2022-03-10 20:59:07,532 	trn step 76500 loss: 0.7357
+2022-03-10 20:59:20,829 	trn step 76600 loss: 0.7305
+2022-03-10 20:59:34,824 	trn step 76700 loss: 0.7548
+2022-03-10 20:59:48,627 	trn step 76800 loss: 0.7708
+2022-03-10 21:00:02,169 	trn step 76900 loss: 0.6692
+2022-03-10 21:00:26,744 	val step 77000: mlm_avg_acc 0.8335 itm_avg_acc 0.8284 attp_r@1 0.1565 attp_r@5 0.4582 attp_p@1 0.6745 attp_p@5 0.3950
+2022-03-10 21:00:26,893 	trn step 77000 loss: 0.7245
+2022-03-10 21:00:40,648 	trn step 77100 loss: 0.3351
+2022-03-10 21:00:54,595 	trn step 77200 loss: 0.5611
+2022-03-10 21:01:09,203 	trn step 77300 loss: 0.7177
+2022-03-10 21:01:22,698 	trn step 77400 loss: 0.6065
+2022-03-10 21:01:36,680 	trn step 77500 loss: 0.6438
+2022-03-10 21:01:49,731 	trn step 77600 loss: 0.8292
+2022-03-10 21:02:03,214 	trn step 77700 loss: 0.6249
+2022-03-10 21:02:16,819 	trn step 77800 loss: 6.2213
+2022-03-10 21:02:30,424 	trn step 77900 loss: 0.7117
+2022-03-10 21:02:55,429 	val step 78000: mlm_avg_acc 0.8398 itm_avg_acc 0.8332 attp_r@1 0.1559 attp_r@5 0.4534 attp_p@1 0.6720 attp_p@5 0.3908
+2022-03-10 21:02:55,560 	trn step 78000 loss: 0.7196
+2022-03-10 21:03:10,013 	trn step 78100 loss: 0.5525
+2022-03-10 21:03:23,375 	trn step 78200 loss: 0.7614
+2022-03-10 21:03:37,356 	trn step 78300 loss: 0.6942
+2022-03-10 21:03:51,187 	trn step 78400 loss: 0.6544
+2022-03-10 21:04:04,343 	trn step 78500 loss: 0.6592
+2022-03-10 21:04:18,050 	trn step 78600 loss: 5.5197
+2022-03-10 21:04:32,235 	trn step 78700 loss: 0.6219
+2022-03-10 21:04:46,051 	trn step 78800 loss: 0.6838
+2022-03-10 21:05:00,837 	trn step 78900 loss: 0.3567
+2022-03-10 21:05:24,924 	val step 79000: mlm_avg_acc 0.8376 itm_avg_acc 0.8286 attp_r@1 0.1549 attp_r@5 0.4597 attp_p@1 0.6675 attp_p@5 0.3963
+2022-03-10 21:05:25,008 	trn step 79000 loss: 0.4050
+2022-03-10 21:05:39,449 	trn step 79100 loss: 5.5478
+2022-03-10 21:05:52,868 	trn step 79200 loss: 0.5624
+2022-03-10 21:06:06,823 	trn step 79300 loss: 0.7896
+2022-03-10 21:06:20,486 	trn step 79400 loss: 5.2429
+2022-03-10 21:06:34,023 	trn step 79500 loss: 0.6268
+2022-03-10 21:06:49,413 	trn step 79600 loss: 0.7244
+2022-03-10 21:07:03,346 	trn step 79700 loss: 0.4810
+2022-03-10 21:07:16,951 	trn step 79800 loss: 0.6506
+2022-03-10 21:07:29,755 	trn step 79900 loss: 5.1510
+2022-03-10 21:07:55,535 	val step 80000: mlm_avg_acc 0.8361 itm_avg_acc 0.8281 attp_r@1 0.1523 attp_r@5 0.4628 attp_p@1 0.6565 attp_p@5 0.3989
+2022-03-10 21:07:55,620 	trn step 80000 loss: 0.3334
+2022-03-10 21:08:09,321 	trn step 80100 loss: 0.5902
+2022-03-10 21:08:23,758 	trn step 80200 loss: 0.8056
+2022-03-10 21:08:37,746 	trn step 80300 loss: 5.5253
+2022-03-10 21:08:51,531 	trn step 80400 loss: 0.7263
+2022-03-10 21:09:05,136 	trn step 80500 loss: 0.6118
+2022-03-10 21:09:19,090 	trn step 80600 loss: 0.3060
+2022-03-10 21:09:32,601 	trn step 80700 loss: 0.7581
+2022-03-10 21:09:46,975 	trn step 80800 loss: 0.5088
+2022-03-10 21:10:00,910 	trn step 80900 loss: 0.6570
+2022-03-10 21:10:25,237 	val step 81000: mlm_avg_acc 0.8351 itm_avg_acc 0.8266 attp_r@1 0.1555 attp_r@5 0.4651 attp_p@1 0.6700 attp_p@5 0.4009
+2022-03-10 21:10:25,336 	trn step 81000 loss: 5.5271
+2022-03-10 21:10:39,066 	trn step 81100 loss: 0.8067
+2022-03-10 21:10:53,737 	trn step 81200 loss: 0.7682
+2022-03-10 21:11:07,472 	trn step 81300 loss: 0.7093
+2022-03-10 21:11:20,933 	trn step 81400 loss: 5.5530
+2022-03-10 21:11:35,677 	trn step 81500 loss: 0.3949
+2022-03-10 21:11:49,865 	trn step 81600 loss: 0.3234
+2022-03-10 21:12:02,752 	trn step 81700 loss: 0.3854
+2022-03-10 21:12:16,935 	trn step 81800 loss: 0.8406
+2022-03-10 21:12:30,978 	trn step 81900 loss: 0.7948
+2022-03-10 21:12:58,074 	val step 82000: mlm_avg_acc 0.8402 itm_avg_acc 0.8342 attp_r@1 0.1582 attp_r@5 0.4650 attp_p@1 0.6820 attp_p@5 0.4008
+2022-03-10 21:12:58,268 	trn step 82000 loss: 0.7448
+2022-03-10 21:13:11,591 	trn step 82100 loss: 0.7729
+2022-03-10 21:13:24,634 	trn step 82200 loss: 0.6194
+2022-03-10 21:13:37,818 	trn step 82300 loss: 0.6641
+2022-03-10 21:13:51,515 	trn step 82400 loss: 0.7011
+2022-03-10 21:14:05,269 	trn step 82500 loss: 0.3420
+2022-03-10 21:14:19,417 	trn step 82600 loss: 0.7703
+2022-03-10 21:14:33,955 	trn step 82700 loss: 6.1735
+2022-03-10 21:14:47,514 	trn step 82800 loss: 5.7042
+2022-03-10 21:15:00,837 	trn step 82900 loss: 0.7027
+2022-03-10 21:15:25,655 	val step 83000: mlm_avg_acc 0.8339 itm_avg_acc 0.8269 attp_r@1 0.1552 attp_r@5 0.4631 attp_p@1 0.6690 attp_p@5 0.3992
+2022-03-10 21:15:25,833 	trn step 83000 loss: 0.6068
+2022-03-10 21:15:39,728 	trn step 83100 loss: 0.3901
+2022-03-10 21:15:54,590 	trn step 83200 loss: 0.5955
+2022-03-10 21:16:08,822 	trn step 83300 loss: 0.7009
+2022-03-10 21:16:22,317 	trn step 83400 loss: 0.7035
+2022-03-10 21:16:37,252 	trn step 83500 loss: 0.7454
+2022-03-10 21:16:51,414 	trn step 83600 loss: 5.3248
+2022-03-10 21:17:05,027 	trn step 83700 loss: 0.6818
+2022-03-10 21:17:18,300 	trn step 83800 loss: 0.7143
+2022-03-10 21:17:32,089 	trn step 83900 loss: 5.2856
+2022-03-10 21:17:57,756 	val step 84000: mlm_avg_acc 0.8359 itm_avg_acc 0.8267 attp_r@1 0.1589 attp_r@5 0.4609 attp_p@1 0.6850 attp_p@5 0.3973
+2022-03-10 21:17:57,814 	trn step 84000 loss: 0.4329
+2022-03-10 21:18:11,769 	trn step 84100 loss: 0.9374
+2022-03-10 21:18:25,851 	trn step 84200 loss: 0.3234
+2022-03-10 21:18:40,442 	trn step 84300 loss: 0.7152
+2022-03-10 21:18:54,058 	trn step 84400 loss: 0.3695
+2022-03-10 21:19:07,923 	trn step 84500 loss: 0.3233
+2022-03-10 21:19:21,540 	trn step 84600 loss: 0.3272
+2022-03-10 21:19:35,629 	trn step 84700 loss: 5.5875
+2022-03-10 21:19:50,414 	trn step 84800 loss: 4.8775
+2022-03-10 21:20:03,376 	trn step 84900 loss: 0.7431
+2022-03-10 21:20:29,212 	val step 85000: mlm_avg_acc 0.8362 itm_avg_acc 0.8306 attp_r@1 0.1546 attp_r@5 0.4595 attp_p@1 0.6665 attp_p@5 0.3961
+2022-03-10 21:20:29,377 	trn step 85000 loss: 0.5659
+2022-03-10 21:20:44,218 	trn step 85100 loss: 0.5290
+2022-03-10 21:20:58,412 	trn step 85200 loss: 0.6003
+2022-03-10 21:21:11,777 	trn step 85300 loss: 0.5149
+2022-03-10 21:21:24,570 	trn step 85400 loss: 0.7393
+2022-03-10 21:21:37,644 	trn step 85500 loss: 0.7055
+2022-03-10 21:21:51,125 	trn step 85600 loss: 0.6294
+2022-03-10 21:22:05,484 	trn step 85700 loss: 0.7480
+2022-03-10 21:22:19,496 	trn step 85800 loss: 0.7322
+2022-03-10 21:22:33,309 	trn step 85900 loss: 0.4856
+2022-03-10 21:22:56,884 	val step 86000: mlm_avg_acc 0.8358 itm_avg_acc 0.8305 attp_r@1 0.1572 attp_r@5 0.4693 attp_p@1 0.6775 attp_p@5 0.4045
+2022-03-10 21:22:57,058 	trn step 86000 loss: 0.5277
+2022-03-10 21:23:11,279 	trn step 86100 loss: 0.6789
+2022-03-10 21:23:25,776 	trn step 86200 loss: 0.6702
+2022-03-10 21:23:38,793 	trn step 86300 loss: 0.6702
+2022-03-10 21:23:52,582 	trn step 86400 loss: 0.3260
+2022-03-10 21:24:06,349 	trn step 86500 loss: 5.4121
+2022-03-10 21:24:21,336 	trn step 86600 loss: 0.7003
+2022-03-10 21:24:35,397 	trn step 86700 loss: 0.7270
+2022-03-10 21:24:48,591 	trn step 86800 loss: 0.5508
+2022-03-10 21:25:02,259 	trn step 86900 loss: 5.1142
+2022-03-10 21:25:25,919 	val step 87000: mlm_avg_acc 0.8378 itm_avg_acc 0.8283 attp_r@1 0.1585 attp_r@5 0.4587 attp_p@1 0.6830 attp_p@5 0.3954
+2022-03-10 21:25:26,115 	trn step 87000 loss: 0.5771
+2022-03-10 21:25:40,507 	trn step 87100 loss: 0.6986
+2022-03-10 21:25:54,371 	trn step 87200 loss: 0.4264
+2022-03-10 21:26:07,933 	trn step 87300 loss: 0.7402
+2022-03-10 21:26:22,780 	trn step 87400 loss: 0.6063
+2022-03-10 21:26:36,711 	trn step 87500 loss: 0.6593
+2022-03-10 21:26:50,630 	trn step 87600 loss: 5.3966
+2022-03-10 21:27:04,426 	trn step 87700 loss: 0.5827
+2022-03-10 21:27:19,073 	trn step 87800 loss: 0.5335
+2022-03-10 21:27:33,186 	trn step 87900 loss: 5.3659
+2022-03-10 21:27:58,783 	val step 88000: mlm_avg_acc 0.8344 itm_avg_acc 0.8287 attp_r@1 0.1585 attp_r@5 0.4648 attp_p@1 0.6830 attp_p@5 0.4007
+2022-03-10 21:27:58,934 	trn step 88000 loss: 0.6578
+2022-03-10 21:28:13,619 	trn step 88100 loss: 5.9618
+2022-03-10 21:28:28,008 	trn step 88200 loss: 0.6413
+2022-03-10 21:28:41,955 	trn step 88300 loss: 0.7711
+2022-03-10 21:28:55,708 	trn step 88400 loss: 0.6712
+2022-03-10 21:29:10,279 	trn step 88500 loss: 0.6210
+2022-03-10 21:29:23,828 	trn step 88600 loss: 0.9587
+2022-03-10 21:29:37,437 	trn step 88700 loss: 0.5541
+2022-03-10 21:29:51,458 	trn step 88800 loss: 0.7714
+2022-03-10 21:30:06,658 	trn step 88900 loss: 0.6045
+2022-03-10 21:30:27,932 	val step 89000: mlm_avg_acc 0.8385 itm_avg_acc 0.8316 attp_r@1 0.1575 attp_r@5 0.4645 attp_p@1 0.6790 attp_p@5 0.4004
+2022-03-10 21:30:28,094 	trn step 89000 loss: 0.7178
+2022-03-10 21:30:41,326 	trn step 89100 loss: 0.7155
+2022-03-10 21:30:55,535 	trn step 89200 loss: 0.2808
+2022-03-10 21:31:09,282 	trn step 89300 loss: 0.7122
+2022-03-10 21:31:24,120 	trn step 89400 loss: 0.7695
+2022-03-10 21:31:38,740 	trn step 89500 loss: 5.5988
+2022-03-10 21:31:53,477 	trn step 89600 loss: 0.7803
+2022-03-10 21:32:07,358 	trn step 89700 loss: 0.6206
+2022-03-10 21:32:21,268 	trn step 89800 loss: 0.6486
+2022-03-10 21:32:34,681 	trn step 89900 loss: 0.7391
+2022-03-10 21:32:55,222 	val step 90000: mlm_avg_acc 0.8326 itm_avg_acc 0.8282 attp_r@1 0.1565 attp_r@5 0.4590 attp_p@1 0.6745 attp_p@5 0.3957
+2022-03-10 21:32:55,416 	trn step 90000 loss: 0.6426
+2022-03-10 21:33:09,797 	trn step 90100 loss: 0.6633
+2022-03-10 21:33:24,091 	trn step 90200 loss: 0.6223
+2022-03-10 21:33:37,645 	trn step 90300 loss: 0.7315
+2022-03-10 21:33:52,266 	trn step 90400 loss: 0.5352
+2022-03-10 21:34:06,329 	trn step 90500 loss: 0.5487
+2022-03-10 21:34:19,492 	trn step 90600 loss: 0.3923
+2022-03-10 21:34:33,285 	trn step 90700 loss: 0.6446
+2022-03-10 21:34:47,523 	trn step 90800 loss: 0.7503
+2022-03-10 21:35:01,706 	trn step 90900 loss: 0.6581
+2022-03-10 21:35:27,410 	val step 91000: mlm_avg_acc 0.8382 itm_avg_acc 0.8322 attp_r@1 0.1585 attp_r@5 0.4629 attp_p@1 0.6830 attp_p@5 0.3990
+2022-03-10 21:35:27,592 	trn step 91000 loss: 0.6195
+2022-03-10 21:35:41,136 	trn step 91100 loss: 0.5981
+2022-03-10 21:35:57,356 	trn step 91200 loss: 0.6553
+2022-03-10 21:36:11,476 	trn step 91300 loss: 0.6124
+2022-03-10 21:36:24,942 	trn step 91400 loss: 0.4311
+2022-03-10 21:36:38,419 	trn step 91500 loss: 0.3842
+2022-03-10 21:36:52,253 	trn step 91600 loss: 0.7430
+2022-03-10 21:37:06,724 	trn step 91700 loss: 0.6615
+2022-03-10 21:37:19,852 	trn step 91800 loss: 0.6914
+2022-03-10 21:37:34,584 	trn step 91900 loss: 0.3471
+2022-03-10 21:37:59,446 	val step 92000: mlm_avg_acc 0.8320 itm_avg_acc 0.8268 attp_r@1 0.1599 attp_r@5 0.4673 attp_p@1 0.6890 attp_p@5 0.4028
+2022-03-10 21:37:59,545 	trn step 92000 loss: 0.4275
+2022-03-10 21:38:14,303 	trn step 92100 loss: 0.7126
+2022-03-10 21:38:27,559 	trn step 92200 loss: 0.6899
+2022-03-10 21:38:41,410 	trn step 92300 loss: 0.3203
+2022-03-10 21:38:55,443 	trn step 92400 loss: 0.6516
+2022-03-10 21:39:09,057 	trn step 92500 loss: 0.3654
+2022-03-10 21:39:22,473 	trn step 92600 loss: 0.2960
+2022-03-10 21:39:37,299 	trn step 92700 loss: 0.7549
+2022-03-10 21:39:51,074 	trn step 92800 loss: 0.5087
+2022-03-10 21:40:04,939 	trn step 92900 loss: 0.5742
+2022-03-10 21:40:30,040 	val step 93000: mlm_avg_acc 0.8376 itm_avg_acc 0.8318 attp_r@1 0.1579 attp_r@5 0.4647 attp_p@1 0.6805 attp_p@5 0.4006
+2022-03-10 21:40:30,127 	trn step 93000 loss: 0.4517
+2022-03-10 21:40:44,086 	trn step 93100 loss: 0.3593
+2022-03-10 21:40:57,716 	trn step 93200 loss: 0.3933
+2022-03-10 21:41:11,572 	trn step 93300 loss: 5.1659
+2022-03-10 21:41:25,115 	trn step 93400 loss: 0.6208
+2022-03-10 21:41:39,784 	trn step 93500 loss: 0.2340
+2022-03-10 21:41:53,627 	trn step 93600 loss: 0.3902
+2022-03-10 21:42:07,126 	trn step 93700 loss: 0.3519
+2022-03-10 21:42:20,529 	trn step 93800 loss: 0.3895
+2022-03-10 21:42:34,613 	trn step 93900 loss: 0.6634
+2022-03-10 21:43:01,151 	val step 94000: mlm_avg_acc 0.8361 itm_avg_acc 0.8305 attp_r@1 0.1571 attp_r@5 0.4655 attp_p@1 0.6770 attp_p@5 0.4013
+2022-03-10 21:43:01,292 	trn step 94000 loss: 0.6731
+2022-03-10 21:43:15,454 	trn step 94100 loss: 0.2598
+2022-03-10 21:43:29,997 	trn step 94200 loss: 0.8952
+2022-03-10 21:43:43,162 	trn step 94300 loss: 0.7609
+2022-03-10 21:43:57,332 	trn step 94400 loss: 0.6649
+2022-03-10 21:44:11,825 	trn step 94500 loss: 0.6877
+2022-03-10 21:44:24,984 	trn step 94600 loss: 0.7596
+2022-03-10 21:44:38,740 	trn step 94700 loss: 0.7128
+2022-03-10 21:44:52,985 	trn step 94800 loss: 5.2727
+2022-03-10 21:45:06,714 	trn step 94900 loss: 0.6898
+2022-03-10 21:45:31,456 	val step 95000: mlm_avg_acc 0.8414 itm_avg_acc 0.8336 attp_r@1 0.1609 attp_r@5 0.4752 attp_p@1 0.6935 attp_p@5 0.4096
+2022-03-10 21:45:31,617 	trn step 95000 loss: 0.6217
+2022-03-10 21:45:45,468 	trn step 95100 loss: 0.6139
+2022-03-10 21:45:59,015 	trn step 95200 loss: 0.7659
+2022-03-10 21:46:13,259 	trn step 95300 loss: 5.3159
+2022-03-10 21:46:27,085 	trn step 95400 loss: 0.7333
+2022-03-10 21:46:40,764 	trn step 95500 loss: 0.7430
+2022-03-10 21:46:55,140 	trn step 95600 loss: 0.3946
+2022-03-10 21:47:08,769 	trn step 95700 loss: 0.6280
+2022-03-10 21:47:23,249 	trn step 95800 loss: 0.6894
+2022-03-10 21:47:36,883 	trn step 95900 loss: 0.6087
+2022-03-10 21:48:03,090 	val step 96000: mlm_avg_acc 0.8374 itm_avg_acc 0.8326 attp_r@1 0.1601 attp_r@5 0.4687 attp_p@1 0.6900 attp_p@5 0.4040
+2022-03-10 21:48:03,236 	trn step 96000 loss: 0.7563
+2022-03-10 21:48:16,969 	trn step 96100 loss: 0.7387
+2022-03-10 21:48:30,618 	trn step 96200 loss: 5.1638
+2022-03-10 21:48:43,898 	trn step 96300 loss: 6.2777
+2022-03-10 21:48:58,109 	trn step 96400 loss: 0.6322
+2022-03-10 21:49:12,446 	trn step 96500 loss: 0.6184
+2022-03-10 21:49:26,453 	trn step 96600 loss: 0.6972
+2022-03-10 21:49:40,427 	trn step 96700 loss: 0.6070
+2022-03-10 21:49:54,653 	trn step 96800 loss: 0.2722
+2022-03-10 21:50:07,814 	trn step 96900 loss: 0.5975
+2022-03-10 21:50:33,833 	val step 97000: mlm_avg_acc 0.8344 itm_avg_acc 0.8309 attp_r@1 0.1593 attp_r@5 0.4711 attp_p@1 0.6865 attp_p@5 0.4061
+2022-03-10 21:50:33,909 	trn step 97000 loss: 0.3820
+2022-03-10 21:50:47,068 	trn step 97100 loss: 0.5832
+2022-03-10 21:51:00,404 	trn step 97200 loss: 0.3873
+2022-03-10 21:51:16,222 	trn step 97300 loss: 0.7697
+2022-03-10 21:51:30,139 	trn step 97400 loss: 0.6427
+2022-03-10 21:51:43,984 	trn step 97500 loss: 0.6378
+2022-03-10 21:51:57,532 	trn step 97600 loss: 0.7520
+2022-03-10 21:52:11,279 	trn step 97700 loss: 0.7283
+2022-03-10 21:52:25,031 	trn step 97800 loss: 0.5842
+2022-03-10 21:52:38,683 	trn step 97900 loss: 0.3572
+2022-03-10 21:53:03,810 	val step 98000: mlm_avg_acc 0.8378 itm_avg_acc 0.8312 attp_r@1 0.1590 attp_r@5 0.4746 attp_p@1 0.6855 attp_p@5 0.4091
+2022-03-10 21:53:03,977 	trn step 98000 loss: 0.5952
+2022-03-10 21:53:19,947 	trn step 98100 loss: 0.6439
+2022-03-10 21:53:34,179 	trn step 98200 loss: 4.7958
+2022-03-10 21:53:47,672 	trn step 98300 loss: 0.4980
+2022-03-10 21:54:01,542 	trn step 98400 loss: 0.6067
+2022-03-10 21:54:15,528 	trn step 98500 loss: 0.6611
+2022-03-10 21:54:28,436 	trn step 98600 loss: 0.4059
+2022-03-10 21:54:42,216 	trn step 98700 loss: 0.3248
+2022-03-10 21:54:55,646 	trn step 98800 loss: 0.7649
+2022-03-10 21:55:10,713 	trn step 98900 loss: 0.4976
+2022-03-10 21:55:33,201 	val step 99000: mlm_avg_acc 0.8372 itm_avg_acc 0.8334 attp_r@1 0.1584 attp_r@5 0.4715 attp_p@1 0.6825 attp_p@5 0.4064
+2022-03-10 21:55:33,420 	trn step 99000 loss: 0.7951
+2022-03-10 21:55:47,567 	trn step 99100 loss: 0.6669
+2022-03-10 21:56:01,499 	trn step 99200 loss: 0.6440
+2022-03-10 21:56:15,420 	trn step 99300 loss: 0.7126
+2022-03-10 21:56:29,111 	trn step 99400 loss: 0.6784
+2022-03-10 21:56:44,992 	trn step 99500 loss: 0.6036
+2022-03-10 21:56:59,139 	trn step 99600 loss: 0.4112
+2022-03-10 21:57:13,486 	trn step 99700 loss: 0.3482
+2022-03-10 21:57:26,587 	trn step 99800 loss: 0.7468
+2022-03-10 21:57:40,861 	trn step 99900 loss: 0.4948
+2022-03-10 21:58:05,895 	val step 100000: mlm_avg_acc 0.8399 itm_avg_acc 0.8308 attp_r@1 0.1592 attp_r@5 0.4672 attp_p@1 0.6860 attp_p@5 0.4027
+2022-03-10 21:58:06,087 	trn step 100000 loss: 0.4917
+2022-03-10 21:58:19,734 	trn step 100100 loss: 0.6231
+2022-03-10 21:58:33,809 	trn step 100200 loss: 0.5500
+2022-03-10 21:58:47,031 	trn step 100300 loss: 6.0008
+2022-03-10 21:59:01,982 	trn step 100400 loss: 0.3440
+2022-03-10 21:59:15,808 	trn step 100500 loss: 0.7208
+2022-03-10 21:59:29,758 	trn step 100600 loss: 0.7409
+2022-03-10 21:59:43,822 	trn step 100700 loss: 0.5693
+2022-03-10 21:59:57,547 	trn step 100800 loss: 0.5682
+2022-03-10 22:00:11,665 	trn step 100900 loss: 0.4649
+2022-03-10 22:00:39,541 	val step 101000: mlm_avg_acc 0.8370 itm_avg_acc 0.8302 attp_r@1 0.1602 attp_r@5 0.4693 attp_p@1 0.6905 attp_p@5 0.4045
+2022-03-10 22:00:39,689 	trn step 101000 loss: 0.6686
+2022-03-10 22:00:53,460 	trn step 101100 loss: 0.7034
+2022-03-10 22:01:08,724 	trn step 101200 loss: 0.4041
+2022-03-10 22:01:22,320 	trn step 101300 loss: 0.8138
+2022-03-10 22:01:35,668 	trn step 101400 loss: 0.6956
+2022-03-10 22:01:49,123 	trn step 101500 loss: 0.3950
+2022-03-10 22:02:03,426 	trn step 101600 loss: 0.5704
+2022-03-10 22:02:16,369 	trn step 101700 loss: 0.3508
+2022-03-10 22:02:30,477 	trn step 101800 loss: 0.7852
+2022-03-10 22:02:43,962 	trn step 101900 loss: 0.6714
+2022-03-10 22:03:09,414 	val step 102000: mlm_avg_acc 0.8393 itm_avg_acc 0.8340 attp_r@1 0.1607 attp_r@5 0.4708 attp_p@1 0.6925 attp_p@5 0.4058
+2022-03-10 22:03:09,514 	trn step 102000 loss: 0.3947
+2022-03-10 22:03:23,548 	trn step 102100 loss: 6.3398
+2022-03-10 22:03:36,647 	trn step 102200 loss: 0.4297
+2022-03-10 22:03:50,509 	trn step 102300 loss: 0.6331
+2022-03-10 22:04:04,494 	trn step 102400 loss: 0.3426
+2022-03-10 22:04:18,151 	trn step 102500 loss: 0.6510
+2022-03-10 22:04:32,624 	trn step 102600 loss: 0.8717
+2022-03-10 22:04:47,483 	trn step 102700 loss: 0.6535
+2022-03-10 22:05:01,237 	trn step 102800 loss: 0.6987
+2022-03-10 22:05:15,307 	trn step 102900 loss: 5.5197
+2022-03-10 22:05:35,495 	val step 103000: mlm_avg_acc 0.8355 itm_avg_acc 0.8284 attp_r@1 0.1615 attp_r@5 0.4709 attp_p@1 0.6960 attp_p@5 0.4059
+2022-03-10 22:05:35,643 	trn step 103000 loss: 0.5385
+2022-03-10 22:05:50,101 	trn step 103100 loss: 0.5320
+2022-03-10 22:06:02,983 	trn step 103200 loss: 0.7382
+2022-03-10 22:06:16,413 	trn step 103300 loss: 0.4189
+2022-03-10 22:06:30,376 	trn step 103400 loss: 0.5456
+2022-03-10 22:06:45,525 	trn step 103500 loss: 0.6881
+2022-03-10 22:06:59,863 	trn step 103600 loss: 0.6950
+2022-03-10 22:07:13,994 	trn step 103700 loss: 0.3372
+2022-03-10 22:07:27,884 	trn step 103800 loss: 0.6209
+2022-03-10 22:07:41,355 	trn step 103900 loss: 0.4396
+2022-03-10 22:08:05,919 	val step 104000: mlm_avg_acc 0.8406 itm_avg_acc 0.8337 attp_r@1 0.1606 attp_r@5 0.4780 attp_p@1 0.6920 attp_p@5 0.4120
+2022-03-10 22:08:06,133 	trn step 104000 loss: 0.6505
+2022-03-10 22:08:19,378 	trn step 104100 loss: 0.6523
+2022-03-10 22:08:33,803 	trn step 104200 loss: 0.6194
+2022-03-10 22:08:48,324 	trn step 104300 loss: 0.5825
+2022-03-10 22:09:01,633 	trn step 104400 loss: 0.7214
+2022-03-10 22:09:15,301 	trn step 104500 loss: 0.7046
+2022-03-10 22:09:29,994 	trn step 104600 loss: 0.5596
+2022-03-10 22:09:43,764 	trn step 104700 loss: 0.7183
+2022-03-10 22:09:57,547 	trn step 104800 loss: 0.7033
+2022-03-10 22:10:11,102 	trn step 104900 loss: 0.6844
+2022-03-10 22:10:36,066 	val step 105000: mlm_avg_acc 0.8364 itm_avg_acc 0.8329 attp_r@1 0.1582 attp_r@5 0.4731 attp_p@1 0.6820 attp_p@5 0.4078
+2022-03-10 22:10:36,229 	trn step 105000 loss: 0.7158
+2022-03-10 22:10:49,472 	trn step 105100 loss: 0.5101
+2022-03-10 22:11:03,099 	trn step 105200 loss: 0.4861
+2022-03-10 22:11:17,765 	trn step 105300 loss: 0.6333
+2022-03-10 22:11:31,106 	trn step 105400 loss: 0.6704
+2022-03-10 22:11:44,979 	trn step 105500 loss: 0.5940
+2022-03-10 22:11:58,795 	trn step 105600 loss: 0.6918
+2022-03-10 22:12:12,022 	trn step 105700 loss: 0.7432
+2022-03-10 22:12:26,652 	trn step 105800 loss: 5.3461
+2022-03-10 22:12:40,350 	trn step 105900 loss: 0.6753
+2022-03-10 22:13:02,335 	val step 106000: mlm_avg_acc 0.8418 itm_avg_acc 0.8357 attp_r@1 0.1595 attp_r@5 0.4719 attp_p@1 0.6875 attp_p@5 0.4068
+2022-03-10 22:13:02,471 	trn step 106000 loss: 0.6332
+2022-03-10 22:13:16,494 	trn step 106100 loss: 0.3829
+2022-03-10 22:13:30,927 	trn step 106200 loss: 0.7233
+2022-03-10 22:13:44,370 	trn step 106300 loss: 0.6903
+2022-03-10 22:13:57,866 	trn step 106400 loss: 0.5750
+2022-03-10 22:14:11,573 	trn step 106500 loss: 0.6521
+2022-03-10 22:14:26,242 	trn step 106600 loss: 5.6001
+2022-03-10 22:14:40,407 	trn step 106700 loss: 0.6558
+2022-03-10 22:14:54,442 	trn step 106800 loss: 5.1096
+2022-03-10 22:15:07,513 	trn step 106900 loss: 0.3464
+2022-03-10 22:15:33,428 	val step 107000: mlm_avg_acc 0.8302 itm_avg_acc 0.8255 attp_r@1 0.1614 attp_r@5 0.4715 attp_p@1 0.6955 attp_p@5 0.4064
+2022-03-10 22:15:33,575 	trn step 107000 loss: 0.6775
+2022-03-10 22:15:47,414 	trn step 107100 loss: 0.6294
+2022-03-10 22:16:00,953 	trn step 107200 loss: 0.4812
+2022-03-10 22:16:14,103 	trn step 107300 loss: 0.7625
+2022-03-10 22:16:28,692 	trn step 107400 loss: 0.6337
+2022-03-10 22:16:42,198 	trn step 107500 loss: 0.6943
+2022-03-10 22:16:55,908 	trn step 107600 loss: 0.5841
+2022-03-10 22:17:09,639 	trn step 107700 loss: 0.5589
+2022-03-10 22:17:23,924 	trn step 107800 loss: 0.3459
+2022-03-10 22:17:38,284 	trn step 107900 loss: 0.6408
+2022-03-10 22:17:59,010 	val step 108000: mlm_avg_acc 0.8433 itm_avg_acc 0.8369 attp_r@1 0.1608 attp_r@5 0.4756 attp_p@1 0.6930 attp_p@5 0.4100
+2022-03-10 22:17:59,168 	trn step 108000 loss: 0.7299
+2022-03-10 22:18:12,241 	trn step 108100 loss: 0.6572
+2022-03-10 22:18:26,356 	trn step 108200 loss: 0.6373
+2022-03-10 22:18:39,557 	trn step 108300 loss: 0.5486
+2022-03-10 22:18:53,789 	trn step 108400 loss: 0.7010
+2022-03-10 22:19:07,305 	trn step 108500 loss: 5.5300
+2022-03-10 22:19:21,792 	trn step 108600 loss: 0.4075
+2022-03-10 22:19:35,465 	trn step 108700 loss: 0.5690
+2022-03-10 22:19:49,441 	trn step 108800 loss: 4.8599
+2022-03-10 22:20:04,009 	trn step 108900 loss: 0.2871
+2022-03-10 22:20:30,134 	val step 109000: mlm_avg_acc 0.8402 itm_avg_acc 0.8322 attp_r@1 0.1636 attp_r@5 0.4745 attp_p@1 0.7050 attp_p@5 0.4090
+2022-03-10 22:20:30,329 	trn step 109000 loss: 0.5792
+2022-03-10 22:20:43,799 	trn step 109100 loss: 0.4958
+2022-03-10 22:20:57,579 	trn step 109200 loss: 0.7846
+2022-03-10 22:21:11,549 	trn step 109300 loss: 0.5651
+2022-03-10 22:21:26,380 	trn step 109400 loss: 0.6483
+2022-03-10 22:21:40,772 	trn step 109500 loss: 0.6561
+2022-03-10 22:21:54,298 	trn step 109600 loss: 0.6248
+2022-03-10 22:22:08,563 	trn step 109700 loss: 0.6864
+2022-03-10 22:22:22,985 	trn step 109800 loss: 0.4367
+2022-03-10 22:22:36,723 	trn step 109900 loss: 0.7104
+2022-03-10 22:22:57,489 	val step 110000: mlm_avg_acc 0.8375 itm_avg_acc 0.8324 attp_r@1 0.1607 attp_r@5 0.4687 attp_p@1 0.6925 attp_p@5 0.4040
+2022-03-10 22:22:57,636 	trn step 110000 loss: 0.7405
+2022-03-10 22:23:11,981 	trn step 110100 loss: 0.7110
+2022-03-10 22:23:26,107 	trn step 110200 loss: 0.6145
+2022-03-10 22:23:39,537 	trn step 110300 loss: 0.3684
+2022-03-10 22:23:53,827 	trn step 110400 loss: 0.6239
+2022-03-10 22:24:08,628 	trn step 110500 loss: 5.3322
+2022-03-10 22:24:21,904 	trn step 110600 loss: 0.5951
+2022-03-10 22:24:36,264 	trn step 110700 loss: 0.5439
+2022-03-10 22:24:50,106 	trn step 110800 loss: 0.5864
+2022-03-10 22:25:03,970 	trn step 110900 loss: 0.6331
+2022-03-10 22:25:25,118 	val step 111000: mlm_avg_acc 0.8386 itm_avg_acc 0.8326 attp_r@1 0.1613 attp_r@5 0.4767 attp_p@1 0.6950 attp_p@5 0.4109
+2022-03-10 22:25:25,298 	trn step 111000 loss: 0.5911
+2022-03-10 22:25:38,293 	trn step 111100 loss: 0.6057
+2022-03-10 22:25:52,971 	trn step 111200 loss: 0.5959
+2022-03-10 22:26:06,088 	trn step 111300 loss: 0.4664
+2022-03-10 22:26:19,549 	trn step 111400 loss: 0.7661
+2022-03-10 22:26:33,440 	trn step 111500 loss: 0.6790
+2022-03-10 22:26:47,559 	trn step 111600 loss: 0.6424
+2022-03-10 22:27:01,379 	trn step 111700 loss: 0.3179
+2022-03-10 22:27:14,876 	trn step 111800 loss: 0.6807
+2022-03-10 22:27:28,730 	trn step 111900 loss: 0.7862
+2022-03-10 22:27:56,428 	val step 112000: mlm_avg_acc 0.8385 itm_avg_acc 0.8326 attp_r@1 0.1588 attp_r@5 0.4742 attp_p@1 0.6845 attp_p@5 0.4088
+2022-03-10 22:27:56,656 	trn step 112000 loss: 0.6779
+2022-03-10 22:28:10,422 	trn step 112100 loss: 0.7860
+2022-03-10 22:28:24,430 	trn step 112200 loss: 0.7358
+2022-03-10 22:28:38,204 	trn step 112300 loss: 0.6526
+2022-03-10 22:28:51,247 	trn step 112400 loss: 0.5830
+2022-03-10 22:29:04,994 	trn step 112500 loss: 0.6969
+2022-03-10 22:29:19,196 	trn step 112600 loss: 0.3773
+2022-03-10 22:29:32,937 	trn step 112700 loss: 0.7558
+2022-03-10 22:29:47,624 	trn step 112800 loss: 0.6677
+2022-03-10 22:30:01,507 	trn step 112900 loss: 6.0966
+2022-03-10 22:30:22,633 	val step 113000: mlm_avg_acc 0.8364 itm_avg_acc 0.8303 attp_r@1 0.1607 attp_r@5 0.4710 attp_p@1 0.6925 attp_p@5 0.4060
+2022-03-10 22:30:22,721 	trn step 113000 loss: 0.4049
+2022-03-10 22:30:36,481 	trn step 113100 loss: 0.6574
+2022-03-10 22:30:50,732 	trn step 113200 loss: 0.5807
+2022-03-10 22:31:05,898 	trn step 113300 loss: 0.6295
+2022-03-10 22:31:19,581 	trn step 113400 loss: 6.3966
+2022-03-10 22:31:34,131 	trn step 113500 loss: 0.2640
+2022-03-10 22:31:47,056 	trn step 113600 loss: 0.6695
+2022-03-10 22:32:00,662 	trn step 113700 loss: 0.3149
+2022-03-10 22:32:13,636 	trn step 113800 loss: 5.2232
+2022-03-10 22:32:27,280 	trn step 113900 loss: 0.4986
+2022-03-10 22:32:48,362 	val step 114000: mlm_avg_acc 0.8375 itm_avg_acc 0.8301 attp_r@1 0.1626 attp_r@5 0.4792 attp_p@1 0.7010 attp_p@5 0.4131
+2022-03-10 22:32:48,457 	trn step 114000 loss: 0.2978
+2022-03-10 22:33:00,830 	trn step 114100 loss: 0.5280
+2022-03-10 22:33:14,499 	trn step 114200 loss: 5.5737
+2022-03-10 22:33:28,907 	trn step 114300 loss: 0.5871
+2022-03-10 22:33:42,498 	trn step 114400 loss: 0.5808
+2022-03-10 22:33:56,787 	trn step 114500 loss: 0.7820
+2022-03-10 22:34:09,632 	trn step 114600 loss: 5.1278
+2022-03-10 22:34:23,278 	trn step 114700 loss: 0.6246
+2022-03-10 22:34:37,210 	trn step 114800 loss: 0.5840
+2022-03-10 22:34:50,527 	trn step 114900 loss: 0.6815
+2022-03-10 22:35:17,005 	val step 115000: mlm_avg_acc 0.8362 itm_avg_acc 0.8317 attp_r@1 0.1615 attp_r@5 0.4781 attp_p@1 0.6960 attp_p@5 0.4121
+2022-03-10 22:35:17,142 	trn step 115000 loss: 0.6241
+2022-03-10 22:35:31,700 	trn step 115100 loss: 0.6959
+2022-03-10 22:35:45,891 	trn step 115200 loss: 0.6525
+2022-03-10 22:35:59,838 	trn step 115300 loss: 0.8110
+2022-03-10 22:36:14,287 	trn step 115400 loss: 0.6049
+2022-03-10 22:36:28,655 	trn step 115500 loss: 0.5771
+2022-03-10 22:36:42,829 	trn step 115600 loss: 0.6137
+2022-03-10 22:36:56,812 	trn step 115700 loss: 0.5481
+2022-03-10 22:37:10,581 	trn step 115800 loss: 0.2445
+2022-03-10 22:37:25,208 	trn step 115900 loss: 0.7543
+2022-03-10 22:37:51,549 	val step 116000: mlm_avg_acc 0.8339 itm_avg_acc 0.8281 attp_r@1 0.1645 attp_r@5 0.4756 attp_p@1 0.7090 attp_p@5 0.4100
+2022-03-10 22:37:51,648 	trn step 116000 loss: 0.4773
+2022-03-10 22:38:05,761 	trn step 116100 loss: 0.3581
+2022-03-10 22:38:19,115 	trn step 116200 loss: 5.3267
+2022-03-10 22:38:32,618 	trn step 116300 loss: 0.3236
+2022-03-10 22:38:46,823 	trn step 116400 loss: 0.5379
+2022-03-10 22:39:00,632 	trn step 116500 loss: 5.0173
+2022-03-10 22:39:14,120 	trn step 116600 loss: 0.7848
+2022-03-10 22:39:29,523 	trn step 116700 loss: 0.5785
+2022-03-10 22:39:42,711 	trn step 116800 loss: 0.8232
+2022-03-10 22:39:56,667 	trn step 116900 loss: 0.4943
+2022-03-10 22:40:22,130 	val step 117000: mlm_avg_acc 0.8428 itm_avg_acc 0.8333 attp_r@1 0.1606 attp_r@5 0.4825 attp_p@1 0.6920 attp_p@5 0.4159
+2022-03-10 22:40:22,213 	trn step 117000 loss: 0.3671
+2022-03-10 22:40:35,741 	trn step 117100 loss: 0.5331
+2022-03-10 22:40:48,842 	trn step 117200 loss: 0.6074
+2022-03-10 22:41:02,444 	trn step 117300 loss: 0.3060
+2022-03-10 22:41:17,227 	trn step 117400 loss: 0.6296
+2022-03-10 22:41:32,238 	trn step 117500 loss: 0.6559
+2022-03-10 22:41:44,853 	trn step 117600 loss: 0.7610
+2022-03-10 22:41:57,999 	trn step 117700 loss: 0.6249
+2022-03-10 22:42:11,814 	trn step 117800 loss: 0.6717
+2022-03-10 22:42:25,094 	trn step 117900 loss: 0.6843
+2022-03-10 22:42:51,096 	val step 118000: mlm_avg_acc 0.8359 itm_avg_acc 0.8313 attp_r@1 0.1621 attp_r@5 0.4796 attp_p@1 0.6985 attp_p@5 0.4134
+2022-03-10 22:42:51,187 	trn step 118000 loss: 5.3853
+2022-03-10 22:43:05,924 	trn step 118100 loss: 0.5794
+2022-03-10 22:43:21,531 	trn step 118200 loss: 0.4293
+2022-03-10 22:43:35,276 	trn step 118300 loss: 0.7391
+2022-03-10 22:43:49,110 	trn step 118400 loss: 0.5854
+2022-03-10 22:44:03,654 	trn step 118500 loss: 0.5390
+2022-03-10 22:44:17,244 	trn step 118600 loss: 0.6969
+2022-03-10 22:44:30,851 	trn step 118700 loss: 5.7980
+2022-03-10 22:44:43,853 	trn step 118800 loss: 0.3535
+2022-03-10 22:44:56,964 	trn step 118900 loss: 5.5469
+2022-03-10 22:45:21,184 	val step 119000: mlm_avg_acc 0.8396 itm_avg_acc 0.8353 attp_r@1 0.1630 attp_r@5 0.4861 attp_p@1 0.7025 attp_p@5 0.4190
+2022-03-10 22:45:21,329 	trn step 119000 loss: 0.6577
+2022-03-10 22:45:34,990 	trn step 119100 loss: 0.5678
+2022-03-10 22:45:48,190 	trn step 119200 loss: 0.6270
+2022-03-10 22:46:01,672 	trn step 119300 loss: 0.5143
+2022-03-10 22:46:14,863 	trn step 119400 loss: 0.7152
+2022-03-10 22:46:28,947 	trn step 119500 loss: 0.6307
+2022-03-10 22:46:43,252 	trn step 119600 loss: 0.7312
+2022-03-10 22:46:57,008 	trn step 119700 loss: 0.4977
+2022-03-10 22:47:11,613 	trn step 119800 loss: 0.7149
+2022-03-10 22:47:26,258 	trn step 119900 loss: 0.6166
+2022-03-10 22:47:47,666 	val step 120000: mlm_avg_acc 0.8400 itm_avg_acc 0.8351 attp_r@1 0.1628 attp_r@5 0.4840 attp_p@1 0.7015 attp_p@5 0.4172
+2022-03-10 22:47:47,803 	trn step 120000 loss: 0.7664
+2022-03-10 22:48:01,981 	trn step 120100 loss: 0.6194
+2022-03-10 22:48:15,170 	trn step 120200 loss: 0.3875
+2022-03-10 22:48:29,314 	trn step 120300 loss: 5.8721
+2022-03-10 22:48:42,381 	trn step 120400 loss: 0.7449
+2022-03-10 22:48:56,244 	trn step 120500 loss: 0.3612
+2022-03-10 22:49:11,851 	trn step 120600 loss: 0.6431
+2022-03-10 22:49:25,235 	trn step 120700 loss: 0.3382
+2022-03-10 22:49:38,032 	trn step 120800 loss: 0.7425
+2022-03-10 22:49:51,271 	trn step 120900 loss: 0.2930
+2022-03-10 22:50:17,936 	val step 121000: mlm_avg_acc 0.8431 itm_avg_acc 0.8383 attp_r@1 0.1622 attp_r@5 0.4740 attp_p@1 0.6990 attp_p@5 0.4086
+2022-03-10 22:50:18,064 	trn step 121000 loss: 0.7569
+2022-03-10 22:50:31,707 	trn step 121100 loss: 0.2851
+2022-03-10 22:50:45,554 	trn step 121200 loss: 5.8228
+2022-03-10 22:50:59,549 	trn step 121300 loss: 0.7123
+2022-03-10 22:51:14,061 	trn step 121400 loss: 0.6265
+2022-03-10 22:51:27,480 	trn step 121500 loss: 0.3923
+2022-03-10 22:51:41,942 	trn step 121600 loss: 0.6605
+2022-03-10 22:51:55,661 	trn step 121700 loss: 0.5924
+2022-03-10 22:52:08,654 	trn step 121800 loss: 5.2831
+2022-03-10 22:52:22,197 	trn step 121900 loss: 0.6268
+2022-03-10 22:52:46,903 	val step 122000: mlm_avg_acc 0.8379 itm_avg_acc 0.8320 attp_r@1 0.1630 attp_r@5 0.4816 attp_p@1 0.7025 attp_p@5 0.4151
+2022-03-10 22:52:47,063 	trn step 122000 loss: 0.6070
+2022-03-10 22:53:00,646 	trn step 122100 loss: 0.4600
+2022-03-10 22:53:15,815 	trn step 122200 loss: 0.6984
+2022-03-10 22:53:30,772 	trn step 122300 loss: 0.6323
+2022-03-10 22:53:44,178 	trn step 122400 loss: 0.3007
+2022-03-10 22:53:57,554 	trn step 122500 loss: 0.6195
+2022-03-10 22:54:10,670 	trn step 122600 loss: 0.6199
+2022-03-10 22:54:23,779 	trn step 122700 loss: 0.3812
+2022-03-10 22:54:37,717 	trn step 122800 loss: 4.5999
+2022-03-10 22:54:51,164 	trn step 122900 loss: 0.6676
+2022-03-10 22:55:13,550 	val step 123000: mlm_avg_acc 0.8406 itm_avg_acc 0.8349 attp_r@1 0.1608 attp_r@5 0.4835 attp_p@1 0.6930 attp_p@5 0.4168
+2022-03-10 22:55:13,710 	trn step 123000 loss: 0.6580
+2022-03-10 22:55:27,300 	trn step 123100 loss: 0.2798
+2022-03-10 22:55:41,055 	trn step 123200 loss: 0.7000
+2022-03-10 22:55:54,735 	trn step 123300 loss: 0.6197
+2022-03-10 22:56:07,888 	trn step 123400 loss: 0.4269
+2022-03-10 22:56:21,670 	trn step 123500 loss: 0.3543
+2022-03-10 22:56:35,391 	trn step 123600 loss: 0.6102
+2022-03-10 22:56:50,440 	trn step 123700 loss: 0.3664
+2022-03-10 22:57:04,312 	trn step 123800 loss: 6.0838
+2022-03-10 22:57:17,669 	trn step 123900 loss: 6.4545
+2022-03-10 22:57:44,041 	val step 124000: mlm_avg_acc 0.8400 itm_avg_acc 0.8353 attp_r@1 0.1621 attp_r@5 0.4790 attp_p@1 0.6985 attp_p@5 0.4129
+2022-03-10 22:57:44,214 	trn step 124000 loss: 0.5870
+2022-03-10 22:57:58,026 	trn step 124100 loss: 0.5147
+2022-03-10 22:58:11,462 	trn step 124200 loss: 0.6737
+2022-03-10 22:58:25,341 	trn step 124300 loss: 0.6898
+2022-03-10 22:58:39,300 	trn step 124400 loss: 0.3050
+2022-03-10 22:58:53,788 	trn step 124500 loss: 0.2238
+2022-03-10 22:59:07,939 	trn step 124600 loss: 0.5902
+2022-03-10 22:59:21,621 	trn step 124700 loss: 0.6152
+2022-03-10 22:59:34,587 	trn step 124800 loss: 5.4322
+2022-03-10 22:59:48,854 	trn step 124900 loss: 5.7792
+2022-03-10 23:00:12,961 	val step 125000: mlm_avg_acc 0.8432 itm_avg_acc 0.8368 attp_r@1 0.1611 attp_r@5 0.4820 attp_p@1 0.6945 attp_p@5 0.4155
+2022-03-10 23:00:13,123 	trn step 125000 loss: 0.7380
+2022-03-10 23:00:26,998 	trn step 125100 loss: 0.6263
+2022-03-10 23:00:41,968 	trn step 125200 loss: 0.6136
+2022-03-10 23:00:56,007 	trn step 125300 loss: 6.0818
+2022-03-10 23:01:09,265 	trn step 125400 loss: 0.6974
+2022-03-10 23:01:23,576 	trn step 125500 loss: 0.5822
+2022-03-10 23:01:37,115 	trn step 125600 loss: 0.5716
+2022-03-10 23:01:50,905 	trn step 125700 loss: 0.6279
+2022-03-10 23:02:04,513 	trn step 125800 loss: 0.6110
+2022-03-10 23:02:18,270 	trn step 125900 loss: 0.5876
+2022-03-10 23:02:39,130 	val step 126000: mlm_avg_acc 0.8451 itm_avg_acc 0.8377 attp_r@1 0.1645 attp_r@5 0.4827 attp_p@1 0.7090 attp_p@5 0.4161
+2022-03-10 23:02:39,265 	trn step 126000 loss: 0.7152
+2022-03-10 23:02:54,308 	trn step 126100 loss: 0.5459
+2022-03-10 23:03:08,413 	trn step 126200 loss: 0.3649
+2022-03-10 23:03:21,851 	trn step 126300 loss: 0.7141
+2022-03-10 23:03:36,232 	trn step 126400 loss: 0.6398
+2022-03-10 23:03:49,841 	trn step 126500 loss: 0.7160
+2022-03-10 23:04:04,457 	trn step 126600 loss: 0.6157
+2022-03-10 23:04:18,198 	trn step 126700 loss: 0.7629
+2022-03-10 23:04:33,267 	trn step 126800 loss: 0.6466
+2022-03-10 23:04:47,807 	trn step 126900 loss: 0.6511
+2022-03-10 23:05:11,446 	val step 127000: mlm_avg_acc 0.8409 itm_avg_acc 0.8343 attp_r@1 0.1632 attp_r@5 0.4807 attp_p@1 0.7035 attp_p@5 0.4144
+2022-03-10 23:05:11,520 	trn step 127000 loss: 5.2313
+2022-03-10 23:05:24,764 	trn step 127100 loss: 0.6459
+2022-03-10 23:05:38,313 	trn step 127200 loss: 0.5857
+2022-03-10 23:05:51,646 	trn step 127300 loss: 0.3185
+2022-03-10 23:06:05,098 	trn step 127400 loss: 0.7280
+2022-03-10 23:06:19,255 	trn step 127500 loss: 0.6574
+2022-03-10 23:06:34,055 	trn step 127600 loss: 0.6128
+2022-03-10 23:06:48,034 	trn step 127700 loss: 0.4028
+2022-03-10 23:07:01,733 	trn step 127800 loss: 0.6137
+2022-03-10 23:07:15,529 	trn step 127900 loss: 0.7175
+2022-03-10 23:07:38,197 	val step 128000: mlm_avg_acc 0.8404 itm_avg_acc 0.8369 attp_r@1 0.1623 attp_r@5 0.4759 attp_p@1 0.6995 attp_p@5 0.4102
+2022-03-10 23:07:38,361 	trn step 128000 loss: 0.6522
+2022-03-10 23:07:51,676 	trn step 128100 loss: 0.6549
+2022-03-10 23:08:05,717 	trn step 128200 loss: 0.7754
+2022-03-10 23:08:19,142 	trn step 128300 loss: 0.5521
+2022-03-10 23:08:34,405 	trn step 128400 loss: 0.6333
+2022-03-10 23:08:47,672 	trn step 128500 loss: 0.5941
+2022-03-10 23:09:01,471 	trn step 128600 loss: 0.4650
+2022-03-10 23:09:15,776 	trn step 128700 loss: 0.5876
+2022-03-10 23:09:29,030 	trn step 128800 loss: 0.6417
+2022-03-10 23:09:43,662 	trn step 128900 loss: 0.5063
+2022-03-10 23:10:09,953 	val step 129000: mlm_avg_acc 0.8438 itm_avg_acc 0.8391 attp_r@1 0.1611 attp_r@5 0.4797 attp_p@1 0.6945 attp_p@5 0.4135
+2022-03-10 23:10:10,099 	trn step 129000 loss: 0.6294
+2022-03-10 23:10:25,056 	trn step 129100 loss: 0.6052
+2022-03-10 23:10:38,376 	trn step 129200 loss: 0.5837
+2022-03-10 23:10:53,012 	trn step 129300 loss: 5.1279
+2022-03-10 23:11:06,858 	trn step 129400 loss: 0.5228
+2022-03-10 23:11:21,302 	trn step 129500 loss: 0.4341
+2022-03-10 23:11:35,567 	trn step 129600 loss: 0.6153
+2022-03-10 23:11:48,368 	trn step 129700 loss: 0.5689
+2022-03-10 23:12:02,098 	trn step 129800 loss: 0.5693
+2022-03-10 23:12:16,499 	trn step 129900 loss: 0.5216
+2022-03-10 23:12:43,520 	val step 130000: mlm_avg_acc 0.8421 itm_avg_acc 0.8375 attp_r@1 0.1628 attp_r@5 0.4796 attp_p@1 0.7015 attp_p@5 0.4134
+2022-03-10 23:12:43,652 	trn step 130000 loss: 0.6533
+2022-03-10 23:12:57,519 	trn step 130100 loss: 0.5826
+2022-03-10 23:13:11,680 	trn step 130200 loss: 0.5701
+2022-03-10 23:13:25,977 	trn step 130300 loss: 0.5493
+2022-03-10 23:13:39,332 	trn step 130400 loss: 0.6686
+2022-03-10 23:13:53,679 	trn step 130500 loss: 0.6296
+2022-03-10 23:14:08,323 	trn step 130600 loss: 0.5672
+2022-03-10 23:14:22,242 	trn step 130700 loss: 0.7383
+2022-03-10 23:14:35,567 	trn step 130800 loss: 0.7728
+2022-03-10 23:14:50,409 	trn step 130900 loss: 0.6840
+2022-03-10 23:15:10,567 	val step 131000: mlm_avg_acc 0.8445 itm_avg_acc 0.8396 attp_r@1 0.1611 attp_r@5 0.4806 attp_p@1 0.6945 attp_p@5 0.4143
+2022-03-10 23:15:10,648 	trn step 131000 loss: 0.3117
+2022-03-10 23:15:23,491 	trn step 131100 loss: 0.5587
+2022-03-10 23:15:37,399 	trn step 131200 loss: 0.5729
+2022-03-10 23:15:50,864 	trn step 131300 loss: 0.6008
+2022-03-10 23:16:05,553 	trn step 131400 loss: 0.2514
+2022-03-10 23:16:18,793 	trn step 131500 loss: 0.6260
+2022-03-10 23:16:32,060 	trn step 131600 loss: 0.5259
+2022-03-10 23:16:45,776 	trn step 131700 loss: 0.7354
+2022-03-10 23:16:59,709 	trn step 131800 loss: 5.6892
+2022-03-10 23:17:13,752 	trn step 131900 loss: 0.6354
+2022-03-10 23:17:34,284 	val step 132000: mlm_avg_acc 0.8448 itm_avg_acc 0.8396 attp_r@1 0.1626 attp_r@5 0.4855 attp_p@1 0.7010 attp_p@5 0.4185
+2022-03-10 23:17:34,431 	trn step 132000 loss: 0.6367
+2022-03-10 23:17:48,068 	trn step 132100 loss: 0.5321
+2022-03-10 23:18:02,533 	trn step 132200 loss: 0.7029
+2022-03-10 23:18:16,623 	trn step 132300 loss: 0.4958
+2022-03-10 23:18:29,918 	trn step 132400 loss: 0.6737
+2022-03-10 23:18:44,137 	trn step 132500 loss: 0.6787
+2022-03-10 23:18:57,553 	trn step 132600 loss: 0.5770
+2022-03-10 23:19:11,155 	trn step 132700 loss: 5.7973
+2022-03-10 23:19:24,726 	trn step 132800 loss: 0.6785
+2022-03-10 23:19:38,167 	trn step 132900 loss: 0.6954
+2022-03-10 23:20:06,775 	val step 133000: mlm_avg_acc 0.8403 itm_avg_acc 0.8350 attp_r@1 0.1610 attp_r@5 0.4884 attp_p@1 0.6940 attp_p@5 0.4210
+2022-03-10 23:20:06,909 	trn step 133000 loss: 0.6168
+2022-03-10 23:20:20,811 	trn step 133100 loss: 0.6739
+2022-03-10 23:20:34,768 	trn step 133200 loss: 0.5992
+2022-03-10 23:20:48,495 	trn step 133300 loss: 0.5477
+2022-03-10 23:21:02,801 	trn step 133400 loss: 0.6572
+2022-03-10 23:21:16,438 	trn step 133500 loss: 4.7371
+2022-03-10 23:21:31,404 	trn step 133600 loss: 0.8058
+2022-03-10 23:21:46,551 	trn step 133700 loss: 0.6604
+2022-03-10 23:22:00,090 	trn step 133800 loss: 0.6223
+2022-03-10 23:22:13,379 	trn step 133900 loss: 0.6183
+2022-03-10 23:22:37,322 	val step 134000: mlm_avg_acc 0.8372 itm_avg_acc 0.8337 attp_r@1 0.1618 attp_r@5 0.4789 attp_p@1 0.6975 attp_p@5 0.4128
+2022-03-10 23:22:37,514 	trn step 134000 loss: 0.5389
+2022-03-10 23:22:50,939 	trn step 134100 loss: 0.3194
+2022-03-10 23:23:05,167 	trn step 134200 loss: 0.7159
+2022-03-10 23:23:18,580 	trn step 134300 loss: 0.3999
+2022-03-10 23:23:32,407 	trn step 134400 loss: 0.5725
+2022-03-10 23:23:46,572 	trn step 134500 loss: 0.7393
+2022-03-10 23:24:00,906 	trn step 134600 loss: 0.2923
+2022-03-10 23:24:14,489 	trn step 134700 loss: 0.5855
+2022-03-10 23:24:28,060 	trn step 134800 loss: 0.5657
+2022-03-10 23:24:41,228 	trn step 134900 loss: 0.6095
+2022-03-10 23:25:07,697 	val step 135000: mlm_avg_acc 0.8399 itm_avg_acc 0.8342 attp_r@1 0.1636 attp_r@5 0.4867 attp_p@1 0.7050 attp_p@5 0.4195
+2022-03-10 23:25:07,828 	trn step 135000 loss: 0.6340
+2022-03-10 23:25:21,397 	trn step 135100 loss: 0.3511
+2022-03-10 23:25:35,180 	trn step 135200 loss: 0.6639
+2022-03-10 23:25:50,276 	trn step 135300 loss: 0.2582
+2022-03-10 23:26:04,274 	trn step 135400 loss: 0.6346
+2022-03-10 23:26:18,321 	trn step 135500 loss: 0.5998
+2022-03-10 23:26:32,458 	trn step 135600 loss: 0.5997
+2022-03-10 23:26:46,209 	trn step 135700 loss: 0.3372
+2022-03-10 23:27:01,016 	trn step 135800 loss: 5.3192
+2022-03-10 23:27:14,842 	trn step 135900 loss: 0.6146
+2022-03-10 23:27:38,584 	val step 136000: mlm_avg_acc 0.8435 itm_avg_acc 0.8370 attp_r@1 0.1625 attp_r@5 0.4862 attp_p@1 0.7005 attp_p@5 0.4191
+2022-03-10 23:27:38,678 	trn step 136000 loss: 0.3189
+2022-03-10 23:27:52,745 	trn step 136100 loss: 0.6468
+2022-03-10 23:28:06,733 	trn step 136200 loss: 0.5205
+2022-03-10 23:28:21,839 	trn step 136300 loss: 0.6708
+2022-03-10 23:28:35,662 	trn step 136400 loss: 0.3329
+2022-03-10 23:28:49,582 	trn step 136500 loss: 0.7147
+2022-03-10 23:29:03,727 	trn step 136600 loss: 0.6781
+2022-03-10 23:29:17,931 	trn step 136700 loss: 0.2389
+2022-03-10 23:29:32,062 	trn step 136800 loss: 0.6413
+2022-03-10 23:29:45,860 	trn step 136900 loss: 0.3721
+2022-03-10 23:30:06,592 	val step 137000: mlm_avg_acc 0.8428 itm_avg_acc 0.8383 attp_r@1 0.1643 attp_r@5 0.4903 attp_p@1 0.7080 attp_p@5 0.4226
+2022-03-10 23:30:06,743 	trn step 137000 loss: 0.6034
+2022-03-10 23:30:19,825 	trn step 137100 loss: 0.6568
+2022-03-10 23:30:33,534 	trn step 137200 loss: 0.6764
+2022-03-10 23:30:46,516 	trn step 137300 loss: 0.6232
+2022-03-10 23:31:00,746 	trn step 137400 loss: 0.6182
+2022-03-10 23:31:13,842 	trn step 137500 loss: 0.5596
+2022-03-10 23:31:28,758 	trn step 137600 loss: 0.5315
+2022-03-10 23:31:42,393 	trn step 137700 loss: 0.6291
+2022-03-10 23:31:55,996 	trn step 137800 loss: 0.1290
+2022-03-10 23:32:09,668 	trn step 137900 loss: 4.9359
+2022-03-10 23:32:33,247 	val step 138000: mlm_avg_acc 0.8468 itm_avg_acc 0.8408 attp_r@1 0.1628 attp_r@5 0.4842 attp_p@1 0.7015 attp_p@5 0.4174
+2022-03-10 23:32:33,422 	trn step 138000 loss: 0.5959
+2022-03-10 23:32:46,728 	trn step 138100 loss: 0.2516
+2022-03-10 23:33:00,949 	trn step 138200 loss: 0.8467
+2022-03-10 23:33:15,065 	trn step 138300 loss: 0.6399
+2022-03-10 23:33:29,135 	trn step 138400 loss: 0.3673
+2022-03-10 23:33:43,557 	trn step 138500 loss: 0.5241
+2022-03-10 23:33:57,634 	trn step 138600 loss: 0.6118
+2022-03-10 23:34:11,282 	trn step 138700 loss: 0.7172
+2022-03-10 23:34:24,898 	trn step 138800 loss: 0.5033
+2022-03-10 23:34:38,983 	trn step 138900 loss: 0.7078
+2022-03-10 23:35:03,282 	val step 139000: mlm_avg_acc 0.8459 itm_avg_acc 0.8410 attp_r@1 0.1630 attp_r@5 0.4842 attp_p@1 0.7025 attp_p@5 0.4174
+2022-03-10 23:35:03,498 	trn step 139000 loss: 0.5684
+2022-03-10 23:35:18,397 	trn step 139100 loss: 0.6070
+2022-03-10 23:35:32,903 	trn step 139200 loss: 0.7133
+2022-03-10 23:35:46,736 	trn step 139300 loss: 0.7045
+2022-03-10 23:35:59,717 	trn step 139400 loss: 0.6277
+2022-03-10 23:36:13,821 	trn step 139500 loss: 0.5640
+2022-03-10 23:36:28,122 	trn step 139600 loss: 0.4662
+2022-03-10 23:36:42,083 	trn step 139700 loss: 0.6122
+2022-03-10 23:36:56,090 	trn step 139800 loss: 5.3430
+2022-03-10 23:37:11,180 	trn step 139900 loss: 0.5889
+2022-03-10 23:37:32,108 	val step 140000: mlm_avg_acc 0.8474 itm_avg_acc 0.8407 attp_r@1 0.1606 attp_r@5 0.4896 attp_p@1 0.6920 attp_p@5 0.4220
+2022-03-10 23:37:32,174 	trn step 140000 loss: 5.8989
+2022-03-10 23:37:45,913 	trn step 140100 loss: 0.4989
+2022-03-10 23:37:59,493 	trn step 140200 loss: 0.5239
+2022-03-10 23:38:12,455 	trn step 140300 loss: 0.7196
+2022-03-10 23:38:26,007 	trn step 140400 loss: 0.6798
+2022-03-10 23:38:38,970 	trn step 140500 loss: 0.6496
+2022-03-10 23:38:53,480 	trn step 140600 loss: 0.7726
+2022-03-10 23:39:07,249 	trn step 140700 loss: 5.7557
+2022-03-10 23:39:21,169 	trn step 140800 loss: 0.5870
+2022-03-10 23:39:34,784 	trn step 140900 loss: 0.5134
+2022-03-10 23:39:55,930 	val step 141000: mlm_avg_acc 0.8464 itm_avg_acc 0.8389 attp_r@1 0.1642 attp_r@5 0.4915 attp_p@1 0.7075 attp_p@5 0.4237
+2022-03-10 23:39:56,064 	trn step 141000 loss: 0.5669
+2022-03-10 23:40:10,842 	trn step 141100 loss: 0.7547
+2022-03-10 23:40:24,479 	trn step 141200 loss: 0.3475
+2022-03-10 23:40:38,210 	trn step 141300 loss: 0.7594
+2022-03-10 23:40:52,604 	trn step 141400 loss: 0.6765
+2022-03-10 23:41:06,942 	trn step 141500 loss: 0.6731
+2022-03-10 23:41:21,540 	trn step 141600 loss: 0.5886
+2022-03-10 23:41:35,422 	trn step 141700 loss: 0.6600
+2022-03-10 23:41:50,221 	trn step 141800 loss: 0.5882
+2022-03-10 23:42:04,443 	trn step 141900 loss: 0.6855
+2022-03-10 23:42:25,159 	val step 142000: mlm_avg_acc 0.8431 itm_avg_acc 0.8375 attp_r@1 0.1619 attp_r@5 0.4841 attp_p@1 0.6980 attp_p@5 0.4173
+2022-03-10 23:42:25,224 	trn step 142000 loss: 0.3459
+2022-03-10 23:42:39,794 	trn step 142100 loss: 0.2946
+2022-03-10 23:42:52,992 	trn step 142200 loss: 0.2866
+2022-03-10 23:43:06,680 	trn step 142300 loss: 6.2007
+2022-03-10 23:43:20,236 	trn step 142400 loss: 5.1435
+2022-03-10 23:43:34,405 	trn step 142500 loss: 5.1265
+2022-03-10 23:43:47,794 	trn step 142600 loss: 0.6769
+2022-03-10 23:44:00,709 	trn step 142700 loss: 0.3266
+2022-03-10 23:44:14,419 	trn step 142800 loss: 0.6554
+2022-03-10 23:44:28,243 	trn step 142900 loss: 0.6639
+2022-03-10 23:44:48,417 	val step 143000: mlm_avg_acc 0.8372 itm_avg_acc 0.8295 attp_r@1 0.1590 attp_r@5 0.4630 attp_p@1 0.6855 attp_p@5 0.3991
+2022-03-10 23:44:48,565 	trn step 143000 loss: 0.7066
+2022-03-10 23:45:02,025 	trn step 143100 loss: 0.6447
+2022-03-10 23:45:16,132 	trn step 143200 loss: 0.6352
+2022-03-10 23:45:29,645 	trn step 143300 loss: 0.5960
+2022-03-10 23:45:44,102 	trn step 143400 loss: 6.0007
+2022-03-10 23:45:57,763 	trn step 143500 loss: 0.6201
+2022-03-10 23:46:11,032 	trn step 143600 loss: 0.7602
+2022-03-10 23:46:25,184 	trn step 143700 loss: 5.5383
+2022-03-10 23:46:39,088 	trn step 143800 loss: 0.6776
+2022-03-10 23:46:53,447 	trn step 143900 loss: 0.6346
+2022-03-10 23:47:13,494 	val step 144000: mlm_avg_acc 0.8430 itm_avg_acc 0.8383 attp_r@1 0.1631 attp_r@5 0.4835 attp_p@1 0.7030 attp_p@5 0.4168
+2022-03-10 23:47:13,570 	trn step 144000 loss: 5.5929
+2022-03-10 23:47:27,331 	trn step 144100 loss: 0.6893
+2022-03-10 23:47:42,126 	trn step 144200 loss: 0.6766
+2022-03-10 23:47:56,298 	trn step 144300 loss: 0.7495
+2022-03-10 23:48:09,656 	trn step 144400 loss: 0.5197
+2022-03-10 23:48:22,967 	trn step 144500 loss: 0.5985
+2022-03-10 23:48:37,125 	trn step 144600 loss: 0.5850
+2022-03-10 23:48:50,842 	trn step 144700 loss: 0.5839
+2022-03-10 23:49:04,402 	trn step 144800 loss: 0.6792
+2022-03-10 23:49:17,670 	trn step 144900 loss: 0.6293
+2022-03-10 23:49:38,662 	val step 145000: mlm_avg_acc 0.8467 itm_avg_acc 0.8395 attp_r@1 0.1652 attp_r@5 0.4882 attp_p@1 0.7120 attp_p@5 0.4208
+2022-03-10 23:49:38,793 	trn step 145000 loss: 0.6118
+2022-03-10 23:49:53,691 	trn step 145100 loss: 0.6853
+2022-03-10 23:50:07,793 	trn step 145200 loss: 0.5583
+2022-03-10 23:50:22,615 	trn step 145300 loss: 0.4995
+2022-03-10 23:50:35,525 	trn step 145400 loss: 0.6578
+2022-03-10 23:50:49,326 	trn step 145500 loss: 6.1484
+2022-03-10 23:51:03,485 	trn step 145600 loss: 0.5526
+2022-03-10 23:51:17,702 	trn step 145700 loss: 0.6542
+2022-03-10 23:51:32,183 	trn step 145800 loss: 0.7552
+2022-03-10 23:51:45,358 	trn step 145900 loss: 0.2897
+2022-03-10 23:52:12,945 	val step 146000: mlm_avg_acc 0.8418 itm_avg_acc 0.8346 attp_r@1 0.1651 attp_r@5 0.4940 attp_p@1 0.7115 attp_p@5 0.4258
+2022-03-10 23:52:13,108 	trn step 146000 loss: 0.5771
+2022-03-10 23:52:27,090 	trn step 146100 loss: 0.5988
+2022-03-10 23:52:42,456 	trn step 146200 loss: 0.3732
+2022-03-10 23:52:55,811 	trn step 146300 loss: 0.6402
+2022-03-10 23:53:09,889 	trn step 146400 loss: 5.5381
+2022-03-10 23:53:23,819 	trn step 146500 loss: 0.6211
+2022-03-10 23:53:37,336 	trn step 146600 loss: 0.2783
+2022-03-10 23:53:51,381 	trn step 146700 loss: 0.7443
+2022-03-10 23:54:06,484 	trn step 146800 loss: 4.8925
+2022-03-10 23:54:20,677 	trn step 146900 loss: 0.7224
+2022-03-10 23:54:44,395 	val step 147000: mlm_avg_acc 0.8408 itm_avg_acc 0.8334 attp_r@1 0.1657 attp_r@5 0.4871 attp_p@1 0.7140 attp_p@5 0.4199
+2022-03-10 23:54:44,559 	trn step 147000 loss: 0.6862
+2022-03-10 23:54:58,477 	trn step 147100 loss: 0.3922
+2022-03-10 23:55:11,126 	trn step 147200 loss: 0.6697
+2022-03-10 23:55:24,786 	trn step 147300 loss: 0.3897
+2022-03-10 23:55:37,483 	trn step 147400 loss: 0.7384
+2022-03-10 23:55:51,503 	trn step 147500 loss: 0.2889
+2022-03-10 23:56:06,270 	trn step 147600 loss: 0.6534
+2022-03-10 23:56:19,764 	trn step 147700 loss: 0.7390
+2022-03-10 23:56:33,385 	trn step 147800 loss: 0.6910
+2022-03-10 23:56:46,889 	trn step 147900 loss: 0.7470
+2022-03-10 23:57:06,396 	val step 148000: mlm_avg_acc 0.8457 itm_avg_acc 0.8365 attp_r@1 0.1648 attp_r@5 0.4856 attp_p@1 0.7105 attp_p@5 0.4186
+2022-03-10 23:57:06,588 	trn step 148000 loss: 0.5729
+2022-03-10 23:57:20,201 	trn step 148100 loss: 0.5084
+2022-03-10 23:57:33,893 	trn step 148200 loss: 0.6628
+2022-03-10 23:57:47,559 	trn step 148300 loss: 0.6211
+2022-03-10 23:58:01,987 	trn step 148400 loss: 0.6636
+2022-03-10 23:58:15,850 	trn step 148500 loss: 0.6169
+2022-03-10 23:58:29,164 	trn step 148600 loss: 0.5368
+2022-03-10 23:58:43,287 	trn step 148700 loss: 0.6529
+2022-03-10 23:58:56,939 	trn step 148800 loss: 0.7870
+2022-03-10 23:59:10,855 	trn step 148900 loss: 5.7276
+2022-03-10 23:59:31,217 	val step 149000: mlm_avg_acc 0.8432 itm_avg_acc 0.8362 attp_r@1 0.1655 attp_r@5 0.4908 attp_p@1 0.7135 attp_p@5 0.4231
+2022-03-10 23:59:31,417 	trn step 149000 loss: 0.6169
+2022-03-10 23:59:46,223 	trn step 149100 loss: 0.7719
+2022-03-11 00:00:00,139 	trn step 149200 loss: 0.3708
+2022-03-11 00:00:14,175 	trn step 149300 loss: 0.5507
+2022-03-11 00:00:27,393 	trn step 149400 loss: 0.6433
+2022-03-11 00:00:41,398 	trn step 149500 loss: 0.6118
+2022-03-11 00:00:55,114 	trn step 149600 loss: 0.5411
+2022-03-11 00:01:09,005 	trn step 149700 loss: 5.4435
+2022-03-11 00:01:21,984 	trn step 149800 loss: 0.6971
+2022-03-11 00:01:36,923 	trn step 149900 loss: 0.7857
+2022-03-11 00:01:57,437 	val step 150000: mlm_avg_acc 0.8416 itm_avg_acc 0.8361 attp_r@1 0.1658 attp_r@5 0.4891 attp_p@1 0.7145 attp_p@5 0.4216
+2022-03-11 00:01:57,540 	trn step 150000 loss: 0.6217
+2022-03-11 00:02:11,132 	trn step 150100 loss: 0.5662
+2022-03-11 00:02:25,262 	trn step 150200 loss: 5.9688
+2022-03-11 00:02:38,644 	trn step 150300 loss: 0.5932
+2022-03-11 00:02:52,268 	trn step 150400 loss: 0.6421
+2022-03-11 00:03:05,572 	trn step 150500 loss: 0.7379
+2022-03-11 00:03:19,534 	trn step 150600 loss: 0.4527
+2022-03-11 00:03:34,571 	trn step 150700 loss: 0.5802
+2022-03-11 00:03:48,881 	trn step 150800 loss: 0.5567
+2022-03-11 00:04:02,968 	trn step 150900 loss: 0.6553
+2022-03-11 00:04:23,844 	val step 151000: mlm_avg_acc 0.8444 itm_avg_acc 0.8399 attp_r@1 0.1679 attp_r@5 0.4914 attp_p@1 0.7235 attp_p@5 0.4236
+2022-03-11 00:04:23,983 	trn step 151000 loss: 0.6407
+2022-03-11 00:04:39,260 	trn step 151100 loss: 0.6988
+2022-03-11 00:04:52,841 	trn step 151200 loss: 0.5712
+2022-03-11 00:05:06,316 	trn step 151300 loss: 0.6391
+2022-03-11 00:05:21,306 	trn step 151400 loss: 0.6900
+2022-03-11 00:05:35,687 	trn step 151500 loss: 0.4640
+2022-03-11 00:05:49,793 	trn step 151600 loss: 0.5043
+2022-03-11 00:06:03,794 	trn step 151700 loss: 0.3092
+2022-03-11 00:06:16,869 	trn step 151800 loss: 0.6627
+2022-03-11 00:06:30,317 	trn step 151900 loss: 0.2065
+2022-03-11 00:06:51,024 	val step 152000: mlm_avg_acc 0.8446 itm_avg_acc 0.8396 attp_r@1 0.1615 attp_r@5 0.4828 attp_p@1 0.6960 attp_p@5 0.4162
+2022-03-11 00:06:51,181 	trn step 152000 loss: 0.7198
+2022-03-11 00:07:05,258 	trn step 152100 loss: 0.6134
+2022-03-11 00:07:20,275 	trn step 152200 loss: 0.6311
+2022-03-11 00:07:33,577 	trn step 152300 loss: 0.3662
+2022-03-11 00:07:48,127 	trn step 152400 loss: 0.7064
+2022-03-11 00:08:02,752 	trn step 152500 loss: 0.7439
+2022-03-11 00:08:15,780 	trn step 152600 loss: 0.6783
+2022-03-11 00:08:29,367 	trn step 152700 loss: 0.5297
+2022-03-11 00:08:42,390 	trn step 152800 loss: 0.3554
+2022-03-11 00:08:56,372 	trn step 152900 loss: 0.6580
+2022-03-11 00:09:16,979 	val step 153000: mlm_avg_acc 0.8439 itm_avg_acc 0.8394 attp_r@1 0.1637 attp_r@5 0.4943 attp_p@1 0.7055 attp_p@5 0.4261
+2022-03-11 00:09:17,140 	trn step 153000 loss: 0.6122
+2022-03-11 00:09:31,209 	trn step 153100 loss: 0.7860
+2022-03-11 00:09:44,727 	trn step 153200 loss: 0.7209
+2022-03-11 00:09:57,497 	trn step 153300 loss: 5.0126
+2022-03-11 00:10:11,077 	trn step 153400 loss: 0.7352
+2022-03-11 00:10:24,456 	trn step 153500 loss: 0.5387
+2022-03-11 00:10:38,219 	trn step 153600 loss: 0.5303
+2022-03-11 00:10:51,951 	trn step 153700 loss: 0.7068
+2022-03-11 00:11:06,765 	trn step 153800 loss: 0.5956
+2022-03-11 00:11:20,762 	trn step 153900 loss: 0.6086
+2022-03-11 00:11:48,123 	val step 154000: mlm_avg_acc 0.8438 itm_avg_acc 0.8407 attp_r@1 0.1648 attp_r@5 0.4893 attp_p@1 0.7105 attp_p@5 0.4218
+2022-03-11 00:11:48,213 	trn step 154000 loss: 6.0988
+2022-03-11 00:12:01,569 	trn step 154100 loss: 0.5968
+2022-03-11 00:12:14,690 	trn step 154200 loss: 0.6001
+2022-03-11 00:12:28,746 	trn step 154300 loss: 0.5234
+2022-03-11 00:12:42,576 	trn step 154400 loss: 0.2544
+2022-03-11 00:12:57,902 	trn step 154500 loss: 0.3679
+2022-03-11 00:13:12,842 	trn step 154600 loss: 0.6507
+2022-03-11 00:13:26,980 	trn step 154700 loss: 0.5219
+2022-03-11 00:13:40,331 	trn step 154800 loss: 0.7390
+2022-03-11 00:13:54,144 	trn step 154900 loss: 0.7128
+2022-03-11 00:14:18,356 	val step 155000: mlm_avg_acc 0.8418 itm_avg_acc 0.8364 attp_r@1 0.1661 attp_r@5 0.4876 attp_p@1 0.7160 attp_p@5 0.4203
+2022-03-11 00:14:18,435 	trn step 155000 loss: 5.7450
+2022-03-11 00:14:31,772 	trn step 155100 loss: 0.5764
+2022-03-11 00:14:45,059 	trn step 155200 loss: 5.9838
+2022-03-11 00:14:59,644 	trn step 155300 loss: 0.5251
+2022-03-11 00:15:13,747 	trn step 155400 loss: 0.6324
+2022-03-11 00:15:26,570 	trn step 155500 loss: 0.4723
+2022-03-11 00:15:40,551 	trn step 155600 loss: 0.5463
+2022-03-11 00:15:54,922 	trn step 155700 loss: 5.3256
+2022-03-11 00:16:09,227 	trn step 155800 loss: 0.6373
+2022-03-11 00:16:23,448 	trn step 155900 loss: 0.6097
+2022-03-11 00:16:43,360 	val step 156000: mlm_avg_acc 0.8455 itm_avg_acc 0.8380 attp_r@1 0.1671 attp_r@5 0.4954 attp_p@1 0.7200 attp_p@5 0.4270
+2022-03-11 00:16:43,434 	trn step 156000 loss: 5.6752
+2022-03-11 00:16:58,186 	trn step 156100 loss: 0.6641
+2022-03-11 00:17:11,433 	trn step 156200 loss: 0.4333
+2022-03-11 00:17:24,544 	trn step 156300 loss: 0.6523
+2022-03-11 00:17:38,292 	trn step 156400 loss: 0.3886
+2022-03-11 00:17:52,877 	trn step 156500 loss: 0.5394
+2022-03-11 00:18:05,419 	trn step 156600 loss: 0.6210
+2022-03-11 00:18:19,352 	trn step 156700 loss: 0.7697
+2022-03-11 00:18:32,592 	trn step 156800 loss: 0.5972
+2022-03-11 00:18:47,481 	trn step 156900 loss: 0.6771
+2022-03-11 00:19:08,065 	val step 157000: mlm_avg_acc 0.8451 itm_avg_acc 0.8387 attp_r@1 0.1659 attp_r@5 0.4898 attp_p@1 0.7150 attp_p@5 0.4222
+2022-03-11 00:19:08,133 	trn step 157000 loss: 0.2624
+2022-03-11 00:19:21,999 	trn step 157100 loss: 0.5882
+2022-03-11 00:19:35,697 	trn step 157200 loss: 0.6996
+2022-03-11 00:19:50,712 	trn step 157300 loss: 0.5737
+2022-03-11 00:20:04,107 	trn step 157400 loss: 0.6367
+2022-03-11 00:20:17,903 	trn step 157500 loss: 0.5032
+2022-03-11 00:20:31,492 	trn step 157600 loss: 0.6698
+2022-03-11 00:20:46,022 	trn step 157700 loss: 0.7687
+2022-03-11 00:20:59,328 	trn step 157800 loss: 0.5517
+2022-03-11 00:21:13,785 	trn step 157900 loss: 0.6082
+2022-03-11 00:21:34,756 	val step 158000: mlm_avg_acc 0.8439 itm_avg_acc 0.8390 attp_r@1 0.1679 attp_r@5 0.4897 attp_p@1 0.7235 attp_p@5 0.4221
+2022-03-11 00:21:34,839 	trn step 158000 loss: 5.0436
+2022-03-11 00:21:48,268 	trn step 158100 loss: 0.5860
+2022-03-11 00:22:02,421 	trn step 158200 loss: 0.5681
+2022-03-11 00:22:16,002 	trn step 158300 loss: 0.7459
+2022-03-11 00:22:30,499 	trn step 158400 loss: 0.6789
+2022-03-11 00:22:44,520 	trn step 158500 loss: 0.6423
+2022-03-11 00:22:57,134 	trn step 158600 loss: 0.5631
+2022-03-11 00:23:10,201 	trn step 158700 loss: 5.6248
+2022-03-11 00:23:24,056 	trn step 158800 loss: 0.6578
+2022-03-11 00:23:37,919 	trn step 158900 loss: 0.3956
+2022-03-11 00:24:05,307 	val step 159000: mlm_avg_acc 0.8411 itm_avg_acc 0.8339 attp_r@1 0.1655 attp_r@5 0.4877 attp_p@1 0.7135 attp_p@5 0.4204
+2022-03-11 00:24:05,475 	trn step 159000 loss: 0.7021
+2022-03-11 00:24:21,048 	trn step 159100 loss: 0.6328
+2022-03-11 00:24:38,857 	trn step 159200 loss: 0.7213
+2022-03-11 00:24:51,907 	trn step 159300 loss: 0.6104
+2022-03-11 00:25:06,066 	trn step 159400 loss: 0.6575
+2022-03-11 00:25:20,032 	trn step 159500 loss: 0.2280
+2022-03-11 00:25:34,172 	trn step 159600 loss: 0.6003
+2022-03-11 00:25:47,742 	trn step 159700 loss: 0.2616
+2022-03-11 00:26:01,863 	trn step 159800 loss: 0.6507
+2022-03-11 00:26:16,460 	trn step 159900 loss: 0.6830
+2022-03-11 00:26:41,898 	val step 160000: mlm_avg_acc 0.8427 itm_avg_acc 0.8344 attp_r@1 0.1632 attp_r@5 0.4809 attp_p@1 0.7035 attp_p@5 0.4145
+2022-03-11 00:26:42,043 	trn step 160000 loss: 0.5564
+2022-03-11 00:26:55,394 	trn step 160100 loss: 0.3166
+2022-03-11 00:27:09,062 	trn step 160200 loss: 4.8335
+2022-03-11 00:27:23,253 	trn step 160300 loss: 0.6255
+2022-03-11 00:27:37,194 	trn step 160400 loss: 0.6442
+2022-03-11 00:27:50,260 	trn step 160500 loss: 0.6695
+2022-03-11 00:28:03,252 	trn step 160600 loss: 0.6048
+2022-03-11 00:28:17,905 	trn step 160700 loss: 0.6418
+2022-03-11 00:28:31,737 	trn step 160800 loss: 0.6450
+2022-03-11 00:28:44,711 	trn step 160900 loss: 0.5420
+2022-03-11 00:29:05,050 	val step 161000: mlm_avg_acc 0.8472 itm_avg_acc 0.8404 attp_r@1 0.1680 attp_r@5 0.4926 attp_p@1 0.7240 attp_p@5 0.4246
+2022-03-11 00:29:05,143 	trn step 161000 loss: 0.3168
+2022-03-11 00:29:19,667 	trn step 161100 loss: 0.6102
+2022-03-11 00:29:33,162 	trn step 161200 loss: 0.5460
+2022-03-11 00:29:46,375 	trn step 161300 loss: 0.6735
+2022-03-11 00:29:59,340 	trn step 161400 loss: 0.3166
+2022-03-11 00:30:13,615 	trn step 161500 loss: 0.5963
+2022-03-11 00:30:26,419 	trn step 161600 loss: 0.6522
+2022-03-11 00:30:39,515 	trn step 161700 loss: 0.6219
+2022-03-11 00:30:54,080 	trn step 161800 loss: 0.5902
+2022-03-11 00:31:07,414 	trn step 161900 loss: 0.7263
+2022-03-11 00:31:28,009 	val step 162000: mlm_avg_acc 0.8454 itm_avg_acc 0.8389 attp_r@1 0.1674 attp_r@5 0.4927 attp_p@1 0.7215 attp_p@5 0.4247
+2022-03-11 00:31:28,096 	trn step 162000 loss: 5.1689
+2022-03-11 00:31:41,658 	trn step 162100 loss: 0.6162
+2022-03-11 00:31:55,776 	trn step 162200 loss: 0.6467
+2022-03-11 00:32:10,974 	trn step 162300 loss: 0.6368
+2022-03-11 00:32:25,454 	trn step 162400 loss: 0.5497
+2022-03-11 00:32:39,194 	trn step 162500 loss: 5.1816
+2022-03-11 00:32:52,749 	trn step 162600 loss: 4.4540
+2022-03-11 00:33:07,009 	trn step 162700 loss: 0.6720
+2022-03-11 00:33:20,735 	trn step 162800 loss: 0.6202
+2022-03-11 00:33:34,344 	trn step 162900 loss: 0.6965
+2022-03-11 00:33:55,386 	val step 163000: mlm_avg_acc 0.8448 itm_avg_acc 0.8397 attp_r@1 0.1665 attp_r@5 0.4911 attp_p@1 0.7175 attp_p@5 0.4233
+2022-03-11 00:33:55,451 	trn step 163000 loss: 0.3891
+2022-03-11 00:34:10,423 	trn step 163100 loss: 0.2284
+2022-03-11 00:34:23,685 	trn step 163200 loss: 0.5383
+2022-03-11 00:34:37,450 	trn step 163300 loss: 0.5470
+2022-03-11 00:34:50,678 	trn step 163400 loss: 0.3571
+2022-03-11 00:35:05,169 	trn step 163500 loss: 0.6661
+2022-03-11 00:35:19,592 	trn step 163600 loss: 4.1923
+2022-03-11 00:35:32,605 	trn step 163700 loss: 0.2821
+2022-03-11 00:35:46,907 	trn step 163800 loss: 0.5586
+2022-03-11 00:36:01,956 	trn step 163900 loss: 0.5065
+2022-03-11 00:36:28,533 	val step 164000: mlm_avg_acc 0.8444 itm_avg_acc 0.8403 attp_r@1 0.1690 attp_r@5 0.4932 attp_p@1 0.7285 attp_p@5 0.4251
+2022-03-11 00:36:28,696 	trn step 164000 loss: 0.6520
+2022-03-11 00:36:42,226 	trn step 164100 loss: 0.6600
+2022-03-11 00:36:56,943 	trn step 164200 loss: 0.6488
+2022-03-11 00:37:10,739 	trn step 164300 loss: 0.5437
+2022-03-11 00:37:24,784 	trn step 164400 loss: 0.6333
+2022-03-11 00:37:38,962 	trn step 164500 loss: 0.7975
+2022-03-11 00:37:53,319 	trn step 164600 loss: 4.6294
+2022-03-11 00:38:07,046 	trn step 164700 loss: 0.5509
+2022-03-11 00:38:21,028 	trn step 164800 loss: 0.3172
+2022-03-11 00:38:35,383 	trn step 164900 loss: 0.5098
+2022-03-11 00:39:00,030 	val step 165000: mlm_avg_acc 0.8462 itm_avg_acc 0.8414 attp_r@1 0.1647 attp_r@5 0.4855 attp_p@1 0.7100 attp_p@5 0.4185
+2022-03-11 00:39:00,179 	trn step 165000 loss: 0.6162
+2022-03-11 00:39:14,316 	trn step 165100 loss: 0.4479
+2022-03-11 00:39:28,054 	trn step 165200 loss: 5.6164
+2022-03-11 00:39:41,883 	trn step 165300 loss: 0.7311
+2022-03-11 00:39:56,357 	trn step 165400 loss: 4.8695
+2022-03-11 00:40:09,613 	trn step 165500 loss: 0.5710
+2022-03-11 00:40:23,506 	trn step 165600 loss: 0.5830
+2022-03-11 00:40:37,861 	trn step 165700 loss: 0.5701
+2022-03-11 00:40:51,798 	trn step 165800 loss: 0.6998
+2022-03-11 00:41:05,553 	trn step 165900 loss: 5.0015
+2022-03-11 00:41:26,602 	val step 166000: mlm_avg_acc 0.8432 itm_avg_acc 0.8375 attp_r@1 0.1686 attp_r@5 0.4941 attp_p@1 0.7265 attp_p@5 0.4259
+2022-03-11 00:41:26,749 	trn step 166000 loss: 0.5524
+2022-03-11 00:41:42,182 	trn step 166100 loss: 0.6789
+2022-03-11 00:41:56,237 	trn step 166200 loss: 0.4886
+2022-03-11 00:42:10,404 	trn step 166300 loss: 0.6802
+2022-03-11 00:42:24,213 	trn step 166400 loss: 0.5382
+2022-03-11 00:42:37,817 	trn step 166500 loss: 0.5366
+2022-03-11 00:42:51,348 	trn step 166600 loss: 0.5139
+2022-03-11 00:43:05,655 	trn step 166700 loss: 0.5766
+2022-03-11 00:43:19,184 	trn step 166800 loss: 0.7334
+2022-03-11 00:43:34,439 	trn step 166900 loss: 0.6877
+2022-03-11 00:43:59,806 	val step 167000: mlm_avg_acc 0.8453 itm_avg_acc 0.8390 attp_r@1 0.1682 attp_r@5 0.4893 attp_p@1 0.7250 attp_p@5 0.4218
+2022-03-11 00:43:59,936 	trn step 167000 loss: 0.6101
+2022-03-11 00:44:13,872 	trn step 167100 loss: 0.7095
+2022-03-11 00:44:28,033 	trn step 167200 loss: 0.5213
+2022-03-11 00:44:41,613 	trn step 167300 loss: 0.7782
+2022-03-11 00:44:55,329 	trn step 167400 loss: 0.3952
+2022-03-11 00:45:10,413 	trn step 167500 loss: 0.7601
+2022-03-11 00:45:24,116 	trn step 167600 loss: 0.6198
+2022-03-11 00:45:38,399 	trn step 167700 loss: 0.5988
+2022-03-11 00:45:52,676 	trn step 167800 loss: 0.6491
+2022-03-11 00:46:06,433 	trn step 167900 loss: 0.5634
+2022-03-11 00:46:26,815 	val step 168000: mlm_avg_acc 0.8429 itm_avg_acc 0.8376 attp_r@1 0.1677 attp_r@5 0.4916 attp_p@1 0.7230 attp_p@5 0.4238
+2022-03-11 00:46:26,911 	trn step 168000 loss: 0.2719
+2022-03-11 00:46:40,901 	trn step 168100 loss: 0.6220
+2022-03-11 00:46:54,436 	trn step 168200 loss: 0.5182
+2022-03-11 00:47:08,341 	trn step 168300 loss: 0.5202
+2022-03-11 00:47:23,394 	trn step 168400 loss: 0.7977
+2022-03-11 00:47:37,794 	trn step 168500 loss: 0.5785
+2022-03-11 00:47:51,677 	trn step 168600 loss: 0.6124
+2022-03-11 00:48:05,395 	trn step 168700 loss: 0.5703
+2022-03-11 00:48:18,303 	trn step 168800 loss: 0.3249
+2022-03-11 00:48:31,720 	trn step 168900 loss: 0.6328
+2022-03-11 00:48:52,696 	val step 169000: mlm_avg_acc 0.8437 itm_avg_acc 0.8400 attp_r@1 0.1666 attp_r@5 0.4939 attp_p@1 0.7180 attp_p@5 0.4257
+2022-03-11 00:48:52,833 	trn step 169000 loss: 0.5852
+2022-03-11 00:49:05,671 	trn step 169100 loss: 0.5789
+2022-03-11 00:49:20,267 	trn step 169200 loss: 0.6441
+2022-03-11 00:49:34,193 	trn step 169300 loss: 5.3187
+2022-03-11 00:49:48,360 	trn step 169400 loss: 0.6249
+2022-03-11 00:50:01,399 	trn step 169500 loss: 0.6884
+2022-03-11 00:50:15,382 	trn step 169600 loss: 0.4463
+2022-03-11 00:50:29,112 	trn step 169700 loss: 0.3043
+2022-03-11 00:50:42,756 	trn step 169800 loss: 0.4922
+2022-03-11 00:50:56,853 	trn step 169900 loss: 0.5956
+2022-03-11 00:51:18,825 	val step 170000: mlm_avg_acc 0.8414 itm_avg_acc 0.8353 attp_r@1 0.1644 attp_r@5 0.4893 attp_p@1 0.7085 attp_p@5 0.4218
+2022-03-11 00:51:18,987 	trn step 170000 loss: 0.6249
+2022-03-11 00:51:32,750 	trn step 170100 loss: 0.5046
+2022-03-11 00:51:47,089 	trn step 170200 loss: 0.6944
+2022-03-11 00:52:00,979 	trn step 170300 loss: 0.5365
+2022-03-11 00:52:15,008 	trn step 170400 loss: 0.6347
+2022-03-11 00:52:30,030 	trn step 170500 loss: 0.6098
+2022-03-11 00:52:43,466 	trn step 170600 loss: 0.6014
+2022-03-11 00:52:57,535 	trn step 170700 loss: 0.6639
+2022-03-11 00:53:11,034 	trn step 170800 loss: 0.6390
+2022-03-11 00:53:24,815 	trn step 170900 loss: 0.2946
+2022-03-11 00:53:45,793 	val step 171000: mlm_avg_acc 0.8419 itm_avg_acc 0.8356 attp_r@1 0.1660 attp_r@5 0.4906 attp_p@1 0.7155 attp_p@5 0.4229
+2022-03-11 00:53:45,945 	trn step 171000 loss: 0.6987
+2022-03-11 00:53:59,665 	trn step 171100 loss: 0.6701
+2022-03-11 00:54:14,170 	trn step 171200 loss: 5.0362
+2022-03-11 00:54:27,510 	trn step 171300 loss: 0.5094
+2022-03-11 00:54:41,501 	trn step 171400 loss: 5.9613
+2022-03-11 00:54:56,009 	trn step 171500 loss: 0.5164
+2022-03-11 00:55:10,385 	trn step 171600 loss: 0.7063
+2022-03-11 00:55:24,350 	trn step 171700 loss: 0.6275
+2022-03-11 00:55:38,715 	trn step 171800 loss: 0.6224
+2022-03-11 00:55:52,270 	trn step 171900 loss: 0.5885
+2022-03-11 00:56:12,906 	val step 172000: mlm_avg_acc 0.8455 itm_avg_acc 0.8390 attp_r@1 0.1660 attp_r@5 0.4951 attp_p@1 0.7155 attp_p@5 0.4268
+2022-03-11 00:56:13,056 	trn step 172000 loss: 0.6131
+2022-03-11 00:56:26,087 	trn step 172100 loss: 0.3537
+2022-03-11 00:56:40,230 	trn step 172200 loss: 0.5519
+2022-03-11 00:56:54,153 	trn step 172300 loss: 0.6041
+2022-03-11 00:57:07,847 	trn step 172400 loss: 0.6756
+2022-03-11 00:57:21,853 	trn step 172500 loss: 0.6398
+2022-03-11 00:57:35,339 	trn step 172600 loss: 0.2929
+2022-03-11 00:57:49,435 	trn step 172700 loss: 0.5794
+2022-03-11 00:58:02,442 	trn step 172800 loss: 0.6347
+2022-03-11 00:58:15,739 	trn step 172900 loss: 0.5526
+2022-03-11 00:58:37,868 	val step 173000: mlm_avg_acc 0.8444 itm_avg_acc 0.8359 attp_r@1 0.1595 attp_r@5 0.4780 attp_p@1 0.6875 attp_p@5 0.4120
+2022-03-11 00:58:38,001 	trn step 173000 loss: 0.6525
+2022-03-11 00:58:51,182 	trn step 173100 loss: 0.2566
+2022-03-11 00:59:05,310 	trn step 173200 loss: 0.2962
+2022-03-11 00:59:18,551 	trn step 173300 loss: 0.2905
+2022-03-11 00:59:32,355 	trn step 173400 loss: 0.5468
+2022-03-11 00:59:46,780 	trn step 173500 loss: 0.7602
+2022-03-11 01:00:00,828 	trn step 173600 loss: 0.4722
+2022-03-11 01:00:14,149 	trn step 173700 loss: 0.3964
+2022-03-11 01:00:28,541 	trn step 173800 loss: 0.5525
+2022-03-11 01:00:42,063 	trn step 173900 loss: 0.5517
+2022-03-11 01:01:02,610 	val step 174000: mlm_avg_acc 0.8465 itm_avg_acc 0.8407 attp_r@1 0.1648 attp_r@5 0.4878 attp_p@1 0.7105 attp_p@5 0.4205
+2022-03-11 01:01:02,772 	trn step 174000 loss: 0.7091
+2022-03-11 01:01:15,896 	trn step 174100 loss: 0.6415
+2022-03-11 01:01:29,610 	trn step 174200 loss: 0.6130
+2022-03-11 01:01:43,777 	trn step 174300 loss: 0.6306
+2022-03-11 01:01:57,905 	trn step 174400 loss: 0.6019
+2022-03-11 01:02:12,366 	trn step 174500 loss: 0.2949
+2022-03-11 01:02:26,161 	trn step 174600 loss: 0.2425
+2022-03-11 01:02:39,038 	trn step 174700 loss: 0.6713
+2022-03-11 01:02:52,980 	trn step 174800 loss: 0.3070
+2022-03-11 01:03:06,673 	trn step 174900 loss: 0.6088
+2022-03-11 01:03:27,189 	val step 175000: mlm_avg_acc 0.8423 itm_avg_acc 0.8359 attp_r@1 0.1643 attp_r@5 0.4962 attp_p@1 0.7080 attp_p@5 0.4277
+2022-03-11 01:03:27,335 	trn step 175000 loss: 0.6247
+2022-03-11 01:03:41,580 	trn step 175100 loss: 0.5670
+2022-03-11 01:03:56,251 	trn step 175200 loss: 0.6534
+2022-03-11 01:04:09,622 	trn step 175300 loss: 0.6541
+2022-03-11 01:04:24,574 	trn step 175400 loss: 0.6639
+2022-03-11 01:04:38,119 	trn step 175500 loss: 0.5528
+2022-03-11 01:04:51,259 	trn step 175600 loss: 0.7569
+2022-03-11 01:05:05,822 	trn step 175700 loss: 0.5890
+2022-03-11 01:05:19,659 	trn step 175800 loss: 0.6764
+2022-03-11 01:05:33,054 	trn step 175900 loss: 0.5385
+2022-03-11 01:05:53,034 	val step 176000: mlm_avg_acc 0.8425 itm_avg_acc 0.8345 attp_r@1 0.1660 attp_r@5 0.4958 attp_p@1 0.7155 attp_p@5 0.4274
+2022-03-11 01:05:53,209 	trn step 176000 loss: 0.4995
+2022-03-11 01:06:08,110 	trn step 176100 loss: 0.5468
+2022-03-11 01:06:21,759 	trn step 176200 loss: 0.2381
+2022-03-11 01:06:34,554 	trn step 176300 loss: 0.1917
+2022-03-11 01:06:48,930 	trn step 176400 loss: 0.6310
+2022-03-11 01:07:02,986 	trn step 176500 loss: 0.7560
+2022-03-11 01:07:16,756 	trn step 176600 loss: 0.5695
+2022-03-11 01:07:30,318 	trn step 176700 loss: 0.7005
+2022-03-11 01:07:44,042 	trn step 176800 loss: 5.9935
+2022-03-11 01:07:58,579 	trn step 176900 loss: 0.6390
+2022-03-11 01:08:19,537 	val step 177000: mlm_avg_acc 0.8419 itm_avg_acc 0.8375 attp_r@1 0.1639 attp_r@5 0.4951 attp_p@1 0.7065 attp_p@5 0.4268
+2022-03-11 01:08:19,667 	trn step 177000 loss: 0.5991
+2022-03-11 01:08:34,452 	trn step 177100 loss: 0.7844
+2022-03-11 01:08:48,811 	trn step 177200 loss: 5.4692
+2022-03-11 01:09:02,888 	trn step 177300 loss: 4.8549
+2022-03-11 01:09:16,245 	trn step 177400 loss: 0.6461
+2022-03-11 01:09:30,230 	trn step 177500 loss: 0.6816
+2022-03-11 01:09:44,286 	trn step 177600 loss: 0.5462
+2022-03-11 01:09:59,239 	trn step 177700 loss: 5.1039
+2022-03-11 01:10:13,389 	trn step 177800 loss: 0.7054
+2022-03-11 01:10:27,131 	trn step 177900 loss: 0.5620
+2022-03-11 01:10:47,820 	val step 178000: mlm_avg_acc 0.8448 itm_avg_acc 0.8387 attp_r@1 0.1673 attp_r@5 0.4942 attp_p@1 0.7210 attp_p@5 0.4260
+2022-03-11 01:10:47,973 	trn step 178000 loss: 0.7314
+2022-03-11 01:11:01,997 	trn step 178100 loss: 0.5571
+2022-03-11 01:11:15,785 	trn step 178200 loss: 0.6504
+2022-03-11 01:11:29,307 	trn step 178300 loss: 0.7518
+2022-03-11 01:11:44,258 	trn step 178400 loss: 0.6270
+2022-03-11 01:11:58,014 	trn step 178500 loss: 5.6369
+2022-03-11 01:12:13,085 	trn step 178600 loss: 0.5145
+2022-03-11 01:12:27,057 	trn step 178700 loss: 0.6213
+2022-03-11 01:12:40,262 	trn step 178800 loss: 0.2232
+2022-03-11 01:12:53,691 	trn step 178900 loss: 0.2748
+2022-03-11 01:13:13,990 	val step 179000: mlm_avg_acc 0.8468 itm_avg_acc 0.8419 attp_r@1 0.1652 attp_r@5 0.4927 attp_p@1 0.7120 attp_p@5 0.4247
+2022-03-11 01:13:14,132 	trn step 179000 loss: 0.6481
+2022-03-11 01:13:28,300 	trn step 179100 loss: 0.8134
+2022-03-11 01:13:43,758 	trn step 179200 loss: 0.2815
+2022-03-11 01:13:57,716 	trn step 179300 loss: 0.6251
+2022-03-11 01:14:11,493 	trn step 179400 loss: 0.4965
+2022-03-11 01:14:26,047 	trn step 179500 loss: 0.6257
+2022-03-11 01:14:39,775 	trn step 179600 loss: 0.6604
+2022-03-11 01:14:54,213 	trn step 179700 loss: 0.5705
+2022-03-11 01:15:08,138 	trn step 179800 loss: 0.6741
+2022-03-11 01:15:23,270 	trn step 179900 loss: 0.2805
+2022-03-11 01:15:43,780 	val step 180000: mlm_avg_acc 0.8421 itm_avg_acc 0.8392 attp_r@1 0.1618 attp_r@5 0.4787 attp_p@1 0.6975 attp_p@5 0.4126
+2022-03-11 01:15:43,928 	trn step 180000 loss: 0.6952
+2022-03-11 01:15:57,839 	trn step 180100 loss: 0.6112
+2022-03-11 01:16:11,942 	trn step 180200 loss: 0.6557
+2022-03-11 01:16:26,147 	trn step 180300 loss: 0.6664
+2022-03-11 01:16:40,008 	trn step 180400 loss: 5.8585
+2022-03-11 01:16:54,155 	trn step 180500 loss: 0.3514
+2022-03-11 01:17:08,010 	trn step 180600 loss: 0.1244
+2022-03-11 01:17:22,421 	trn step 180700 loss: 0.7075
+2022-03-11 01:17:36,021 	trn step 180800 loss: 0.3345
+2022-03-11 01:17:49,490 	trn step 180900 loss: 0.6001
+2022-03-11 01:18:17,138 	val step 181000: mlm_avg_acc 0.8414 itm_avg_acc 0.8354 attp_r@1 0.1635 attp_r@5 0.4891 attp_p@1 0.7045 attp_p@5 0.4216
+2022-03-11 01:18:17,348 	trn step 181000 loss: 0.4603
+2022-03-11 01:18:32,461 	trn step 181100 loss: 0.4270
+2022-03-11 01:18:46,318 	trn step 181200 loss: 0.5914
+2022-03-11 01:19:00,041 	trn step 181300 loss: 0.7295
+2022-03-11 01:19:13,694 	trn step 181400 loss: 0.4971
+2022-03-11 01:19:29,064 	trn step 181500 loss: 0.6409
+2022-03-11 01:19:43,828 	trn step 181600 loss: 0.6783
+2022-03-11 01:19:57,001 	trn step 181700 loss: 0.6756
+2022-03-11 01:20:10,614 	trn step 181800 loss: 0.6102
+2022-03-11 01:20:24,476 	trn step 181900 loss: 0.6296
+2022-03-11 01:20:48,935 	val step 182000: mlm_avg_acc 0.8493 itm_avg_acc 0.8430 attp_r@1 0.1673 attp_r@5 0.4947 attp_p@1 0.7210 attp_p@5 0.4264
+2022-03-11 01:20:49,076 	trn step 182000 loss: 0.6668
+2022-03-11 01:21:02,942 	trn step 182100 loss: 0.7033
+2022-03-11 01:21:17,289 	trn step 182200 loss: 0.6203
+2022-03-11 01:21:30,575 	trn step 182300 loss: 5.5202
+2022-03-11 01:21:44,465 	trn step 182400 loss: 0.2811
+2022-03-11 01:21:57,806 	trn step 182500 loss: 0.7270
+2022-03-11 01:22:11,843 	trn step 182600 loss: 0.6086
+2022-03-11 01:22:25,831 	trn step 182700 loss: 0.4713
+2022-03-11 01:22:38,988 	trn step 182800 loss: 0.6023
+2022-03-11 01:22:52,993 	trn step 182900 loss: 0.5715
+2022-03-11 01:23:14,995 	val step 183000: mlm_avg_acc 0.8449 itm_avg_acc 0.8396 attp_r@1 0.1655 attp_r@5 0.4900 attp_p@1 0.7135 attp_p@5 0.4224
+2022-03-11 01:23:15,067 	trn step 183000 loss: 0.2062
+2022-03-11 01:23:28,561 	trn step 183100 loss: 0.5687
+2022-03-11 01:23:43,288 	trn step 183200 loss: 0.5267
+2022-03-11 01:23:57,039 	trn step 183300 loss: 0.2109
+2022-03-11 01:24:10,569 	trn step 183400 loss: 0.6507
+2022-03-11 01:24:24,536 	trn step 183500 loss: 0.3401
+2022-03-11 01:24:38,495 	trn step 183600 loss: 0.6050
+2022-03-11 01:24:52,145 	trn step 183700 loss: 0.6075
+2022-03-11 01:25:07,840 	trn step 183800 loss: 0.6180
+2022-03-11 01:25:21,179 	trn step 183900 loss: 0.7315
+2022-03-11 01:25:41,613 	val step 184000: mlm_avg_acc 0.8434 itm_avg_acc 0.8392 attp_r@1 0.1648 attp_r@5 0.4947 attp_p@1 0.7105 attp_p@5 0.4264
+2022-03-11 01:25:41,680 	trn step 184000 loss: 5.5098
+2022-03-11 01:25:55,854 	trn step 184100 loss: 0.6096
+2022-03-11 01:26:09,680 	trn step 184200 loss: 0.5476
+2022-03-11 01:26:22,904 	trn step 184300 loss: 0.6477
+2022-03-11 01:26:36,566 	trn step 184400 loss: 0.5711
+2022-03-11 01:26:49,899 	trn step 184500 loss: 0.2956
+2022-03-11 01:27:04,663 	trn step 184600 loss: 0.6945
+2022-03-11 01:27:18,156 	trn step 184700 loss: 0.5590
+2022-03-11 01:27:31,804 	trn step 184800 loss: 0.2951
+2022-03-11 01:27:45,416 	trn step 184900 loss: 0.5416
+2022-03-11 01:28:05,929 	val step 185000: mlm_avg_acc 0.8438 itm_avg_acc 0.8379 attp_r@1 0.1671 attp_r@5 0.4905 attp_p@1 0.7200 attp_p@5 0.4228
+2022-03-11 01:28:06,095 	trn step 185000 loss: 0.6204
+2022-03-11 01:28:19,446 	trn step 185100 loss: 0.6095
+2022-03-11 01:28:32,792 	trn step 185200 loss: 0.7231
+2022-03-11 01:28:46,225 	trn step 185300 loss: 0.5520
+2022-03-11 01:29:01,260 	trn step 185400 loss: 0.7035
+2022-03-11 01:29:15,360 	trn step 185500 loss: 0.4901
+2022-03-11 01:29:29,062 	trn step 185600 loss: 5.5504
+2022-03-11 01:29:43,016 	trn step 185700 loss: 0.2232
+2022-03-11 01:29:56,957 	trn step 185800 loss: 0.5871
+2022-03-11 01:30:10,434 	trn step 185900 loss: 0.6212
+2022-03-11 01:30:30,804 	val step 186000: mlm_avg_acc 0.8455 itm_avg_acc 0.8397 attp_r@1 0.1658 attp_r@5 0.4969 attp_p@1 0.7145 attp_p@5 0.4283
+2022-03-11 01:30:30,881 	trn step 186000 loss: 5.1600
+2022-03-11 01:30:44,759 	trn step 186100 loss: 0.6120
+2022-03-11 01:30:58,627 	trn step 186200 loss: 0.5852
+2022-03-11 01:31:12,600 	trn step 186300 loss: 0.6008
+2022-03-11 01:31:27,516 	trn step 186400 loss: 0.7221
+2022-03-11 01:31:41,330 	trn step 186500 loss: 0.7469
+2022-03-11 01:31:55,278 	trn step 186600 loss: 0.6507
+2022-03-11 01:32:09,317 	trn step 186700 loss: 0.5794
+2022-03-11 01:32:22,382 	trn step 186800 loss: 0.8728
+2022-03-11 01:32:36,859 	trn step 186900 loss: 0.3653
+2022-03-11 01:32:57,670 	val step 187000: mlm_avg_acc 0.8421 itm_avg_acc 0.8367 attp_r@1 0.1664 attp_r@5 0.4969 attp_p@1 0.7170 attp_p@5 0.4283
+2022-03-11 01:32:57,865 	trn step 187000 loss: 0.5788
+2022-03-11 01:33:11,877 	trn step 187100 loss: 0.7382
+2022-03-11 01:33:25,456 	trn step 187200 loss: 0.2592
+2022-03-11 01:33:38,689 	trn step 187300 loss: 0.2686
+2022-03-11 01:33:51,842 	trn step 187400 loss: 0.6331
+2022-03-11 01:34:05,446 	trn step 187500 loss: 0.6426
+2022-03-11 01:34:18,634 	trn step 187600 loss: 0.5096
+2022-03-11 01:34:32,767 	trn step 187700 loss: 5.2128
+2022-03-11 01:34:46,310 	trn step 187800 loss: 0.8064
+2022-03-11 01:35:00,229 	trn step 187900 loss: 0.6086
+2022-03-11 01:35:21,631 	val step 188000: mlm_avg_acc 0.8484 itm_avg_acc 0.8427 attp_r@1 0.1668 attp_r@5 0.4932 attp_p@1 0.7190 attp_p@5 0.4251
+2022-03-11 01:35:21,703 	trn step 188000 loss: 6.0589
+2022-03-11 01:35:35,231 	trn step 188100 loss: 0.6722
+2022-03-11 01:35:48,436 	trn step 188200 loss: 0.5861
+2022-03-11 01:36:01,933 	trn step 188300 loss: 0.2063
+2022-03-11 01:36:16,765 	trn step 188400 loss: 0.5177
+2022-03-11 01:36:31,543 	trn step 188500 loss: 0.5671
+2022-03-11 01:36:44,700 	trn step 188600 loss: 0.6311
+2022-03-11 01:36:58,828 	trn step 188700 loss: 0.6577
+2022-03-11 01:37:12,633 	trn step 188800 loss: 0.3221
+2022-03-11 01:37:26,990 	trn step 188900 loss: 0.6122
+2022-03-11 01:37:47,582 	val step 189000: mlm_avg_acc 0.8481 itm_avg_acc 0.8431 attp_r@1 0.1652 attp_r@5 0.4991 attp_p@1 0.7120 attp_p@5 0.4302
+2022-03-11 01:37:47,651 	trn step 189000 loss: 0.4099
+2022-03-11 01:38:01,503 	trn step 189100 loss: 0.6136
+2022-03-11 01:38:17,036 	trn step 189200 loss: 0.6513
+2022-03-11 01:38:30,472 	trn step 189300 loss: 0.5653
+2022-03-11 01:38:43,715 	trn step 189400 loss: 0.6635
+2022-03-11 01:38:57,829 	trn step 189500 loss: 0.6053
+2022-03-11 01:39:11,724 	trn step 189600 loss: 5.5323
+2022-03-11 01:39:25,302 	trn step 189700 loss: 5.4257
+2022-03-11 01:39:38,678 	trn step 189800 loss: 5.2712
+2022-03-11 01:39:52,046 	trn step 189900 loss: 0.5390
+2022-03-11 01:40:14,292 	val step 190000: mlm_avg_acc 0.8448 itm_avg_acc 0.8372 attp_r@1 0.1661 attp_r@5 0.5032 attp_p@1 0.7160 attp_p@5 0.4338
+2022-03-11 01:40:14,452 	trn step 190000 loss: 0.4890
+2022-03-11 01:40:28,310 	trn step 190100 loss: 0.6018
+2022-03-11 01:40:42,138 	trn step 190200 loss: 0.3837
+2022-03-11 01:40:56,319 	trn step 190300 loss: 0.6751
+2022-03-11 01:41:09,342 	trn step 190400 loss: 0.2638
+2022-03-11 01:41:22,096 	trn step 190500 loss: 0.7124
+2022-03-11 01:41:35,543 	trn step 190600 loss: 0.4098
+2022-03-11 01:41:49,975 	trn step 190700 loss: 0.5256
+2022-03-11 01:42:04,734 	trn step 190800 loss: 0.5927
+2022-03-11 01:42:18,879 	trn step 190900 loss: 0.3032
+2022-03-11 01:42:39,496 	val step 191000: mlm_avg_acc 0.8459 itm_avg_acc 0.8398 attp_r@1 0.1642 attp_r@5 0.4985 attp_p@1 0.7075 attp_p@5 0.4297
+2022-03-11 01:42:39,734 	trn step 191000 loss: 0.5346
+2022-03-11 01:42:54,232 	trn step 191100 loss: 0.6004
+2022-03-11 01:43:08,109 	trn step 191200 loss: 0.3102
+2022-03-11 01:43:22,378 	trn step 191300 loss: 0.6327
+2022-03-11 01:43:36,261 	trn step 191400 loss: 5.7934
+2022-03-11 01:43:50,659 	trn step 191500 loss: 0.5237
+2022-03-11 01:44:05,645 	trn step 191600 loss: 0.3708
+2022-03-11 01:44:19,398 	trn step 191700 loss: 0.5451
+2022-03-11 01:44:32,045 	trn step 191800 loss: 0.6398
+2022-03-11 01:44:46,272 	trn step 191900 loss: 0.5629
+2022-03-11 01:45:07,338 	val step 192000: mlm_avg_acc 0.8450 itm_avg_acc 0.8378 attp_r@1 0.1660 attp_r@5 0.4894 attp_p@1 0.7155 attp_p@5 0.4219
+2022-03-11 01:45:07,407 	trn step 192000 loss: 0.2840
+2022-03-11 01:45:21,744 	trn step 192100 loss: 0.5611
+2022-03-11 01:45:35,551 	trn step 192200 loss: 0.5802
+2022-03-11 01:45:49,600 	trn step 192300 loss: 0.2910
+2022-03-11 01:46:03,758 	trn step 192400 loss: 0.6397
+2022-03-11 01:46:17,571 	trn step 192500 loss: 0.6607
+2022-03-11 01:46:31,063 	trn step 192600 loss: 0.3617
+2022-03-11 01:46:44,700 	trn step 192700 loss: 0.6074
+2022-03-11 01:46:57,846 	trn step 192800 loss: 4.8353
+2022-03-11 01:47:11,676 	trn step 192900 loss: 0.6665
+2022-03-11 01:47:32,798 	val step 193000: mlm_avg_acc 0.8455 itm_avg_acc 0.8388 attp_r@1 0.1662 attp_r@5 0.4949 attp_p@1 0.7165 attp_p@5 0.4266
+2022-03-11 01:47:32,940 	trn step 193000 loss: 0.6381
+2022-03-11 01:47:45,869 	trn step 193100 loss: 0.5690
+2022-03-11 01:47:59,705 	trn step 193200 loss: 0.5992
+2022-03-11 01:48:13,131 	trn step 193300 loss: 0.6329
+2022-03-11 01:48:26,377 	trn step 193400 loss: 0.5450
+2022-03-11 01:48:39,973 	trn step 193500 loss: 0.5776
+2022-03-11 01:48:53,436 	trn step 193600 loss: 0.3579
+2022-03-11 01:49:08,468 	trn step 193700 loss: 0.6530
+2022-03-11 01:49:23,933 	trn step 193800 loss: 0.5042
+2022-03-11 01:49:37,248 	trn step 193900 loss: 0.2929
+2022-03-11 01:49:58,608 	val step 194000: mlm_avg_acc 0.8453 itm_avg_acc 0.8408 attp_r@1 0.1661 attp_r@5 0.4962 attp_p@1 0.7160 attp_p@5 0.4277
+2022-03-11 01:49:58,758 	trn step 194000 loss: 0.6041
+2022-03-11 01:50:12,104 	trn step 194100 loss: 0.5515
+2022-03-11 01:50:27,053 	trn step 194200 loss: 0.5082
+2022-03-11 01:50:40,795 	trn step 194300 loss: 0.6277
+2022-03-11 01:50:55,207 	trn step 194400 loss: 4.8867
+2022-03-11 01:51:09,445 	trn step 194500 loss: 0.6408
+2022-03-11 01:51:24,485 	trn step 194600 loss: 0.5725
+2022-03-11 01:51:38,248 	trn step 194700 loss: 0.2639
+2022-03-11 01:51:51,509 	trn step 194800 loss: 0.5747
+2022-03-11 01:52:05,519 	trn step 194900 loss: 0.6059
+2022-03-11 01:52:25,502 	val step 195000: mlm_avg_acc 0.8473 itm_avg_acc 0.8414 attp_r@1 0.1673 attp_r@5 0.4971 attp_p@1 0.7210 attp_p@5 0.4285
+2022-03-11 01:52:25,668 	trn step 195000 loss: 0.6352
+2022-03-11 01:52:39,386 	trn step 195100 loss: 0.5657
+2022-03-11 01:52:52,622 	trn step 195200 loss: 0.6300
+2022-03-11 01:53:06,475 	trn step 195300 loss: 0.5760
+2022-03-11 01:53:21,367 	trn step 195400 loss: 0.6296
+2022-03-11 01:53:35,197 	trn step 195500 loss: 0.6263
+2022-03-11 01:53:48,531 	trn step 195600 loss: 0.7066
+2022-03-11 01:54:02,254 	trn step 195700 loss: 0.6075
+2022-03-11 01:54:16,319 	trn step 195800 loss: 0.7264
+2022-03-11 01:54:29,495 	trn step 195900 loss: 0.4763
+2022-03-11 01:54:49,851 	val step 196000: mlm_avg_acc 0.8414 itm_avg_acc 0.8313 attp_r@1 0.1662 attp_r@5 0.5009 attp_p@1 0.7165 attp_p@5 0.4318
+2022-03-11 01:54:50,010 	trn step 196000 loss: 0.6600
+2022-03-11 01:55:03,421 	trn step 196100 loss: 0.5893
+2022-03-11 01:55:18,688 	trn step 196200 loss: 0.7253
+2022-03-11 01:55:32,183 	trn step 196300 loss: 0.5310
+2022-03-11 01:55:45,839 	trn step 196400 loss: 0.2685
+2022-03-11 01:55:59,375 	trn step 196500 loss: 0.7064
+2022-03-11 01:56:12,953 	trn step 196600 loss: 0.5745
+2022-03-11 01:56:26,883 	trn step 196700 loss: 0.4880
+2022-03-11 01:56:41,401 	trn step 196800 loss: 0.7026
+2022-03-11 01:56:55,486 	trn step 196900 loss: 0.5974
+2022-03-11 01:57:16,629 	val step 197000: mlm_avg_acc 0.8473 itm_avg_acc 0.8397 attp_r@1 0.1659 attp_r@5 0.4920 attp_p@1 0.7150 attp_p@5 0.4241
+2022-03-11 01:57:16,760 	trn step 197000 loss: 0.7156
+2022-03-11 01:57:30,039 	trn step 197100 loss: 5.7304
+2022-03-11 01:57:43,216 	trn step 197200 loss: 0.6575
+2022-03-11 01:57:56,644 	trn step 197300 loss: 0.3309
+2022-03-11 01:58:10,675 	trn step 197400 loss: 0.2139
+2022-03-11 01:58:24,157 	trn step 197500 loss: 0.6396
+2022-03-11 01:58:38,517 	trn step 197600 loss: 0.7253
+2022-03-11 01:58:52,994 	trn step 197700 loss: 0.2896
+2022-03-11 01:59:06,800 	trn step 197800 loss: 0.7188
+2022-03-11 01:59:20,274 	trn step 197900 loss: 0.6079
+2022-03-11 01:59:40,766 	val step 198000: mlm_avg_acc 0.8458 itm_avg_acc 0.8412 attp_r@1 0.1669 attp_r@5 0.4964 attp_p@1 0.7195 attp_p@5 0.4279
+2022-03-11 01:59:41,001 	trn step 198000 loss: 0.5487
+2022-03-11 01:59:53,877 	trn step 198100 loss: 0.6175
+2022-03-11 02:00:07,325 	trn step 198200 loss: 0.5935
+2022-03-11 02:00:20,299 	trn step 198300 loss: 0.5511
+2022-03-11 02:00:33,739 	trn step 198400 loss: 0.6437
+2022-03-11 02:00:47,577 	trn step 198500 loss: 0.6527
+2022-03-11 02:01:01,443 	trn step 198600 loss: 0.6023
+2022-03-11 02:01:15,149 	trn step 198700 loss: 0.6288
+2022-03-11 02:01:30,058 	trn step 198800 loss: 5.1151
+2022-03-11 02:01:44,292 	trn step 198900 loss: 0.5459
+2022-03-11 02:02:05,667 	val step 199000: mlm_avg_acc 0.8447 itm_avg_acc 0.8365 attp_r@1 0.1687 attp_r@5 0.4978 attp_p@1 0.7270 attp_p@5 0.4291
+2022-03-11 02:02:05,834 	trn step 199000 loss: 0.5961
+2022-03-11 02:02:20,457 	trn step 199100 loss: 0.5681
+2022-03-11 02:02:34,049 	trn step 199200 loss: 0.5995
+2022-03-11 02:02:48,391 	trn step 199300 loss: 0.2560
+2022-03-11 02:03:04,330 	trn step 199400 loss: 0.1726
+2022-03-11 02:03:17,001 	trn step 199500 loss: 0.2625
+2022-03-11 02:03:29,641 	trn step 199600 loss: 0.6481
+2022-03-11 02:03:42,404 	trn step 199700 loss: 0.6019
+2022-03-11 02:03:55,910 	trn step 199800 loss: 0.1974
+2022-03-11 02:04:09,443 	trn step 199900 loss: 0.7383

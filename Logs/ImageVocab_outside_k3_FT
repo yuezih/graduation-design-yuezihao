@@ -1,0 +1,529 @@
+2022-03-25 15:55:49,865 transformer: src_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-25 15:55:49,866 transformer: src_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-25 15:55:49,866 transformer: src_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,866 transformer: src_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,867 transformer: src_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,868 transformer: src_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: src_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: src_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: img_encoder.embed.embed.weight, shape=torch.Size([50625, 512]), num:25920000
+2022-03-25 15:55:49,868 transformer: img_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: img_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: img_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: img_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,868 transformer: img_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,869 transformer: img_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,870 transformer: img_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,870 transformer: img_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,870 transformer: img_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,870 transformer: img_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,870 transformer: trg_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-25 15:55:49,870 transformer: trg_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-25 15:55:49,870 transformer: trg_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-25 15:55:49,870 transformer: trg_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,870 transformer: trg_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,871 transformer: trg_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,872 transformer: trg_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,872 transformer: trg_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,872 transformer: trg_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,872 transformer: cross_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,873 transformer: cross_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.1.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.1.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,874 transformer: cross_encoder.layers.1.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,875 transformer: cross_encoder.layers.1.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.1.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.1.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.1.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.1.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.2.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.2.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.2.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.2.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,876 transformer: cross_encoder.layers.2.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,877 transformer: cross_encoder.layers.2.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-25 15:55:49,878 transformer: cross_encoder.layers.2.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-25 15:55:49,878 transformer: cross_encoder.layers.2.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-25 15:55:49,878 transformer: cross_encoder.layers.2.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,878 transformer: cross_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,878 transformer: cross_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-25 15:55:49,878 transformer: logit.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-25 15:55:49,878 transformer: logit.bias, shape=torch.Size([10650]), num:10650
+2022-03-25 15:55:49,878 transformer: cls.weight, shape=torch.Size([2, 512]), num:1024
+2022-03-25 15:55:49,878 transformer: cls.bias, shape=torch.Size([2]), num:2
+2022-03-25 15:55:49,879 transformer: attr_cls.weight, shape=torch.Size([965, 512]), num:494080
+2022-03-25 15:55:49,879 transformer: attr_cls.bias, shape=torch.Size([965]), num:965
+2022-03-25 15:55:49,879 num params 117, num weights 61911393
+2022-03-25 15:55:49,880 trainable: num params 113, num weights 56252257
+2022-03-25 15:55:51,026 text size 36000
+2022-03-25 15:55:52,758 text size 2000
+2022-03-25 15:55:53,388 number of resumed variables: 117
+2022-03-25 15:56:05,868 	trn step 100 loss: 1.8834
+2022-03-25 15:56:17,936 	trn step 200 loss: 2.0560
+2022-03-25 15:56:30,149 	trn step 300 loss: 1.8205
+2022-03-25 15:56:42,486 	trn step 400 loss: 1.9840
+2022-03-25 15:56:54,321 	trn step 500 loss: 1.6954
+2022-03-25 15:57:06,259 	trn step 600 loss: 1.8936
+2022-03-25 15:57:18,553 	trn step 700 loss: 1.6968
+2022-03-25 15:57:31,173 	trn step 800 loss: 1.4844
+2022-03-25 15:57:43,256 	trn step 900 loss: 1.9995
+2022-03-25 15:58:34,459 	val step 1000: cider 1.7783 meteor 0.2955 bleu_4 0.3026 bleu_3 0.3708 bleu_2 0.4605 bleu_1 0.5841
+2022-03-25 15:58:34,610 	trn step 1000 loss: 1.6877
+2022-03-25 15:58:47,249 	trn step 1100 loss: 1.5117
+2022-03-25 15:58:59,332 	trn step 1200 loss: 1.6221
+2022-03-25 15:59:11,776 	trn step 1300 loss: 1.2525
+2022-03-25 15:59:23,750 	trn step 1400 loss: 1.5580
+2022-03-25 15:59:35,678 	trn step 1500 loss: 1.5433
+2022-03-25 15:59:48,461 	trn step 1600 loss: 1.3650
+2022-03-25 16:00:00,384 	trn step 1700 loss: 1.4648
+2022-03-25 16:00:12,416 	trn step 1800 loss: 1.6837
+2022-03-25 16:00:24,614 	trn step 1900 loss: 1.3026
+2022-03-25 16:01:16,197 	val step 2000: cider 2.0234 meteor 0.3059 bleu_4 0.3262 bleu_3 0.3954 bleu_2 0.4862 bleu_1 0.6102
+2022-03-25 16:01:16,329 	trn step 2000 loss: 1.6523
+2022-03-25 16:01:28,614 	trn step 2100 loss: 1.3408
+2022-03-25 16:01:40,502 	trn step 2200 loss: 1.3499
+2022-03-25 16:01:52,621 	trn step 2300 loss: 1.6828
+2022-03-25 16:02:05,385 	trn step 2400 loss: 1.3176
+2022-03-25 16:02:17,572 	trn step 2500 loss: 1.6420
+2022-03-25 16:02:29,536 	trn step 2600 loss: 1.3375
+2022-03-25 16:02:41,357 	trn step 2700 loss: 1.3245
+2022-03-25 16:02:53,597 	trn step 2800 loss: 1.4869
+2022-03-25 16:03:05,490 	trn step 2900 loss: 1.7058
+2022-03-25 16:03:56,121 	val step 3000: cider 2.2028 meteor 0.3096 bleu_4 0.3304 bleu_3 0.3993 bleu_2 0.4898 bleu_1 0.6135
+2022-03-25 16:03:56,292 	trn step 3000 loss: 1.2557
+2022-03-25 16:04:09,461 	trn step 3100 loss: 1.0574
+2022-03-25 16:04:21,472 	trn step 3200 loss: 1.3892
+2022-03-25 16:04:33,555 	trn step 3300 loss: 1.3631
+2022-03-25 16:04:45,704 	trn step 3400 loss: 1.3363
+2022-03-25 16:04:57,763 	trn step 3500 loss: 1.3341
+2022-03-25 16:05:09,750 	trn step 3600 loss: 1.2468
+2022-03-25 16:05:21,779 	trn step 3700 loss: 1.4554
+2022-03-25 16:05:33,583 	trn step 3800 loss: 1.3014
+2022-03-25 16:05:46,572 	trn step 3900 loss: 1.2590
+2022-03-25 16:06:38,219 	val step 4000: cider 2.2303 meteor 0.3133 bleu_4 0.3358 bleu_3 0.4053 bleu_2 0.4962 bleu_1 0.6193
+2022-03-25 16:06:38,436 	trn step 4000 loss: 1.0936
+2022-03-25 16:06:50,413 	trn step 4100 loss: 1.2551
+2022-03-25 16:07:02,598 	trn step 4200 loss: 1.3465
+2022-03-25 16:07:14,585 	trn step 4300 loss: 1.1684
+2022-03-25 16:07:26,188 	trn step 4400 loss: 1.0575
+2022-03-25 16:07:38,483 	trn step 4500 loss: 1.3780
+2022-03-25 16:07:50,716 	trn step 4600 loss: 1.5901
+2022-03-25 16:08:03,773 	trn step 4700 loss: 1.4182
+2022-03-25 16:08:16,011 	trn step 4800 loss: 1.1565
+2022-03-25 16:08:27,871 	trn step 4900 loss: 1.1439
+2022-03-25 16:09:18,728 	val step 5000: cider 2.3213 meteor 0.3166 bleu_4 0.3427 bleu_3 0.4120 bleu_2 0.5028 bleu_1 0.6254
+2022-03-25 16:09:18,854 	trn step 5000 loss: 1.0576
+2022-03-25 16:09:30,240 	trn step 5100 loss: 1.3949
+2022-03-25 16:09:42,154 	trn step 5200 loss: 1.1908
+2022-03-25 16:09:54,240 	trn step 5300 loss: 0.9493
+2022-03-25 16:10:07,229 	trn step 5400 loss: 1.0390
+2022-03-25 16:10:19,340 	trn step 5500 loss: 1.2491
+2022-03-25 16:10:31,475 	trn step 5600 loss: 1.4415
+2022-03-25 16:10:43,313 	trn step 5700 loss: 1.2236
+2022-03-25 16:10:55,281 	trn step 5800 loss: 1.1882
+2022-03-25 16:11:07,346 	trn step 5900 loss: 1.2088
+2022-03-25 16:11:57,860 	val step 6000: cider 2.3502 meteor 0.3153 bleu_4 0.3401 bleu_3 0.4092 bleu_2 0.4993 bleu_1 0.6207
+2022-03-25 16:11:57,983 	trn step 6000 loss: 1.1598
+2022-03-25 16:12:10,472 	trn step 6100 loss: 1.3503
+2022-03-25 16:12:23,059 	trn step 6200 loss: 1.2658
+2022-03-25 16:12:35,106 	trn step 6300 loss: 1.2441
+2022-03-25 16:12:47,283 	trn step 6400 loss: 1.2180
+2022-03-25 16:12:59,511 	trn step 6500 loss: 1.0815
+2022-03-25 16:13:11,845 	trn step 6600 loss: 1.5202
+2022-03-25 16:13:23,743 	trn step 6700 loss: 1.0800
+2022-03-25 16:13:35,716 	trn step 6800 loss: 1.1748
+2022-03-25 16:13:47,733 	trn step 6900 loss: 1.1733
+2022-03-25 16:14:38,926 	val step 7000: cider 2.3878 meteor 0.3212 bleu_4 0.3502 bleu_3 0.4202 bleu_2 0.5116 bleu_1 0.6345
+2022-03-25 16:14:39,052 	trn step 7000 loss: 1.2094
+2022-03-25 16:14:51,060 	trn step 7100 loss: 1.4212
+2022-03-25 16:15:03,028 	trn step 7200 loss: 1.1924
+2022-03-25 16:15:15,217 	trn step 7300 loss: 0.9575
+2022-03-25 16:15:27,407 	trn step 7400 loss: 1.2222
+2022-03-25 16:15:39,232 	trn step 7500 loss: 1.3303
+2022-03-25 16:15:51,454 	trn step 7600 loss: 1.3330
+2022-03-25 16:16:03,505 	trn step 7700 loss: 1.1752
+2022-03-25 16:16:16,312 	trn step 7800 loss: 0.8703
+2022-03-25 16:16:28,206 	trn step 7900 loss: 1.0733
+2022-03-25 16:17:19,158 	val step 8000: cider 2.4053 meteor 0.3205 bleu_4 0.3496 bleu_3 0.4192 bleu_2 0.5101 bleu_1 0.6322
+2022-03-25 16:17:19,289 	trn step 8000 loss: 1.0808
+2022-03-25 16:17:31,478 	trn step 8100 loss: 1.1972
+2022-03-25 16:17:43,475 	trn step 8200 loss: 1.1744
+2022-03-25 16:17:55,593 	trn step 8300 loss: 1.0113
+2022-03-25 16:18:07,999 	trn step 8400 loss: 1.0648
+2022-03-25 16:18:20,829 	trn step 8500 loss: 0.8958
+2022-03-25 16:18:32,890 	trn step 8600 loss: 1.4955
+2022-03-25 16:18:45,182 	trn step 8700 loss: 1.0609
+2022-03-25 16:18:57,437 	trn step 8800 loss: 1.2635
+2022-03-25 16:19:09,780 	trn step 8900 loss: 1.0357
+2022-03-25 16:20:00,659 	val step 9000: cider 2.4239 meteor 0.3220 bleu_4 0.3506 bleu_3 0.4205 bleu_2 0.5119 bleu_1 0.6349
+2022-03-25 16:20:00,806 	trn step 9000 loss: 1.2884
+2022-03-25 16:20:12,619 	trn step 9100 loss: 1.0797
+2022-03-25 16:20:24,484 	trn step 9200 loss: 1.2571
+2022-03-25 16:20:37,276 	trn step 9300 loss: 1.2398
+2022-03-25 16:20:49,676 	trn step 9400 loss: 1.1861
+2022-03-25 16:21:01,682 	trn step 9500 loss: 1.3009
+2022-03-25 16:21:13,957 	trn step 9600 loss: 1.0537
+2022-03-25 16:21:25,803 	trn step 9700 loss: 1.2324
+2022-03-25 16:21:37,967 	trn step 9800 loss: 1.2436
+2022-03-25 16:21:50,429 	trn step 9900 loss: 1.1198
+2022-03-25 16:22:42,318 	val step 10000: cider 2.3952 meteor 0.3211 bleu_4 0.3491 bleu_3 0.4188 bleu_2 0.5102 bleu_1 0.6341
+2022-03-25 16:22:42,443 	trn step 10000 loss: 1.3278
+2022-03-25 16:22:55,194 	trn step 10100 loss: 0.9050
+2022-03-25 16:23:07,170 	trn step 10200 loss: 1.1133
+2022-03-25 16:23:19,435 	trn step 10300 loss: 0.9877
+2022-03-25 16:23:31,701 	trn step 10400 loss: 1.1069
+2022-03-25 16:23:44,212 	trn step 10500 loss: 1.1502
+2022-03-25 16:23:56,525 	trn step 10600 loss: 1.2422
+2022-03-25 16:24:08,842 	trn step 10700 loss: 1.0770
+2022-03-25 16:24:21,555 	trn step 10800 loss: 1.3350
+2022-03-25 16:24:33,963 	trn step 10900 loss: 1.0737
+2022-03-25 16:25:24,386 	val step 11000: cider 2.5003 meteor 0.3256 bleu_4 0.3562 bleu_3 0.4262 bleu_2 0.5178 bleu_1 0.6411
+2022-03-25 16:25:24,555 	trn step 11000 loss: 1.0416
+2022-03-25 16:25:36,733 	trn step 11100 loss: 1.2730
+2022-03-25 16:25:48,586 	trn step 11200 loss: 1.1397
+2022-03-25 16:26:00,428 	trn step 11300 loss: 0.8617
+2022-03-25 16:26:13,380 	trn step 11400 loss: 1.1913
+2022-03-25 16:26:25,672 	trn step 11500 loss: 1.0123
+2022-03-25 16:26:38,392 	trn step 11600 loss: 1.2323
+2022-03-25 16:26:50,753 	trn step 11700 loss: 0.9932
+2022-03-25 16:27:03,074 	trn step 11800 loss: 0.9812
+2022-03-25 16:27:14,813 	trn step 11900 loss: 1.1366
+2022-03-25 16:28:04,907 	val step 12000: cider 2.4948 meteor 0.3247 bleu_4 0.3560 bleu_3 0.4255 bleu_2 0.5160 bleu_1 0.6372
+2022-03-25 16:28:05,079 	trn step 12000 loss: 0.8468
+2022-03-25 16:28:17,643 	trn step 12100 loss: 1.0236
+2022-03-25 16:28:29,802 	trn step 12200 loss: 0.9745
+2022-03-25 16:28:42,304 	trn step 12300 loss: 0.9630
+2022-03-25 16:28:55,698 	trn step 12400 loss: 0.8450
+2022-03-25 16:29:07,917 	trn step 12500 loss: 1.0157
+2022-03-25 16:29:19,860 	trn step 12600 loss: 1.0112
+2022-03-25 16:29:31,554 	trn step 12700 loss: 1.0325
+2022-03-25 16:29:43,518 	trn step 12800 loss: 1.2825
+2022-03-25 16:29:55,636 	trn step 12900 loss: 1.3445
+2022-03-25 16:30:46,322 	val step 13000: cider 2.4749 meteor 0.3238 bleu_4 0.3539 bleu_3 0.4230 bleu_2 0.5132 bleu_1 0.6342
+2022-03-25 16:30:46,449 	trn step 13000 loss: 0.9848
+2022-03-25 16:30:58,612 	trn step 13100 loss: 1.0942
+2022-03-25 16:31:11,586 	trn step 13200 loss: 1.1419
+2022-03-25 16:31:24,003 	trn step 13300 loss: 1.0739
+2022-03-25 16:31:36,615 	trn step 13400 loss: 0.8251
+2022-03-25 16:31:48,550 	trn step 13500 loss: 1.1975
+2022-03-25 16:32:00,866 	trn step 13600 loss: 0.9457
+2022-03-25 16:32:12,981 	trn step 13700 loss: 1.1110
+2022-03-25 16:32:25,137 	trn step 13800 loss: 1.0413
+2022-03-25 16:32:38,385 	trn step 13900 loss: 0.8662
+2022-03-25 16:33:29,509 	val step 14000: cider 2.5000 meteor 0.3251 bleu_4 0.3547 bleu_3 0.4247 bleu_2 0.5162 bleu_1 0.6387
+2022-03-25 16:33:29,637 	trn step 14000 loss: 1.2522
+2022-03-25 16:33:42,110 	trn step 14100 loss: 0.9639
+2022-03-25 16:33:54,169 	trn step 14200 loss: 1.0082
+2022-03-25 16:34:06,817 	trn step 14300 loss: 1.1076
+2022-03-25 16:34:18,832 	trn step 14400 loss: 0.7531
+2022-03-25 16:34:30,781 	trn step 14500 loss: 1.0349
+2022-03-25 16:34:43,070 	trn step 14600 loss: 1.1778
+2022-03-25 16:34:56,039 	trn step 14700 loss: 1.0054
+2022-03-25 16:35:08,060 	trn step 14800 loss: 1.0964
+2022-03-25 16:35:19,975 	trn step 14900 loss: 0.9029
+2022-03-25 16:36:10,807 	val step 15000: cider 2.5237 meteor 0.3264 bleu_4 0.3581 bleu_3 0.4279 bleu_2 0.5190 bleu_1 0.6417
+2022-03-25 16:36:10,985 	trn step 15000 loss: 0.8968
+2022-03-25 16:36:23,162 	trn step 15100 loss: 1.1083
+2022-03-25 16:36:34,968 	trn step 15200 loss: 0.8546
+2022-03-25 16:36:47,518 	trn step 15300 loss: 0.8956
+2022-03-25 16:36:59,542 	trn step 15400 loss: 0.8064
+2022-03-25 16:37:12,198 	trn step 15500 loss: 1.1270
+2022-03-25 16:37:24,333 	trn step 15600 loss: 0.9572
+2022-03-25 16:37:36,510 	trn step 15700 loss: 0.9224
+2022-03-25 16:37:48,422 	trn step 15800 loss: 1.1073
+2022-03-25 16:38:00,745 	trn step 15900 loss: 1.0382
+2022-03-25 16:38:51,044 	val step 16000: cider 2.5261 meteor 0.3241 bleu_4 0.3553 bleu_3 0.4242 bleu_2 0.5139 bleu_1 0.6345
+2022-03-25 16:38:51,209 	trn step 16000 loss: 0.9673
+2022-03-25 16:39:03,740 	trn step 16100 loss: 1.1432
+2022-03-25 16:39:16,621 	trn step 16200 loss: 0.6591
+2022-03-25 16:39:28,769 	trn step 16300 loss: 0.8743
+2022-03-25 16:39:40,867 	trn step 16400 loss: 0.8847
+2022-03-25 16:39:52,696 	trn step 16500 loss: 0.9728
+2022-03-25 16:40:04,751 	trn step 16600 loss: 1.1800
+2022-03-25 16:40:16,727 	trn step 16700 loss: 1.1509
+2022-03-25 16:40:29,000 	trn step 16800 loss: 0.9478
+2022-03-25 16:40:41,246 	trn step 16900 loss: 0.8039
+2022-03-25 16:41:31,974 	val step 17000: cider 2.5141 meteor 0.3270 bleu_4 0.3584 bleu_3 0.4288 bleu_2 0.5203 bleu_1 0.6432
+2022-03-25 16:41:32,125 	trn step 17000 loss: 1.0572
+2022-03-25 16:41:44,313 	trn step 17100 loss: 1.0667
+2022-03-25 16:41:56,385 	trn step 17200 loss: 0.8800
+2022-03-25 16:42:08,409 	trn step 17300 loss: 0.7794
+2022-03-25 16:42:20,103 	trn step 17400 loss: 0.7480
+2022-03-25 16:42:32,747 	trn step 17500 loss: 1.1147
+2022-03-25 16:42:45,211 	trn step 17600 loss: 0.8822
+2022-03-25 16:42:57,168 	trn step 17700 loss: 0.9447
+2022-03-25 16:43:09,802 	trn step 17800 loss: 1.2438
+2022-03-25 16:43:22,103 	trn step 17900 loss: 0.7064
+2022-03-25 16:44:12,921 	val step 18000: cider 2.5022 meteor 0.3252 bleu_4 0.3551 bleu_3 0.4254 bleu_2 0.5171 bleu_1 0.6404
+2022-03-25 16:44:13,105 	trn step 18000 loss: 0.8954
+2022-03-25 16:44:25,156 	trn step 18100 loss: 1.0801
+2022-03-25 16:44:36,756 	trn step 18200 loss: 0.9342
+2022-03-25 16:44:48,548 	trn step 18300 loss: 1.0856
+2022-03-25 16:45:00,593 	trn step 18400 loss: 1.0504
+2022-03-25 16:45:12,868 	trn step 18500 loss: 1.2329
+2022-03-25 16:45:25,662 	trn step 18600 loss: 0.8661
+2022-03-25 16:45:37,640 	trn step 18700 loss: 0.8514
+2022-03-25 16:45:49,633 	trn step 18800 loss: 0.7518
+2022-03-25 16:46:01,712 	trn step 18900 loss: 1.0740
+2022-03-25 16:46:52,254 	val step 19000: cider 2.5344 meteor 0.3262 bleu_4 0.3577 bleu_3 0.4278 bleu_2 0.5192 bleu_1 0.6416
+2022-03-25 16:46:52,377 	trn step 19000 loss: 0.8562
+2022-03-25 16:47:04,048 	trn step 19100 loss: 1.1362
+2022-03-25 16:47:16,395 	trn step 19200 loss: 0.9839
+2022-03-25 16:47:28,966 	trn step 19300 loss: 0.9838
+2022-03-25 16:47:41,444 	trn step 19400 loss: 0.8690
+2022-03-25 16:47:53,601 	trn step 19500 loss: 1.0535
+2022-03-25 16:48:05,529 	trn step 19600 loss: 0.9330
+2022-03-25 16:48:17,742 	trn step 19700 loss: 1.1801
+2022-03-25 16:48:29,736 	trn step 19800 loss: 0.8943
+2022-03-25 16:48:42,048 	trn step 19900 loss: 0.6559
+2022-03-25 16:49:32,746 	val step 20000: cider 2.4935 meteor 0.3247 bleu_4 0.3549 bleu_3 0.4246 bleu_2 0.5157 bleu_1 0.6378
+2022-03-25 16:49:32,931 	trn step 20000 loss: 0.8685
+2022-03-25 16:49:45,230 	trn step 20100 loss: 0.9235
+2022-03-25 16:49:56,773 	trn step 20200 loss: 0.8483
+2022-03-25 16:50:08,424 	trn step 20300 loss: 0.7612
+2022-03-25 16:50:20,930 	trn step 20400 loss: 0.9059
+2022-03-25 16:50:33,511 	trn step 20500 loss: 0.9784
+2022-03-25 16:50:45,620 	trn step 20600 loss: 1.0151
+2022-03-25 16:50:57,891 	trn step 20700 loss: 0.7864
+2022-03-25 16:51:10,455 	trn step 20800 loss: 1.1310
+2022-03-25 16:51:23,553 	trn step 20900 loss: 1.3247
+2022-03-25 16:52:13,981 	val step 21000: cider 2.4920 meteor 0.3253 bleu_4 0.3556 bleu_3 0.4256 bleu_2 0.5171 bleu_1 0.6402
+2022-03-25 16:52:14,137 	trn step 21000 loss: 0.6898
+2022-03-25 16:52:26,135 	trn step 21100 loss: 0.9707
+2022-03-25 16:52:38,112 	trn step 21200 loss: 0.9076
+2022-03-25 16:52:50,207 	trn step 21300 loss: 1.0523
+2022-03-25 16:53:02,216 	trn step 21400 loss: 0.9585
+2022-03-25 16:53:14,094 	trn step 21500 loss: 0.8458
+2022-03-25 16:53:26,823 	trn step 21600 loss: 0.8784
+2022-03-25 16:53:39,018 	trn step 21700 loss: 1.0310
+2022-03-25 16:53:50,648 	trn step 21800 loss: 0.9792
+2022-03-25 16:54:02,402 	trn step 21900 loss: 0.9780
+2022-03-25 16:54:53,102 	val step 22000: cider 2.5456 meteor 0.3265 bleu_4 0.3567 bleu_3 0.4265 bleu_2 0.5178 bleu_1 0.6400
+2022-03-25 16:54:53,256 	trn step 22000 loss: 0.8881
+2022-03-25 16:55:05,378 	trn step 22100 loss: 0.6973
+2022-03-25 16:55:17,232 	trn step 22200 loss: 0.9131
+2022-03-25 16:55:29,228 	trn step 22300 loss: 0.9233
+2022-03-25 16:55:42,274 	trn step 22400 loss: 0.8072
+2022-03-25 16:55:54,522 	trn step 22500 loss: 0.9081
+2022-03-25 16:56:06,333 	trn step 22600 loss: 0.8823
+2022-03-25 16:56:18,246 	trn step 22700 loss: 0.8946
+2022-03-25 16:56:30,184 	trn step 22800 loss: 0.8072
+2022-03-25 16:56:42,529 	trn step 22900 loss: 0.9080
+2022-03-25 16:57:32,949 	val step 23000: cider 2.5061 meteor 0.3240 bleu_4 0.3527 bleu_3 0.4223 bleu_2 0.5138 bleu_1 0.6369
+2022-03-25 16:57:33,109 	trn step 23000 loss: 1.0145
+2022-03-25 16:57:45,111 	trn step 23100 loss: 0.7144
+2022-03-25 16:57:57,943 	trn step 23200 loss: 0.7610
+2022-03-25 16:58:10,178 	trn step 23300 loss: 1.0474
+2022-03-25 16:58:21,956 	trn step 23400 loss: 1.0119
+2022-03-25 16:58:33,606 	trn step 23500 loss: 0.8788
+2022-03-25 16:58:46,139 	trn step 23600 loss: 0.8335
+2022-03-25 16:58:58,392 	trn step 23700 loss: 0.9500
+2022-03-25 16:59:10,478 	trn step 23800 loss: 0.8939
+2022-03-25 16:59:23,218 	trn step 23900 loss: 0.8322
+2022-03-25 17:00:13,041 	val step 24000: cider 2.5269 meteor 0.3256 bleu_4 0.3551 bleu_3 0.4251 bleu_2 0.5168 bleu_1 0.6403
+2022-03-25 17:00:13,170 	trn step 24000 loss: 1.1002
+2022-03-25 17:00:24,955 	trn step 24100 loss: 1.0821
+2022-03-25 17:00:37,384 	trn step 24200 loss: 0.8091
+2022-03-25 17:00:49,343 	trn step 24300 loss: 0.9879
+2022-03-25 17:01:01,537 	trn step 24400 loss: 0.6846
+2022-03-25 17:01:13,516 	trn step 24500 loss: 0.8701
+2022-03-25 17:01:25,884 	trn step 24600 loss: 0.9424
+2022-03-25 17:01:38,439 	trn step 24700 loss: 0.8532
+2022-03-25 17:01:50,184 	trn step 24800 loss: 0.9318
+2022-03-25 17:02:02,299 	trn step 24900 loss: 0.7683
+2022-03-25 17:02:52,305 	val step 25000: cider 2.5325 meteor 0.3266 bleu_4 0.3585 bleu_3 0.4282 bleu_2 0.5194 bleu_1 0.6427
+2022-03-25 17:02:52,456 	trn step 25000 loss: 0.7422
+2022-03-25 17:03:04,675 	trn step 25100 loss: 0.9906
+2022-03-25 17:03:16,635 	trn step 25200 loss: 0.8101
+2022-03-25 17:03:28,978 	trn step 25300 loss: 1.0858
+2022-03-25 17:03:41,212 	trn step 25400 loss: 1.0831
+2022-03-25 17:03:53,874 	trn step 25500 loss: 1.0090
+2022-03-25 17:04:05,935 	trn step 25600 loss: 1.1000
+2022-03-25 17:04:18,107 	trn step 25700 loss: 0.8676
+2022-03-25 17:04:30,066 	trn step 25800 loss: 1.1158
+2022-03-25 17:04:42,609 	trn step 25900 loss: 1.7685
+2022-03-25 17:05:32,830 	val step 26000: cider 2.5472 meteor 0.3259 bleu_4 0.3555 bleu_3 0.4259 bleu_2 0.5180 bleu_1 0.6420
+2022-03-25 17:05:32,998 	trn step 26000 loss: 0.7466
+2022-03-25 17:05:45,080 	trn step 26100 loss: 0.9735
+2022-03-25 17:05:57,263 	trn step 26200 loss: 0.8375
+2022-03-25 17:06:10,007 	trn step 26300 loss: 0.8391
+2022-03-25 17:06:22,091 	trn step 26400 loss: 0.8205
+2022-03-25 17:06:34,165 	trn step 26500 loss: 0.8542
+2022-03-25 17:06:46,601 	trn step 26600 loss: 0.7972
+2022-03-25 17:06:58,856 	trn step 26700 loss: 0.8905
+2022-03-25 17:07:11,002 	trn step 26800 loss: 0.8425
+2022-03-25 17:07:23,310 	trn step 26900 loss: 0.9828
+2022-03-25 17:08:14,635 	val step 27000: cider 2.5187 meteor 0.3253 bleu_4 0.3546 bleu_3 0.4251 bleu_2 0.5172 bleu_1 0.6412
+2022-03-25 17:08:14,762 	trn step 27000 loss: 0.8640
+2022-03-25 17:08:26,631 	trn step 27100 loss: 0.8998
+2022-03-25 17:08:38,264 	trn step 27200 loss: 0.7885
+2022-03-25 17:08:50,588 	trn step 27300 loss: 0.7400
+2022-03-25 17:09:02,609 	trn step 27400 loss: 0.8228
+2022-03-25 17:09:14,983 	trn step 27500 loss: 0.9142
+2022-03-25 17:09:27,269 	trn step 27600 loss: 1.0709
+2022-03-25 17:09:39,102 	trn step 27700 loss: 1.1680
+2022-03-25 17:09:51,717 	trn step 27800 loss: 0.9301
+2022-03-25 17:10:03,619 	trn step 27900 loss: 0.7093
+2022-03-25 17:10:53,866 	val step 28000: cider 2.5368 meteor 0.3251 bleu_4 0.3551 bleu_3 0.4249 bleu_2 0.5161 bleu_1 0.6386
+2022-03-25 17:10:53,996 	trn step 28000 loss: 0.7937
+2022-03-25 17:11:05,996 	trn step 28100 loss: 0.7116
+2022-03-25 17:11:17,961 	trn step 28200 loss: 0.8609
+2022-03-25 17:11:30,156 	trn step 28300 loss: 0.7769
+2022-03-25 17:11:42,301 	trn step 28400 loss: 0.8922
+2022-03-25 17:11:54,252 	trn step 28500 loss: 0.9512
+2022-03-25 17:12:06,933 	trn step 28600 loss: 0.7810
+2022-03-25 17:12:18,826 	trn step 28700 loss: 0.9487
+2022-03-25 17:12:30,899 	trn step 28800 loss: 0.7432
+2022-03-25 17:12:42,472 	trn step 28900 loss: 1.0786
+2022-03-25 17:13:32,138 	val step 29000: cider 2.5333 meteor 0.3266 bleu_4 0.3574 bleu_3 0.4278 bleu_2 0.5195 bleu_1 0.6429
+2022-03-25 17:13:32,280 	trn step 29000 loss: 0.8886
+2022-03-25 17:13:44,658 	trn step 29100 loss: 0.7871
+2022-03-25 17:13:56,381 	trn step 29200 loss: 0.6694
+2022-03-25 17:14:09,454 	trn step 29300 loss: 0.8372
+2022-03-25 17:14:21,751 	trn step 29400 loss: 0.9461
+2022-03-25 17:14:33,887 	trn step 29500 loss: 0.6295
+2022-03-25 17:14:45,654 	trn step 29600 loss: 0.8770
+2022-03-25 17:14:57,741 	trn step 29700 loss: 0.8714
+2022-03-25 17:15:09,687 	trn step 29800 loss: 0.7304
+2022-03-25 17:15:21,843 	trn step 29900 loss: 0.8546
+2022-03-25 17:16:11,497 	val step 30000: cider 2.5175 meteor 0.3256 bleu_4 0.3546 bleu_3 0.4250 bleu_2 0.5172 bleu_1 0.6412
+2022-03-25 17:16:11,665 	trn step 30000 loss: 0.6952
+2022-03-25 17:16:24,149 	trn step 30100 loss: 0.8792
+2022-03-25 17:16:36,097 	trn step 30200 loss: 0.9749
+2022-03-25 17:16:48,193 	trn step 30300 loss: 0.8105
+2022-03-25 17:17:00,047 	trn step 30400 loss: 1.0116
+2022-03-25 17:17:11,909 	trn step 30500 loss: 1.2063
+2022-03-25 17:17:23,907 	trn step 30600 loss: 1.0482
+2022-03-25 17:17:36,252 	trn step 30700 loss: 0.7887
+2022-03-25 17:17:48,048 	trn step 30800 loss: 0.8425
+2022-03-25 17:18:00,776 	trn step 30900 loss: 0.9837
+2022-03-25 17:18:50,563 	val step 31000: cider 2.5008 meteor 0.3253 bleu_4 0.3532 bleu_3 0.4241 bleu_2 0.5167 bleu_1 0.6411
+2022-03-25 17:18:50,711 	trn step 31000 loss: 0.7171
+2022-03-25 17:19:02,374 	trn step 31100 loss: 0.6676
+2022-03-25 17:19:14,253 	trn step 31200 loss: 0.8535
+2022-03-25 17:19:26,268 	trn step 31300 loss: 0.7335
+2022-03-25 17:19:38,203 	trn step 31400 loss: 1.0196
+2022-03-25 17:19:50,274 	trn step 31500 loss: 0.8545
+2022-03-25 17:20:02,543 	trn step 31600 loss: 0.7218
+2022-03-25 17:20:15,834 	trn step 31700 loss: 0.6756
+2022-03-25 17:20:27,732 	trn step 31800 loss: 0.6686
+2022-03-25 17:20:39,724 	trn step 31900 loss: 0.7522
+2022-03-25 17:21:29,662 	val step 32000: cider 2.5396 meteor 0.3255 bleu_4 0.3538 bleu_3 0.4243 bleu_2 0.5165 bleu_1 0.6406
+2022-03-25 17:21:29,815 	trn step 32000 loss: 0.7892
+2022-03-25 17:21:41,577 	trn step 32100 loss: 0.9928
+2022-03-25 17:21:53,370 	trn step 32200 loss: 0.9194
+2022-03-25 17:22:05,378 	trn step 32300 loss: 0.8436
+2022-03-25 17:22:18,353 	trn step 32400 loss: 0.7568
+2022-03-25 17:22:30,363 	trn step 32500 loss: 0.9087
+2022-03-25 17:22:42,568 	trn step 32600 loss: 0.6816
+2022-03-25 17:22:54,519 	trn step 32700 loss: 0.8935
+2022-03-25 17:23:06,550 	trn step 32800 loss: 0.7104
+2022-03-25 17:23:18,914 	trn step 32900 loss: 0.7955
+2022-03-25 17:24:08,894 	val step 33000: cider 2.5078 meteor 0.3258 bleu_4 0.3560 bleu_3 0.4264 bleu_2 0.5181 bleu_1 0.6414
+2022-03-25 17:24:09,079 	trn step 33000 loss: 0.7470
+2022-03-25 17:24:21,238 	trn step 33100 loss: 0.8888
+2022-03-25 17:24:33,915 	trn step 33200 loss: 0.7859
+2022-03-25 17:24:45,875 	trn step 33300 loss: 0.7615
+2022-03-25 17:24:58,018 	trn step 33400 loss: 0.8273
+2022-03-25 17:25:09,869 	trn step 33500 loss: 0.5823
+2022-03-25 17:25:21,533 	trn step 33600 loss: 1.0005
+2022-03-25 17:25:33,721 	trn step 33700 loss: 0.8381
+2022-03-25 17:25:45,854 	trn step 33800 loss: 0.6458
+2022-03-25 17:25:57,804 	trn step 33900 loss: 0.8907
+2022-03-25 17:26:48,567 	val step 34000: cider 2.5264 meteor 0.3263 bleu_4 0.3558 bleu_3 0.4265 bleu_2 0.5185 bleu_1 0.6423
+2022-03-25 17:26:48,694 	trn step 34000 loss: 0.8904
+2022-03-25 17:27:00,583 	trn step 34100 loss: 0.5646
+2022-03-25 17:27:12,239 	trn step 34200 loss: 0.9111
+2022-03-25 17:27:24,262 	trn step 34300 loss: 0.8030
+2022-03-25 17:27:36,379 	trn step 34400 loss: 0.6745
+2022-03-25 17:27:48,542 	trn step 34500 loss: 0.7296
+2022-03-25 17:28:00,771 	trn step 34600 loss: 0.8752
+2022-03-25 17:28:13,434 	trn step 34700 loss: 1.0095
+2022-03-25 17:28:25,709 	trn step 34800 loss: 0.9685
+2022-03-25 17:28:37,978 	trn step 34900 loss: 0.9746
+2022-03-25 17:29:27,504 	val step 35000: cider 2.4753 meteor 0.3243 bleu_4 0.3528 bleu_3 0.4230 bleu_2 0.5148 bleu_1 0.6386
+2022-03-25 17:29:27,656 	trn step 35000 loss: 0.7481
+2022-03-25 17:29:39,644 	trn step 35100 loss: 0.5797
+2022-03-25 17:29:51,817 	trn step 35200 loss: 0.8365
+2022-03-25 17:30:03,777 	trn step 35300 loss: 0.8584
+2022-03-25 17:30:15,449 	trn step 35400 loss: 1.0133
+2022-03-25 17:30:28,004 	trn step 35500 loss: 0.8046
+2022-03-25 17:30:39,846 	trn step 35600 loss: 0.6891
+2022-03-25 17:30:52,033 	trn step 35700 loss: 0.6212
+2022-03-25 17:31:04,335 	trn step 35800 loss: 0.8667
+2022-03-25 17:31:16,266 	trn step 35900 loss: 0.8502
+2022-03-25 17:32:05,743 	val step 36000: cider 2.4900 meteor 0.3265 bleu_4 0.3564 bleu_3 0.4270 bleu_2 0.5193 bleu_1 0.6436
+2022-03-25 17:32:05,871 	trn step 36000 loss: 0.8189
+2022-03-25 17:32:18,139 	trn step 36100 loss: 1.0268
+2022-03-25 17:32:29,778 	trn step 36200 loss: 0.7982
+2022-03-25 17:32:42,551 	trn step 36300 loss: 0.9966
+2022-03-25 17:32:54,436 	trn step 36400 loss: 0.7205
+2022-03-25 17:33:06,267 	trn step 36500 loss: 0.7321
+2022-03-25 17:33:18,470 	trn step 36600 loss: 0.7158
+2022-03-25 17:33:30,696 	trn step 36700 loss: 0.7086
+2022-03-25 17:33:42,711 	trn step 36800 loss: 0.8134
+2022-03-25 17:33:54,761 	trn step 36900 loss: 0.8185
+2022-03-25 17:34:44,507 	val step 37000: cider 2.5029 meteor 0.3245 bleu_4 0.3528 bleu_3 0.4231 bleu_2 0.5150 bleu_1 0.6388
+2022-03-25 17:34:44,709 	trn step 37000 loss: 0.7905

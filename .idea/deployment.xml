@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Taurus" remoteFilesAllowedToDisappearOnAutoupload="false" showDifferentInSync="false" showAutoUploadSettingsWarning="false">
+    <serverData>
+      <paths name="AIM3-Jupiter">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/FashionMMT/New-Fashion-MMT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="AIM3-Taurus">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/FashionMMT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="BeijingSCC-2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/run/FashionMMT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="BeijingSCC-3">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/FashionMMT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Taurus">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data2/yzh/FashionMMT" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@202.112.113.210:2234 key">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data2/yzh/FashionMMT/New-Fashion-MMT" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="scv6728@BSCC-N26@ssh.cn-nanjing-1.paracloud.com:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/run/FashionMMT" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="ubuntu@36.103.203.247:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/FashionMMT" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

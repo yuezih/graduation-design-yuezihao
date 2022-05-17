@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a5274a5a-2a62-4bff-8398-cb7830f0ff92" name="scv6728@BSCC-N26@ssh.cn-nanjing-1.paracloud.com:22 password">
+        <fileTransfer rootFolder="/data/home/scv6728" accessType="SFTP" host="ssh.cn-nanjing-1.paracloud.com" port="22" sshConfigId="1ed104ac-71c7-4c91-9055-0a7eb32ac9c4" sshConfig="BJ_Cluster" />
+      </webServer>
+      <webServer id="26582b4e-3bbc-411e-a861-25869f6beb50" name="ubuntu@36.103.203.247:22 password">
+        <fileTransfer accessType="SFTP" host="36.103.203.247" port="22" sshConfigId="d4ccbd72-811b-4684-b9e7-075e62726b68" sshConfig="BJ_3090" />
+      </webServer>
+      <webServer id="4f168b56-0768-418b-b3d3-a9ee3fe278d8" name="AIM3-Taurus">
+        <fileTransfer rootFolder="/data2/yzh" accessType="SFTP" host="202.112.113.77" port="2233" sshConfigId="6d8d9439-2ad3-4bfc-b2a3-957d8d3df0fa" sshConfig="Taurus" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

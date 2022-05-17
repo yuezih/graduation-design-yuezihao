@@ -1,0 +1,937 @@
+2022-03-09 19:58:24,357 transformer: vis_encoder.embed.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,360 transformer: vis_encoder.embed.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,360 transformer: vis_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-09 19:58:24,360 transformer: vis_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,360 transformer: vis_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,361 transformer: vis_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,361 transformer: vis_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: vis_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-09 19:58:24,362 transformer: src_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-09 19:58:24,362 transformer: src_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,362 transformer: src_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,363 transformer: src_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: src_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: src_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,363 transformer: trg_encoder.embed.embed.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-09 19:58:24,364 transformer: trg_encoder.pe.pe, shape=torch.Size([1, 200, 512]), num:102400
+2022-03-09 19:58:24,364 transformer: trg_encoder.pe.mode.weight, shape=torch.Size([3, 512]), num:1536
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,364 transformer: trg_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,365 transformer: trg_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: trg_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: trg_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: cross_encoder.layers.0.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: cross_encoder.layers.0.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,365 transformer: cross_encoder.layers.0.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,366 transformer: cross_encoder.layers.0.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.0.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.0.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,367 transformer: cross_encoder.layers.1.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.1.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.2.norm_1.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.2.norm_1.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.2.norm_2.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.2.norm_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,368 transformer: cross_encoder.layers.2.attn.q_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.q_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.v_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.v_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.k_linear.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.k_linear.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.out.weight, shape=torch.Size([512, 512]), num:262144
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.attn.out.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.ff.linear_1.weight, shape=torch.Size([2048, 512]), num:1048576
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.ff.linear_1.bias, shape=torch.Size([2048]), num:2048
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.ff.linear_2.weight, shape=torch.Size([512, 2048]), num:1048576
+2022-03-09 19:58:24,369 transformer: cross_encoder.layers.2.ff.linear_2.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,370 transformer: cross_encoder.norm.alpha, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,370 transformer: cross_encoder.norm.bias, shape=torch.Size([512]), num:512
+2022-03-09 19:58:24,370 transformer: logit.weight, shape=torch.Size([10650, 512]), num:5452800
+2022-03-09 19:58:24,370 transformer: logit.bias, shape=torch.Size([10650]), num:10650
+2022-03-09 19:58:24,370 transformer: cls.weight, shape=torch.Size([2, 512]), num:1024
+2022-03-09 19:58:24,370 transformer: cls.bias, shape=torch.Size([2]), num:2
+2022-03-09 19:58:24,370 transformer: attr_cls.weight, shape=torch.Size([965, 512]), num:494080
+2022-03-09 19:58:24,370 transformer: attr_cls.bias, shape=torch.Size([965]), num:965
+2022-03-09 19:58:24,370 num params 120, num weights 37144417
+2022-03-09 19:58:24,371 trainable: num params 114, num weights 31381345
+2022-03-09 19:58:24,968 text size 36000
+2022-03-09 19:58:25,836 text size 2000
+2022-03-09 19:58:26,414 number of resumed variables: 120
+2022-03-09 19:59:47,514 	trn step 100 loss: 1.7913
+2022-03-09 20:00:58,283 	trn step 200 loss: 1.5460
+2022-03-09 20:01:54,307 	trn step 300 loss: 1.6468
+2022-03-09 20:02:21,629 	trn step 400 loss: 1.5262
+2022-03-09 20:02:51,942 	trn step 500 loss: 1.5607
+2022-03-09 20:03:19,327 	trn step 600 loss: 1.5049
+2022-03-09 20:03:48,112 	trn step 700 loss: 1.6043
+2022-03-09 20:04:15,901 	trn step 800 loss: 1.2385
+2022-03-09 20:04:44,285 	trn step 900 loss: 1.2491
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:03<01:01,  3.24s/it] 10%|█         | 2/20 [00:04<00:37,  2.10s/it] 15%|█▌        | 3/20 [00:05<00:29,  1.74s/it] 20%|██        | 4/20 [00:07<00:25,  1.58s/it] 25%|██▌       | 5/20 [00:08<00:22,  1.49s/it] 30%|███       | 6/20 [00:09<00:19,  1.43s/it] 35%|███▌      | 7/20 [00:11<00:18,  1.39s/it] 40%|████      | 8/20 [00:12<00:16,  1.36s/it] 45%|████▌     | 9/20 [00:13<00:14,  1.35s/it] 50%|█████     | 10/20 [00:15<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:16<00:11,  1.33s/it] 60%|██████    | 12/20 [00:17<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:20<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:21<00:06,  1.31s/it] 80%|████████  | 16/20 [00:22<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:24<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:25<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:26<00:01,  1.31s/it]100%|██████████| 20/20 [00:28<00:00,  1.31s/it]100%|██████████| 20/20 [00:28<00:00,  1.41s/it]
+2022-03-09 20:05:45,885 	val step 1000: cider 2.2134 meteor 0.3191 bleu_4 0.3489 bleu_3 0.4180 bleu_2 0.5072 bleu_1 0.6278
+2022-03-09 20:05:46,198 	trn step 1000 loss: 1.3345
+2022-03-09 20:06:14,894 	trn step 1100 loss: 1.3923
+2022-03-09 20:06:41,601 	trn step 1200 loss: 1.3008
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:07:10,967 	trn step 1300 loss: 1.2988
+2022-03-09 20:07:38,302 	trn step 1400 loss: 1.2815
+2022-03-09 20:08:07,822 	trn step 1500 loss: 1.2251
+2022-03-09 20:08:35,763 	trn step 1600 loss: 1.3242
+2022-03-09 20:09:03,221 	trn step 1700 loss: 1.2508
+2022-03-09 20:09:32,741 	trn step 1800 loss: 1.2437
+2022-03-09 20:10:00,473 	trn step 1900 loss: 1.1963
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.33s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:11:00,017 	val step 2000: cider 2.4906 meteor 0.3248 bleu_4 0.3609 bleu_3 0.4286 bleu_2 0.5155 bleu_1 0.6314
+2022-03-09 20:11:00,296 	trn step 2000 loss: 1.2284
+2022-03-09 20:11:28,966 	trn step 2100 loss: 1.2464
+2022-03-09 20:11:56,194 	trn step 2200 loss: 1.1508
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:12:24,885 	trn step 2300 loss: 1.3091
+2022-03-09 20:12:53,096 	trn step 2400 loss: 1.3886
+2022-03-09 20:13:22,255 	trn step 2500 loss: 1.2833
+2022-03-09 20:13:49,351 	trn step 2600 loss: 1.1904
+2022-03-09 20:14:17,369 	trn step 2700 loss: 1.2161
+2022-03-09 20:14:46,262 	trn step 2800 loss: 1.2419
+2022-03-09 20:15:14,521 	trn step 2900 loss: 1.5335
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:13<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.31s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.31s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:16:14,648 	val step 3000: cider 2.6047 meteor 0.3337 bleu_4 0.3750 bleu_3 0.4443 bleu_2 0.5334 bleu_1 0.6528
+2022-03-09 20:16:14,904 	trn step 3000 loss: 1.4147
+2022-03-09 20:16:42,596 	trn step 3100 loss: 1.2624
+2022-03-09 20:17:10,397 	trn step 3200 loss: 1.2062
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:17:39,585 	trn step 3300 loss: 1.1313
+2022-03-09 20:18:07,021 	trn step 3400 loss: 1.1508
+2022-03-09 20:18:37,207 	trn step 3500 loss: 1.1500
+2022-03-09 20:19:05,651 	trn step 3600 loss: 1.0614
+2022-03-09 20:19:32,740 	trn step 3700 loss: 1.1771
+2022-03-09 20:20:02,181 	trn step 3800 loss: 1.1762
+2022-03-09 20:20:30,204 	trn step 3900 loss: 1.3262
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:21:30,648 	val step 4000: cider 2.6666 meteor 0.3340 bleu_4 0.3760 bleu_3 0.4440 bleu_2 0.5314 bleu_1 0.6481
+2022-03-09 20:21:30,907 	trn step 4000 loss: 1.2378
+2022-03-09 20:21:58,469 	trn step 4100 loss: 1.1786
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:22:27,359 	trn step 4200 loss: 1.1438
+2022-03-09 20:22:55,676 	trn step 4300 loss: 1.1763
+2022-03-09 20:23:23,332 	trn step 4400 loss: 1.2013
+2022-03-09 20:23:52,415 	trn step 4500 loss: 1.1189
+2022-03-09 20:24:20,181 	trn step 4600 loss: 1.2505
+2022-03-09 20:24:49,842 	trn step 4700 loss: 1.0529
+2022-03-09 20:25:17,053 	trn step 4800 loss: 1.2280
+2022-03-09 20:25:44,975 	trn step 4900 loss: 1.3036
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:26:45,172 	val step 5000: cider 2.6846 meteor 0.3359 bleu_4 0.3776 bleu_3 0.4465 bleu_2 0.5347 bleu_1 0.6514
+2022-03-09 20:26:45,447 	trn step 5000 loss: 1.1818
+2022-03-09 20:27:12,675 	trn step 5100 loss: 1.1348
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:27:42,442 	trn step 5200 loss: 1.0787
+2022-03-09 20:28:10,918 	trn step 5300 loss: 1.1400
+2022-03-09 20:28:37,728 	trn step 5400 loss: 1.0539
+2022-03-09 20:29:07,194 	trn step 5500 loss: 1.1489
+2022-03-09 20:29:34,680 	trn step 5600 loss: 0.9297
+2022-03-09 20:30:04,333 	trn step 5700 loss: 0.9676
+2022-03-09 20:30:32,368 	trn step 5800 loss: 1.0646
+2022-03-09 20:30:59,409 	trn step 5900 loss: 1.1256
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.19s/it] 10%|█         | 2/20 [00:03<00:30,  1.67s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:13<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:31:58,759 	val step 6000: cider 2.7998 meteor 0.3413 bleu_4 0.3858 bleu_3 0.4560 bleu_2 0.5458 bleu_1 0.6646
+2022-03-09 20:31:59,032 	trn step 6000 loss: 1.2298
+2022-03-09 20:32:27,326 	trn step 6100 loss: 1.0876
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:32:56,834 	trn step 6200 loss: 0.9769
+2022-03-09 20:33:24,683 	trn step 6300 loss: 1.0767
+2022-03-09 20:33:52,306 	trn step 6400 loss: 0.9000
+2022-03-09 20:34:21,249 	trn step 6500 loss: 1.0868
+2022-03-09 20:34:49,132 	trn step 6600 loss: 1.0586
+2022-03-09 20:35:17,807 	trn step 6700 loss: 1.1090
+2022-03-09 20:35:45,650 	trn step 6800 loss: 1.0918
+2022-03-09 20:36:13,889 	trn step 6900 loss: 1.0371
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:43,  2.29s/it] 10%|█         | 2/20 [00:03<00:30,  1.71s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.53s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.31s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:37:14,203 	val step 7000: cider 2.8013 meteor 0.3436 bleu_4 0.3892 bleu_3 0.4599 bleu_2 0.5502 bleu_1 0.6704
+2022-03-09 20:37:14,493 	trn step 7000 loss: 1.1629
+2022-03-09 20:37:42,448 	trn step 7100 loss: 1.1207
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:38:11,049 	trn step 7200 loss: 1.0423
+2022-03-09 20:38:38,825 	trn step 7300 loss: 1.0419
+2022-03-09 20:39:06,649 	trn step 7400 loss: 1.0240
+2022-03-09 20:39:35,954 	trn step 7500 loss: 1.0556
+2022-03-09 20:40:03,494 	trn step 7600 loss: 1.1622
+2022-03-09 20:40:32,914 	trn step 7700 loss: 0.9515
+2022-03-09 20:41:00,950 	trn step 7800 loss: 1.0615
+2022-03-09 20:41:29,438 	trn step 7900 loss: 1.0231
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:42:27,530 	val step 8000: cider 2.8066 meteor 0.3414 bleu_4 0.3868 bleu_3 0.4558 bleu_2 0.5444 bleu_1 0.6620
+2022-03-09 20:42:27,832 	trn step 8000 loss: 0.9848
+2022-03-09 20:42:56,170 	trn step 8100 loss: 1.0693
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:43:24,948 	trn step 8200 loss: 1.1076
+2022-03-09 20:43:52,933 	trn step 8300 loss: 1.0217
+2022-03-09 20:44:22,108 	trn step 8400 loss: 1.0820
+2022-03-09 20:44:49,787 	trn step 8500 loss: 0.9958
+2022-03-09 20:45:17,705 	trn step 8600 loss: 1.0993
+2022-03-09 20:45:47,349 	trn step 8700 loss: 1.0632
+2022-03-09 20:46:15,533 	trn step 8800 loss: 0.9014
+2022-03-09 20:46:44,127 	trn step 8900 loss: 0.9811
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:23,  1.45s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:47:42,688 	val step 9000: cider 2.8659 meteor 0.3460 bleu_4 0.3937 bleu_3 0.4639 bleu_2 0.5538 bleu_1 0.6721
+2022-03-09 20:47:43,085 	trn step 9000 loss: 1.0598
+2022-03-09 20:48:11,099 	trn step 9100 loss: 0.9767
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:48:39,920 	trn step 9200 loss: 1.0965
+2022-03-09 20:49:07,914 	trn step 9300 loss: 0.9333
+2022-03-09 20:49:37,266 	trn step 9400 loss: 1.0980
+2022-03-09 20:50:05,304 	trn step 9500 loss: 0.9704
+2022-03-09 20:50:32,650 	trn step 9600 loss: 1.0533
+2022-03-09 20:51:01,726 	trn step 9700 loss: 1.0214
+2022-03-09 20:51:29,082 	trn step 9800 loss: 0.9723
+2022-03-09 20:51:58,745 	trn step 9900 loss: 0.9661
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.67s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 20:52:57,424 	val step 10000: cider 2.8844 meteor 0.3456 bleu_4 0.3928 bleu_3 0.4630 bleu_2 0.5528 bleu_1 0.6714
+2022-03-09 20:52:57,670 	trn step 10000 loss: 0.9060
+2022-03-09 20:53:25,567 	trn step 10100 loss: 1.0283
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:53:54,234 	trn step 10200 loss: 0.9449
+2022-03-09 20:54:22,224 	trn step 10300 loss: 0.9144
+2022-03-09 20:54:51,115 	trn step 10400 loss: 1.0028
+2022-03-09 20:55:18,712 	trn step 10500 loss: 0.9936
+2022-03-09 20:55:47,341 	trn step 10600 loss: 0.9706
+2022-03-09 20:56:16,589 	trn step 10700 loss: 1.1820
+2022-03-09 20:56:44,626 	trn step 10800 loss: 0.8882
+2022-03-09 20:57:12,912 	trn step 10900 loss: 1.0481
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.33s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.37s/it]
+2022-03-09 20:58:11,290 	val step 11000: cider 2.9196 meteor 0.3472 bleu_4 0.3967 bleu_3 0.4663 bleu_2 0.5555 bleu_1 0.6738
+2022-03-09 20:58:11,523 	trn step 11000 loss: 1.0897
+2022-03-09 20:58:40,652 	trn step 11100 loss: 1.0092
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 20:59:10,489 	trn step 11200 loss: 1.0517
+2022-03-09 20:59:38,116 	trn step 11300 loss: 0.9255
+2022-03-09 21:00:08,514 	trn step 11400 loss: 0.9504
+2022-03-09 21:00:35,686 	trn step 11500 loss: 1.0716
+2022-03-09 21:01:03,722 	trn step 11600 loss: 0.9941
+2022-03-09 21:01:33,139 	trn step 11700 loss: 0.7940
+2022-03-09 21:02:00,882 	trn step 11800 loss: 1.1288
+2022-03-09 21:02:30,082 	trn step 11900 loss: 0.8573
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.33s/it] 60%|██████    | 12/20 [00:16<00:10,  1.33s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:03:28,288 	val step 12000: cider 2.9394 meteor 0.3478 bleu_4 0.3985 bleu_3 0.4682 bleu_2 0.5566 bleu_1 0.6731
+2022-03-09 21:03:28,590 	trn step 12000 loss: 0.9776
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:03:58,292 	trn step 12100 loss: 0.8322
+2022-03-09 21:04:26,488 	trn step 12200 loss: 0.9111
+2022-03-09 21:04:54,295 	trn step 12300 loss: 0.9177
+2022-03-09 21:05:23,716 	trn step 12400 loss: 0.9927
+2022-03-09 21:05:50,388 	trn step 12500 loss: 0.9013
+2022-03-09 21:06:20,285 	trn step 12600 loss: 0.8931
+2022-03-09 21:06:48,026 	trn step 12700 loss: 1.1344
+2022-03-09 21:07:16,262 	trn step 12800 loss: 0.8806
+2022-03-09 21:07:45,871 	trn step 12900 loss: 0.8592
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.25s/it] 10%|█         | 2/20 [00:03<00:30,  1.70s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:08:44,180 	val step 13000: cider 2.9227 meteor 0.3463 bleu_4 0.3958 bleu_3 0.4645 bleu_2 0.5521 bleu_1 0.6679
+2022-03-09 21:08:44,594 	trn step 13000 loss: 0.9081
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:09:13,466 	trn step 13100 loss: 1.0815
+2022-03-09 21:09:40,354 	trn step 13200 loss: 0.9410
+2022-03-09 21:10:09,303 	trn step 13300 loss: 0.9959
+2022-03-09 21:10:39,272 	trn step 13400 loss: 0.9823
+2022-03-09 21:11:06,775 	trn step 13500 loss: 1.1335
+2022-03-09 21:11:35,817 	trn step 13600 loss: 0.8796
+2022-03-09 21:12:02,995 	trn step 13700 loss: 0.8287
+2022-03-09 21:12:31,366 	trn step 13800 loss: 1.0122
+2022-03-09 21:13:01,736 	trn step 13900 loss: 1.0339
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.67s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.50s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.38s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.34s/it] 40%|████      | 8/20 [00:11<00:15,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:13<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.31s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:14:00,890 	val step 14000: cider 2.9255 meteor 0.3463 bleu_4 0.3964 bleu_3 0.4654 bleu_2 0.5530 bleu_1 0.6685
+2022-03-09 21:14:01,198 	trn step 14000 loss: 0.9091
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:14:28,299 	trn step 14100 loss: 1.0076
+2022-03-09 21:14:56,495 	trn step 14200 loss: 0.9254
+2022-03-09 21:15:24,782 	trn step 14300 loss: 0.8874
+2022-03-09 21:15:54,800 	trn step 14400 loss: 1.1132
+2022-03-09 21:16:22,592 	trn step 14500 loss: 1.0050
+2022-03-09 21:16:51,314 	trn step 14600 loss: 0.9437
+2022-03-09 21:17:18,964 	trn step 14700 loss: 0.9538
+2022-03-09 21:17:47,165 	trn step 14800 loss: 0.8615
+2022-03-09 21:18:16,757 	trn step 14900 loss: 0.9757
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:19:15,427 	val step 15000: cider 2.9509 meteor 0.3487 bleu_4 0.3993 bleu_3 0.4690 bleu_2 0.5581 bleu_1 0.6756
+2022-03-09 21:19:15,705 	trn step 15000 loss: 0.9233
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:19:44,086 	trn step 15100 loss: 1.0463
+2022-03-09 21:20:12,180 	trn step 15200 loss: 1.0452
+2022-03-09 21:20:39,997 	trn step 15300 loss: 0.9358
+2022-03-09 21:21:08,153 	trn step 15400 loss: 0.8490
+2022-03-09 21:21:36,977 	trn step 15500 loss: 0.9022
+2022-03-09 21:22:05,964 	trn step 15600 loss: 0.5082
+2022-03-09 21:22:34,592 	trn step 15700 loss: 0.8900
+2022-03-09 21:23:03,446 	trn step 15800 loss: 1.0236
+2022-03-09 21:23:31,397 	trn step 15900 loss: 1.0170
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:24:30,590 	val step 16000: cider 2.9043 meteor 0.3474 bleu_4 0.3967 bleu_3 0.4663 bleu_2 0.5552 bleu_1 0.6722
+2022-03-09 21:24:30,838 	trn step 16000 loss: 0.9642
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:24:59,927 	trn step 16100 loss: 0.9439
+2022-03-09 21:25:27,684 	trn step 16200 loss: 0.8214
+2022-03-09 21:25:56,460 	trn step 16300 loss: 0.9013
+2022-03-09 21:26:24,104 	trn step 16400 loss: 0.9275
+2022-03-09 21:26:52,437 	trn step 16500 loss: 0.9675
+2022-03-09 21:27:22,150 	trn step 16600 loss: 0.7844
+2022-03-09 21:27:49,360 	trn step 16700 loss: 0.9249
+2022-03-09 21:28:19,001 	trn step 16800 loss: 0.8105
+2022-03-09 21:28:46,515 	trn step 16900 loss: 0.8695
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:29:45,321 	val step 17000: cider 2.9172 meteor 0.3458 bleu_4 0.3942 bleu_3 0.4632 bleu_2 0.5514 bleu_1 0.6684
+2022-03-09 21:29:45,665 	trn step 17000 loss: 0.9946
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:30:14,848 	trn step 17100 loss: 0.9664
+2022-03-09 21:30:42,540 	trn step 17200 loss: 0.8728
+2022-03-09 21:31:11,935 	trn step 17300 loss: 0.8178
+2022-03-09 21:31:40,231 	trn step 17400 loss: 0.9115
+2022-03-09 21:32:07,689 	trn step 17500 loss: 0.8719
+2022-03-09 21:32:37,157 	trn step 17600 loss: 1.0161
+2022-03-09 21:33:05,004 	trn step 17700 loss: 0.9083
+2022-03-09 21:33:34,055 	trn step 17800 loss: 0.8120
+2022-03-09 21:34:01,915 	trn step 17900 loss: 1.0584
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:35:00,558 	val step 18000: cider 2.9163 meteor 0.3454 bleu_4 0.3932 bleu_3 0.4626 bleu_2 0.5512 bleu_1 0.6683
+2022-03-09 21:35:00,789 	trn step 18000 loss: 1.0588
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:35:30,149 	trn step 18100 loss: 0.6130
+2022-03-09 21:35:58,180 	trn step 18200 loss: 0.8795
+2022-03-09 21:36:27,345 	trn step 18300 loss: 1.1033
+2022-03-09 21:36:55,089 	trn step 18400 loss: 0.9632
+2022-03-09 21:37:23,159 	trn step 18500 loss: 0.8934
+2022-03-09 21:37:52,162 	trn step 18600 loss: 0.9086
+2022-03-09 21:38:19,205 	trn step 18700 loss: 0.8552
+2022-03-09 21:38:49,032 	trn step 18800 loss: 0.8895
+2022-03-09 21:39:16,632 	trn step 18900 loss: 0.9245
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:40:15,615 	val step 19000: cider 2.9113 meteor 0.3470 bleu_4 0.3949 bleu_3 0.4645 bleu_2 0.5537 bleu_1 0.6714
+2022-03-09 21:40:15,875 	trn step 19000 loss: 0.8706
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:40:45,431 	trn step 19100 loss: 0.8767
+2022-03-09 21:41:13,311 	trn step 19200 loss: 1.0521
+2022-03-09 21:41:42,292 	trn step 19300 loss: 0.7708
+2022-03-09 21:42:10,074 	trn step 19400 loss: 0.9670
+2022-03-09 21:42:38,434 	trn step 19500 loss: 0.9007
+2022-03-09 21:43:06,751 	trn step 19600 loss: 0.8150
+2022-03-09 21:43:34,812 	trn step 19700 loss: 0.8356
+2022-03-09 21:44:04,728 	trn step 19800 loss: 0.7756
+2022-03-09 21:44:32,581 	trn step 19900 loss: 0.9098
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.26s/it] 10%|█         | 2/20 [00:03<00:30,  1.70s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.53s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:45:32,253 	val step 20000: cider 2.9819 meteor 0.3483 bleu_4 0.3986 bleu_3 0.4682 bleu_2 0.5572 bleu_1 0.6748
+2022-03-09 21:45:32,482 	trn step 20000 loss: 1.0480
+2022-03-09 21:46:00,058 	trn step 20100 loss: 0.3554
+2022-03-09 21:46:28,583 	trn step 20200 loss: 0.9082
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:46:57,534 	trn step 20300 loss: 1.0318
+2022-03-09 21:47:25,372 	trn step 20400 loss: 0.8814
+2022-03-09 21:47:54,493 	trn step 20500 loss: 0.8244
+2022-03-09 21:48:21,857 	trn step 20600 loss: 0.9106
+2022-03-09 21:48:50,701 	trn step 20700 loss: 0.9204
+2022-03-09 21:49:19,720 	trn step 20800 loss: 0.9935
+2022-03-09 21:49:47,167 	trn step 20900 loss: 0.8430
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:50:47,764 	val step 21000: cider 2.9821 meteor 0.3490 bleu_4 0.4003 bleu_3 0.4697 bleu_2 0.5582 bleu_1 0.6749
+2022-03-09 21:50:48,086 	trn step 21000 loss: 0.8802
+2022-03-09 21:51:16,158 	trn step 21100 loss: 0.8159
+2022-03-09 21:51:43,181 	trn step 21200 loss: 0.9366
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:52:12,103 	trn step 21300 loss: 0.9078
+2022-03-09 21:52:40,425 	trn step 21400 loss: 0.9053
+2022-03-09 21:53:09,817 	trn step 21500 loss: 0.8257
+2022-03-09 21:53:38,347 	trn step 21600 loss: 0.7682
+2022-03-09 21:54:06,106 	trn step 21700 loss: 0.9119
+2022-03-09 21:54:34,601 	trn step 21800 loss: 0.7857
+2022-03-09 21:55:02,828 	trn step 21900 loss: 0.8967
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.34s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 21:56:03,082 	val step 22000: cider 2.9624 meteor 0.3492 bleu_4 0.4007 bleu_3 0.4702 bleu_2 0.5591 bleu_1 0.6763
+2022-03-09 21:56:03,311 	trn step 22000 loss: 0.9784
+2022-03-09 21:56:30,979 	trn step 22100 loss: 0.8657
+2022-03-09 21:56:58,698 	trn step 22200 loss: 0.8310
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 21:57:27,259 	trn step 22300 loss: 0.8377
+2022-03-09 21:57:54,593 	trn step 22400 loss: 0.7999
+2022-03-09 21:58:23,871 	trn step 22500 loss: 0.8784
+2022-03-09 21:58:51,545 	trn step 22600 loss: 0.6304
+2022-03-09 21:59:19,996 	trn step 22700 loss: 0.8592
+2022-03-09 21:59:48,596 	trn step 22800 loss: 0.7656
+2022-03-09 22:00:16,323 	trn step 22900 loss: 0.7622
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.34s/it] 40%|████      | 8/20 [00:11<00:15,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.32s/it] 50%|█████     | 10/20 [00:13<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.31s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.31s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.35s/it]
+2022-03-09 22:01:15,691 	val step 23000: cider 2.9661 meteor 0.3489 bleu_4 0.3996 bleu_3 0.4694 bleu_2 0.5587 bleu_1 0.6764
+2022-03-09 22:01:16,022 	trn step 23000 loss: 0.8105
+2022-03-09 22:01:43,650 	trn step 23100 loss: 0.8771
+2022-03-09 22:02:12,572 	trn step 23200 loss: 0.8417
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:02:40,562 	trn step 23300 loss: 0.9627
+2022-03-09 22:03:08,817 	trn step 23400 loss: 0.7554
+2022-03-09 22:03:38,786 	trn step 23500 loss: 0.8417
+2022-03-09 22:04:06,488 	trn step 23600 loss: 0.8469
+2022-03-09 22:04:35,440 	trn step 23700 loss: 0.8154
+2022-03-09 22:05:04,412 	trn step 23800 loss: 0.9746
+2022-03-09 22:05:31,453 	trn step 23900 loss: 1.0001
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.23s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:06:30,462 	val step 24000: cider 2.9964 meteor 0.3497 bleu_4 0.4010 bleu_3 0.4707 bleu_2 0.5600 bleu_1 0.6779
+2022-03-09 22:06:30,770 	trn step 24000 loss: 0.7578
+2022-03-09 22:06:59,382 	trn step 24100 loss: 0.8686
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:07:28,149 	trn step 24200 loss: 0.7533
+2022-03-09 22:07:55,795 	trn step 24300 loss: 0.8542
+2022-03-09 22:08:23,929 	trn step 24400 loss: 0.7406
+2022-03-09 22:08:53,466 	trn step 24500 loss: 0.8426
+2022-03-09 22:09:21,665 	trn step 24600 loss: 0.6966
+2022-03-09 22:09:50,485 	trn step 24700 loss: 0.8351
+2022-03-09 22:10:18,642 	trn step 24800 loss: 0.8497
+2022-03-09 22:10:46,933 	trn step 24900 loss: 0.7667
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.25s/it] 10%|█         | 2/20 [00:03<00:30,  1.70s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:11:46,872 	val step 25000: cider 2.9691 meteor 0.3489 bleu_4 0.4004 bleu_3 0.4698 bleu_2 0.5585 bleu_1 0.6756
+2022-03-09 22:11:47,129 	trn step 25000 loss: 0.8543
+2022-03-09 22:12:14,067 	trn step 25100 loss: 0.9248
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:12:43,781 	trn step 25200 loss: 0.7954
+2022-03-09 22:13:11,769 	trn step 25300 loss: 0.9030
+2022-03-09 22:13:39,770 	trn step 25400 loss: 0.8096
+2022-03-09 22:14:08,304 	trn step 25500 loss: 0.9126
+2022-03-09 22:14:37,071 	trn step 25600 loss: 0.8384
+2022-03-09 22:15:05,892 	trn step 25700 loss: 0.7952
+2022-03-09 22:15:32,723 	trn step 25800 loss: 0.7969
+2022-03-09 22:16:00,789 	trn step 25900 loss: 0.7551
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:17:00,338 	val step 26000: cider 2.9705 meteor 0.3480 bleu_4 0.3977 bleu_3 0.4672 bleu_2 0.5560 bleu_1 0.6733
+2022-03-09 22:17:00,639 	trn step 26000 loss: 0.9138
+2022-03-09 22:17:29,750 	trn step 26100 loss: 0.8908
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:17:58,004 	trn step 26200 loss: 0.8877
+2022-03-09 22:18:26,326 	trn step 26300 loss: 0.7885
+2022-03-09 22:18:53,951 	trn step 26400 loss: 0.8956
+2022-03-09 22:19:23,713 	trn step 26500 loss: 0.9444
+2022-03-09 22:19:50,512 	trn step 26600 loss: 0.9231
+2022-03-09 22:20:19,654 	trn step 26700 loss: 0.7661
+2022-03-09 22:20:48,285 	trn step 26800 loss: 0.7704
+2022-03-09 22:21:15,922 	trn step 26900 loss: 0.8420
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:22:15,057 	val step 27000: cider 2.9667 meteor 0.3486 bleu_4 0.3985 bleu_3 0.4682 bleu_2 0.5573 bleu_1 0.6748
+2022-03-09 22:22:15,401 	trn step 27000 loss: 0.7447
+2022-03-09 22:22:44,186 	trn step 27100 loss: 0.7781
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:23:13,589 	trn step 27200 loss: 0.7657
+2022-03-09 22:23:41,247 	trn step 27300 loss: 0.7896
+2022-03-09 22:24:08,685 	trn step 27400 loss: 0.7855
+2022-03-09 22:24:37,274 	trn step 27500 loss: 0.8538
+2022-03-09 22:25:05,105 	trn step 27600 loss: 0.7959
+2022-03-09 22:25:34,322 	trn step 27700 loss: 0.8902
+2022-03-09 22:26:02,668 	trn step 27800 loss: 0.8218
+2022-03-09 22:26:31,954 	trn step 27900 loss: 0.7300
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:43,  2.27s/it] 10%|█         | 2/20 [00:03<00:30,  1.70s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:27:30,805 	val step 28000: cider 2.9746 meteor 0.3490 bleu_4 0.3998 bleu_3 0.4692 bleu_2 0.5583 bleu_1 0.6756
+2022-03-09 22:27:31,068 	trn step 28000 loss: 0.9075
+2022-03-09 22:27:58,462 	trn step 28100 loss: 0.8406
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:28:27,745 	trn step 28200 loss: 0.8345
+2022-03-09 22:28:56,279 	trn step 28300 loss: 0.8626
+2022-03-09 22:29:25,029 	trn step 28400 loss: 0.8320
+2022-03-09 22:29:53,175 	trn step 28500 loss: 0.8314
+2022-03-09 22:30:20,753 	trn step 28600 loss: 0.8368
+2022-03-09 22:30:50,306 	trn step 28700 loss: 0.8322
+2022-03-09 22:31:18,079 	trn step 28800 loss: 0.7398
+2022-03-09 22:31:46,903 	trn step 28900 loss: 0.8237
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:32:45,773 	val step 29000: cider 2.9726 meteor 0.3487 bleu_4 0.3996 bleu_3 0.4687 bleu_2 0.5572 bleu_1 0.6738
+2022-03-09 22:32:46,035 	trn step 29000 loss: 0.7574
+2022-03-09 22:33:13,248 	trn step 29100 loss: 0.8014
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:33:42,122 	trn step 29200 loss: 0.7627
+2022-03-09 22:34:10,373 	trn step 29300 loss: 0.8902
+2022-03-09 22:34:39,514 	trn step 29400 loss: 0.5539
+2022-03-09 22:35:08,095 	trn step 29500 loss: 0.9008
+2022-03-09 22:35:34,773 	trn step 29600 loss: 1.0143
+2022-03-09 22:36:04,693 	trn step 29700 loss: 0.8454
+2022-03-09 22:36:32,296 	trn step 29800 loss: 0.7697
+2022-03-09 22:37:01,648 	trn step 29900 loss: 0.8058
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.67s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.34s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:13<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:38:00,586 	val step 30000: cider 2.9867 meteor 0.3493 bleu_4 0.4006 bleu_3 0.4700 bleu_2 0.5587 bleu_1 0.6758
+2022-03-09 22:38:00,964 	trn step 30000 loss: 0.7731
+2022-03-09 22:38:28,673 	trn step 30100 loss: 0.8327
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:38:57,695 	trn step 30200 loss: 0.7485
+2022-03-09 22:39:25,338 	trn step 30300 loss: 0.8626
+2022-03-09 22:39:54,491 	trn step 30400 loss: 0.8871
+2022-03-09 22:40:22,610 	trn step 30500 loss: 0.8890
+2022-03-09 22:40:50,396 	trn step 30600 loss: 0.9016
+2022-03-09 22:41:19,086 	trn step 30700 loss: 0.7545
+2022-03-09 22:41:47,676 	trn step 30800 loss: 0.8258
+2022-03-09 22:42:16,376 	trn step 30900 loss: 0.7919
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.24s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:43:16,478 	val step 31000: cider 2.9699 meteor 0.3490 bleu_4 0.4002 bleu_3 0.4694 bleu_2 0.5579 bleu_1 0.6745
+2022-03-09 22:43:16,736 	trn step 31000 loss: 0.8295
+2022-03-09 22:43:44,071 	trn step 31100 loss: 0.7221
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:44:12,550 	trn step 31200 loss: 0.8299
+2022-03-09 22:44:40,690 	trn step 31300 loss: 0.7315
+2022-03-09 22:45:10,991 	trn step 31400 loss: 0.8071
+2022-03-09 22:45:38,827 	trn step 31500 loss: 0.8716
+2022-03-09 22:46:07,342 	trn step 31600 loss: 0.9114
+2022-03-09 22:46:35,558 	trn step 31700 loss: 0.7951
+2022-03-09 22:47:02,962 	trn step 31800 loss: 0.8724
+2022-03-09 22:47:32,676 	trn step 31900 loss: 0.7782
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:48:31,766 	val step 32000: cider 2.9949 meteor 0.3488 bleu_4 0.3998 bleu_3 0.4691 bleu_2 0.5576 bleu_1 0.6737
+2022-03-09 22:48:32,057 	trn step 32000 loss: 0.8038
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:49:00,888 	trn step 32100 loss: 0.8512
+2022-03-09 22:49:28,400 	trn step 32200 loss: 0.7191
+2022-03-09 22:49:56,561 	trn step 32300 loss: 0.8244
+2022-03-09 22:50:25,586 	trn step 32400 loss: 0.8062
+2022-03-09 22:50:53,715 	trn step 32500 loss: 0.8134
+2022-03-09 22:51:22,890 	trn step 32600 loss: 0.7573
+2022-03-09 22:51:50,705 	trn step 32700 loss: 0.7007
+2022-03-09 22:52:18,528 	trn step 32800 loss: 1.0784
+2022-03-09 22:52:47,463 	trn step 32900 loss: 0.8219
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:53:46,696 	val step 33000: cider 2.9911 meteor 0.3495 bleu_4 0.4017 bleu_3 0.4706 bleu_2 0.5589 bleu_1 0.6751
+2022-03-09 22:53:46,996 	trn step 33000 loss: 0.8080
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:54:18,713 	trn step 33100 loss: 0.7471
+2022-03-09 22:54:46,478 	trn step 33200 loss: 0.9090
+2022-03-09 22:55:14,188 	trn step 33300 loss: 0.8021
+2022-03-09 22:55:44,634 	trn step 33400 loss: 0.7384
+2022-03-09 22:56:12,373 	trn step 33500 loss: 0.8799
+2022-03-09 22:56:41,467 	trn step 33600 loss: 0.7493
+2022-03-09 22:57:08,664 	trn step 33700 loss: 0.8575
+2022-03-09 22:57:37,267 	trn step 33800 loss: 0.7764
+2022-03-09 22:58:06,857 	trn step 33900 loss: 0.7753
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 22:59:05,780 	val step 34000: cider 2.9881 meteor 0.3490 bleu_4 0.3996 bleu_3 0.4691 bleu_2 0.5580 bleu_1 0.6747
+2022-03-09 22:59:06,089 	trn step 34000 loss: 0.8154
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 22:59:34,785 	trn step 34100 loss: 1.1046
+2022-03-09 23:00:02,651 	trn step 34200 loss: 0.8370
+2022-03-09 23:00:30,512 	trn step 34300 loss: 0.8189
+2022-03-09 23:00:59,276 	trn step 34400 loss: 0.8460
+2022-03-09 23:01:28,033 	trn step 34500 loss: 0.7299
+2022-03-09 23:01:56,387 	trn step 34600 loss: 0.8328
+2022-03-09 23:02:24,652 	trn step 34700 loss: 0.8916
+2022-03-09 23:02:52,730 	trn step 34800 loss: 0.8355
+2022-03-09 23:03:21,806 	trn step 34900 loss: 0.8740
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.23s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:04:20,833 	val step 35000: cider 2.9792 meteor 0.3496 bleu_4 0.4010 bleu_3 0.4704 bleu_2 0.5591 bleu_1 0.6755
+2022-03-09 23:04:21,098 	trn step 35000 loss: 0.7610
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:04:51,229 	trn step 35100 loss: 0.8682
+2022-03-09 23:05:18,431 	trn step 35200 loss: 0.7554
+2022-03-09 23:05:47,646 	trn step 35300 loss: 0.8592
+2022-03-09 23:06:15,410 	trn step 35400 loss: 0.8097
+2022-03-09 23:06:43,536 	trn step 35500 loss: 0.7357
+2022-03-09 23:07:12,389 	trn step 35600 loss: 0.8502
+2022-03-09 23:07:40,750 	trn step 35700 loss: 0.7210
+2022-03-09 23:08:10,030 	trn step 35800 loss: 0.8654
+2022-03-09 23:08:38,092 	trn step 35900 loss: 0.7117
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.25s/it] 10%|█         | 2/20 [00:03<00:30,  1.70s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:09:36,450 	val step 36000: cider 2.9769 meteor 0.3487 bleu_4 0.3998 bleu_3 0.4690 bleu_2 0.5573 bleu_1 0.6736
+2022-03-09 23:09:36,693 	trn step 36000 loss: 0.8150
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:10:05,695 	trn step 36100 loss: 0.8181
+2022-03-09 23:10:33,011 	trn step 36200 loss: 0.7638
+2022-03-09 23:11:03,333 	trn step 36300 loss: 0.8425
+2022-03-09 23:11:31,379 	trn step 36400 loss: 0.8077
+2022-03-09 23:11:58,347 	trn step 36500 loss: 0.8584
+2022-03-09 23:12:28,956 	trn step 36600 loss: 0.6986
+2022-03-09 23:12:56,522 	trn step 36700 loss: 0.7865
+2022-03-09 23:13:25,174 	trn step 36800 loss: 0.7633
+2022-03-09 23:13:53,499 	trn step 36900 loss: 0.7595
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:14:51,804 	val step 37000: cider 2.9720 meteor 0.3496 bleu_4 0.4009 bleu_3 0.4705 bleu_2 0.5594 bleu_1 0.6764
+2022-03-09 23:14:52,009 	trn step 37000 loss: 0.9734
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:15:22,108 	trn step 37100 loss: 0.8616
+2022-03-09 23:15:50,096 	trn step 37200 loss: 0.6711
+2022-03-09 23:16:18,981 	trn step 37300 loss: 0.7514
+2022-03-09 23:16:46,473 	trn step 37400 loss: 0.6827
+2022-03-09 23:17:14,695 	trn step 37500 loss: 0.8159
+2022-03-09 23:17:42,885 	trn step 37600 loss: 0.7717
+2022-03-09 23:18:12,023 	trn step 37700 loss: 0.8601
+2022-03-09 23:18:40,735 	trn step 37800 loss: 0.7767
+2022-03-09 23:19:09,107 	trn step 37900 loss: 0.8646
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:20:07,822 	val step 38000: cider 3.0018 meteor 0.3505 bleu_4 0.4028 bleu_3 0.4722 bleu_2 0.5608 bleu_1 0.6770
+2022-03-09 23:20:08,115 	trn step 38000 loss: 0.9075
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:20:36,450 	trn step 38100 loss: 0.4904
+2022-03-09 23:21:04,759 	trn step 38200 loss: 0.8658
+2022-03-09 23:21:34,717 	trn step 38300 loss: 0.8347
+2022-03-09 23:22:02,940 	trn step 38400 loss: 0.7688
+2022-03-09 23:22:30,372 	trn step 38500 loss: 0.7305
+2022-03-09 23:23:00,086 	trn step 38600 loss: 0.7205
+2022-03-09 23:23:28,065 	trn step 38700 loss: 0.7789
+2022-03-09 23:23:57,184 	trn step 38800 loss: 0.9825
+2022-03-09 23:24:25,420 	trn step 38900 loss: 0.7631
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:43,  2.30s/it] 10%|█         | 2/20 [00:03<00:30,  1.72s/it] 15%|█▌        | 3/20 [00:04<00:26,  1.53s/it] 20%|██        | 4/20 [00:06<00:23,  1.45s/it] 25%|██▌       | 5/20 [00:07<00:21,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:22<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.37s/it]
+2022-03-09 23:25:24,238 	val step 39000: cider 2.9797 meteor 0.3499 bleu_4 0.4016 bleu_3 0.4712 bleu_2 0.5602 bleu_1 0.6772
+2022-03-09 23:25:24,539 	trn step 39000 loss: 0.7755
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:25:53,390 	trn step 39100 loss: 0.7636
+2022-03-09 23:26:22,056 	trn step 39200 loss: 0.8775
+2022-03-09 23:26:50,938 	trn step 39300 loss: 0.7793
+2022-03-09 23:27:19,253 	trn step 39400 loss: 0.8398
+2022-03-09 23:27:47,935 	trn step 39500 loss: 0.7015
+2022-03-09 23:28:16,077 	trn step 39600 loss: 0.8460
+2022-03-09 23:28:44,033 	trn step 39700 loss: 0.8286
+2022-03-09 23:29:13,104 	trn step 39800 loss: 0.7991
+2022-03-09 23:29:40,735 	trn step 39900 loss: 0.8275
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.24s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:30:40,760 	val step 40000: cider 2.9933 meteor 0.3498 bleu_4 0.4014 bleu_3 0.4707 bleu_2 0.5595 bleu_1 0.6762
+2022-03-09 23:30:40,945 	trn step 40000 loss: 0.5054
+2022-03-09 23:31:08,504 	trn step 40100 loss: 0.9013
+2022-03-09 23:31:36,687 	trn step 40200 loss: 0.8588
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:32:06,038 	trn step 40300 loss: 0.7934
+2022-03-09 23:32:33,248 	trn step 40400 loss: 0.7904
+2022-03-09 23:33:03,393 	trn step 40500 loss: 0.8966
+2022-03-09 23:33:31,133 	trn step 40600 loss: 0.8286
+2022-03-09 23:33:59,459 	trn step 40700 loss: 0.8054
+2022-03-09 23:34:28,418 	trn step 40800 loss: 0.7746
+2022-03-09 23:34:56,564 	trn step 40900 loss: 0.7637
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.67s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.31s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:35:55,755 	val step 41000: cider 2.9871 meteor 0.3500 bleu_4 0.4023 bleu_3 0.4717 bleu_2 0.5602 bleu_1 0.6768
+2022-03-09 23:35:55,976 	trn step 41000 loss: 0.8514
+2022-03-09 23:36:23,454 	trn step 41100 loss: 0.7061
+2022-03-09 23:36:51,530 	trn step 41200 loss: 0.8825
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:37:20,121 	trn step 41300 loss: 0.8905
+2022-03-09 23:37:48,728 	trn step 41400 loss: 0.7269
+2022-03-09 23:38:17,840 	trn step 41500 loss: 0.7372
+2022-03-09 23:38:46,304 	trn step 41600 loss: 0.7587
+2022-03-09 23:39:13,619 	trn step 41700 loss: 0.7870
+2022-03-09 23:39:43,049 	trn step 41800 loss: 0.8146
+2022-03-09 23:40:10,963 	trn step 41900 loss: 0.8040
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:04<00:45,  2.54s/it] 15%|█▌        | 3/20 [00:06<00:33,  1.98s/it] 20%|██        | 4/20 [00:07<00:27,  1.72s/it] 25%|██▌       | 5/20 [00:08<00:23,  1.57s/it] 30%|███       | 6/20 [00:10<00:20,  1.48s/it] 35%|███▌      | 7/20 [00:11<00:18,  1.43s/it] 40%|████      | 8/20 [00:12<00:16,  1.39s/it] 45%|████▌     | 9/20 [00:14<00:15,  1.37s/it] 50%|█████     | 10/20 [00:15<00:13,  1.35s/it] 55%|█████▌    | 11/20 [00:16<00:12,  1.34s/it] 60%|██████    | 12/20 [00:18<00:10,  1.33s/it] 65%|██████▌   | 13/20 [00:19<00:09,  1.33s/it] 70%|███████   | 14/20 [00:20<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:22<00:06,  1.32s/it] 80%|████████  | 16/20 [00:23<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:24<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:26<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:27<00:01,  1.32s/it]100%|██████████| 20/20 [00:28<00:00,  1.32s/it]100%|██████████| 20/20 [00:28<00:00,  1.44s/it]
+2022-03-09 23:41:12,238 	val step 42000: cider 3.0120 meteor 0.3503 bleu_4 0.4023 bleu_3 0.4717 bleu_2 0.5605 bleu_1 0.6770
+2022-03-09 23:41:12,539 	trn step 42000 loss: 0.7606
+2022-03-09 23:41:40,111 	trn step 42100 loss: 0.8050
+2022-03-09 23:42:08,523 	trn step 42200 loss: 0.7979
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:42:37,199 	trn step 42300 loss: 0.7494
+2022-03-09 23:43:05,577 	trn step 42400 loss: 0.8511
+2022-03-09 23:43:34,357 	trn step 42500 loss: 0.8156
+2022-03-09 23:44:03,086 	trn step 42600 loss: 0.6901
+2022-03-09 23:44:30,880 	trn step 42700 loss: 0.7955
+2022-03-09 23:45:00,226 	trn step 42800 loss: 0.7141
+2022-03-09 23:45:27,630 	trn step 42900 loss: 0.7765
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:46:27,526 	val step 43000: cider 2.9964 meteor 0.3503 bleu_4 0.4027 bleu_3 0.4720 bleu_2 0.5606 bleu_1 0.6775
+2022-03-09 23:46:27,886 	trn step 43000 loss: 0.8276
+2022-03-09 23:46:56,586 	trn step 43100 loss: 0.7109
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:47:24,884 	trn step 43200 loss: 0.8127
+2022-03-09 23:47:52,926 	trn step 43300 loss: 0.7910
+2022-03-09 23:48:20,514 	trn step 43400 loss: 0.5512
+2022-03-09 23:48:50,299 	trn step 43500 loss: 0.8392
+2022-03-09 23:49:18,695 	trn step 43600 loss: 0.7195
+2022-03-09 23:49:47,227 	trn step 43700 loss: 0.7979
+2022-03-09 23:50:15,294 	trn step 43800 loss: 0.8625
+2022-03-09 23:50:43,209 	trn step 43900 loss: 0.8644
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:51:43,700 	val step 44000: cider 2.9964 meteor 0.3494 bleu_4 0.4007 bleu_3 0.4699 bleu_2 0.5586 bleu_1 0.6749
+2022-03-09 23:51:44,095 	trn step 44000 loss: 0.7996
+2022-03-09 23:52:11,022 	trn step 44100 loss: 0.8101
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:52:40,234 	trn step 44200 loss: 0.7792
+2022-03-09 23:53:07,088 	trn step 44300 loss: 0.8669
+2022-03-09 23:53:35,602 	trn step 44400 loss: 0.7530
+2022-03-09 23:54:05,983 	trn step 44500 loss: 0.7764
+2022-03-09 23:54:33,544 	trn step 44600 loss: 0.7426
+2022-03-09 23:55:02,600 	trn step 44700 loss: 0.6200
+2022-03-09 23:55:30,585 	trn step 44800 loss: 0.8769
+2022-03-09 23:55:57,899 	trn step 44900 loss: 0.7827
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.20s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-09 23:56:57,216 	val step 45000: cider 2.9829 meteor 0.3500 bleu_4 0.4016 bleu_3 0.4711 bleu_2 0.5600 bleu_1 0.6771
+2022-03-09 23:56:57,479 	trn step 45000 loss: 0.7863
+2022-03-09 23:57:25,371 	trn step 45100 loss: 0.7577
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-09 23:57:55,293 	trn step 45200 loss: 0.8838
+2022-03-09 23:58:23,232 	trn step 45300 loss: 0.7704
+2022-03-09 23:58:50,940 	trn step 45400 loss: 0.8080
+2022-03-09 23:59:19,708 	trn step 45500 loss: 0.8313
+2022-03-09 23:59:47,870 	trn step 45600 loss: 0.6759
+2022-03-10 00:00:17,232 	trn step 45700 loss: 0.7455
+2022-03-10 00:00:45,281 	trn step 45800 loss: 0.7631
+2022-03-10 00:01:12,734 	trn step 45900 loss: 0.8118
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.23s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:02:12,727 	val step 46000: cider 3.0010 meteor 0.3498 bleu_4 0.4022 bleu_3 0.4709 bleu_2 0.5589 bleu_1 0.6747
+2022-03-10 00:02:12,964 	trn step 46000 loss: 0.8277
+2022-03-10 00:02:40,780 	trn step 46100 loss: 0.8654
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:03:09,757 	trn step 46200 loss: 0.8382
+2022-03-10 00:03:37,218 	trn step 46300 loss: 0.8028
+2022-03-10 00:04:05,963 	trn step 46400 loss: 0.7168
+2022-03-10 00:04:35,262 	trn step 46500 loss: 0.7933
+2022-03-10 00:05:03,265 	trn step 46600 loss: 0.8377
+2022-03-10 00:05:32,941 	trn step 46700 loss: 0.7687
+2022-03-10 00:06:00,217 	trn step 46800 loss: 0.7526
+2022-03-10 00:06:29,158 	trn step 46900 loss: 0.8135
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.23s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:07:28,041 	val step 47000: cider 2.9733 meteor 0.3492 bleu_4 0.4016 bleu_3 0.4701 bleu_2 0.5579 bleu_1 0.6734
+2022-03-10 00:07:28,386 	trn step 47000 loss: 0.7237
+2022-03-10 00:07:56,144 	trn step 47100 loss: 0.7367
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:08:25,495 	trn step 47200 loss: 0.7088
+2022-03-10 00:08:53,595 	trn step 47300 loss: 0.7048
+2022-03-10 00:09:23,128 	trn step 47400 loss: 0.7831
+2022-03-10 00:09:51,274 	trn step 47500 loss: 0.7136
+2022-03-10 00:10:19,301 	trn step 47600 loss: 0.8493
+2022-03-10 00:10:48,401 	trn step 47700 loss: 0.7622
+2022-03-10 00:11:16,498 	trn step 47800 loss: 0.8208
+2022-03-10 00:11:45,275 	trn step 47900 loss: 0.7381
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:23,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.40s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:12:43,965 	val step 48000: cider 2.9978 meteor 0.3502 bleu_4 0.4023 bleu_3 0.4715 bleu_2 0.5602 bleu_1 0.6770
+2022-03-10 00:12:44,209 	trn step 48000 loss: 0.7626
+2022-03-10 00:13:12,105 	trn step 48100 loss: 0.8229
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:13:41,855 	trn step 48200 loss: 0.7313
+2022-03-10 00:14:09,786 	trn step 48300 loss: 0.8351
+2022-03-10 00:14:38,621 	trn step 48400 loss: 0.7217
+2022-03-10 00:15:05,852 	trn step 48500 loss: 0.8050
+2022-03-10 00:15:33,858 	trn step 48600 loss: 0.7892
+2022-03-10 00:16:03,237 	trn step 48700 loss: 0.7942
+2022-03-10 00:16:31,250 	trn step 48800 loss: 0.7668
+2022-03-10 00:17:00,134 	trn step 48900 loss: 0.6698
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:17:59,204 	val step 49000: cider 2.9996 meteor 0.3507 bleu_4 0.4031 bleu_3 0.4724 bleu_2 0.5613 bleu_1 0.6781
+2022-03-10 00:17:59,460 	trn step 49000 loss: 0.8005
+2022-03-10 00:18:27,283 	trn step 49100 loss: 0.8157
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:18:56,465 	trn step 49200 loss: 0.7593
+2022-03-10 00:19:23,654 	trn step 49300 loss: 0.6920
+2022-03-10 00:19:52,967 	trn step 49400 loss: 0.7119
+2022-03-10 00:20:21,608 	trn step 49500 loss: 0.7861
+2022-03-10 00:20:49,257 	trn step 49600 loss: 0.8315
+2022-03-10 00:21:19,119 	trn step 49700 loss: 0.7523
+2022-03-10 00:21:46,581 	trn step 49800 loss: 0.8315
+2022-03-10 00:22:15,495 	trn step 49900 loss: 0.7465
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.52s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:23:13,981 	val step 50000: cider 2.9759 meteor 0.3497 bleu_4 0.4015 bleu_3 0.4707 bleu_2 0.5593 bleu_1 0.6760
+2022-03-10 00:23:14,329 	trn step 50000 loss: 0.6837
+2022-03-10 00:23:42,719 	trn step 50100 loss: 0.7830
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:24:12,401 	trn step 50200 loss: 0.7189
+2022-03-10 00:24:40,204 	trn step 50300 loss: 0.6900
+2022-03-10 00:25:09,536 	trn step 50400 loss: 0.7650
+2022-03-10 00:25:38,126 	trn step 50500 loss: 0.7505
+2022-03-10 00:26:04,910 	trn step 50600 loss: 0.7236
+2022-03-10 00:26:34,171 	trn step 50700 loss: 0.7888
+2022-03-10 00:27:01,712 	trn step 50800 loss: 0.8353
+2022-03-10 00:27:31,934 	trn step 50900 loss: 0.8452
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.23s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.33s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.31s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.31s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:28:30,287 	val step 51000: cider 2.9843 meteor 0.3503 bleu_4 0.4022 bleu_3 0.4718 bleu_2 0.5608 bleu_1 0.6778
+2022-03-10 00:28:30,635 	trn step 51000 loss: 0.7775
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:29:00,447 	trn step 51100 loss: 0.7850
+2022-03-10 00:29:28,886 	trn step 51200 loss: 0.8048
+2022-03-10 00:29:56,667 	trn step 51300 loss: 0.7787
+2022-03-10 00:30:24,796 	trn step 51400 loss: 0.7025
+2022-03-10 00:30:53,636 	trn step 51500 loss: 0.7237
+2022-03-10 00:31:22,032 	trn step 51600 loss: 0.7777
+2022-03-10 00:31:49,995 	trn step 51700 loss: 0.9293
+2022-03-10 00:32:18,151 	trn step 51800 loss: 0.7657
+2022-03-10 00:32:47,461 	trn step 51900 loss: 0.8876
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:41,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.32s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.31s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:33:45,405 	val step 52000: cider 2.9792 meteor 0.3504 bleu_4 0.4018 bleu_3 0.4714 bleu_2 0.5607 bleu_1 0.6783
+2022-03-10 00:33:45,829 	trn step 52000 loss: 0.7288
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:34:15,220 	trn step 52100 loss: 0.7450
+2022-03-10 00:34:42,928 	trn step 52200 loss: 0.7391
+2022-03-10 00:35:11,206 	trn step 52300 loss: 0.7143
+2022-03-10 00:35:40,447 	trn step 52400 loss: 0.8710
+2022-03-10 00:36:07,943 	trn step 52500 loss: 0.7687
+2022-03-10 00:36:37,498 	trn step 52600 loss: 0.7101
+2022-03-10 00:37:05,641 	trn step 52700 loss: 0.6697
+2022-03-10 00:37:32,909 	trn step 52800 loss: 0.6965
+2022-03-10 00:38:02,583 	trn step 52900 loss: 0.8388
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.21s/it] 10%|█         | 2/20 [00:03<00:30,  1.68s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.44s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.37s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.34s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.33s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:18<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.32s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.32s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.32s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:39:02,221 	val step 53000: cider 2.9849 meteor 0.3498 bleu_4 0.4011 bleu_3 0.4705 bleu_2 0.5592 bleu_1 0.6759
+2022-03-10 00:39:02,544 	trn step 53000 loss: 0.7363
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:39:31,737 	trn step 53100 loss: 0.7573
+2022-03-10 00:39:59,083 	trn step 53200 loss: 0.8002
+2022-03-10 00:40:26,843 	trn step 53300 loss: 0.7532
+2022-03-10 00:40:56,311 	trn step 53400 loss: 0.7950
+2022-03-10 00:41:23,887 	trn step 53500 loss: 0.7938
+2022-03-10 00:41:53,285 	trn step 53600 loss: 0.8136
+2022-03-10 00:42:21,648 	trn step 53700 loss: 0.6873
+2022-03-10 00:42:49,260 	trn step 53800 loss: 0.8246
+2022-03-10 00:43:18,618 	trn step 53900 loss: 0.8355
+  0%|          | 0/20 [00:00<?, ?it/s]  5%|▌         | 1/20 [00:02<00:42,  2.22s/it] 10%|█         | 2/20 [00:03<00:30,  1.69s/it] 15%|█▌        | 3/20 [00:04<00:25,  1.51s/it] 20%|██        | 4/20 [00:06<00:22,  1.43s/it] 25%|██▌       | 5/20 [00:07<00:20,  1.39s/it] 30%|███       | 6/20 [00:08<00:19,  1.36s/it] 35%|███▌      | 7/20 [00:10<00:17,  1.35s/it] 40%|████      | 8/20 [00:11<00:16,  1.34s/it] 45%|████▌     | 9/20 [00:12<00:14,  1.33s/it] 50%|█████     | 10/20 [00:14<00:13,  1.33s/it] 55%|█████▌    | 11/20 [00:15<00:11,  1.32s/it] 60%|██████    | 12/20 [00:16<00:10,  1.32s/it] 65%|██████▌   | 13/20 [00:17<00:09,  1.32s/it] 70%|███████   | 14/20 [00:19<00:07,  1.32s/it] 75%|███████▌  | 15/20 [00:20<00:06,  1.32s/it] 80%|████████  | 16/20 [00:21<00:05,  1.31s/it] 85%|████████▌ | 17/20 [00:23<00:03,  1.31s/it] 90%|█████████ | 18/20 [00:24<00:02,  1.32s/it] 95%|█████████▌| 19/20 [00:25<00:01,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.31s/it]100%|██████████| 20/20 [00:27<00:00,  1.36s/it]
+2022-03-10 00:44:17,028 	val step 54000: cider 2.9978 meteor 0.3505 bleu_4 0.4030 bleu_3 0.4721 bleu_2 0.5607 bleu_1 0.6774
+2022-03-10 00:44:17,334 	trn step 54000 loss: 0.7526
+calculating bleu_4 score...
+calculating cider score...
+calculating meteor score...
+2022-03-10 00:44:45,939 	trn step 54100 loss: 0.7265
+slurmstepd: error: *** JOB 39281 ON g0001 CANCELLED AT 2022-03-10T00:45:06 ***
